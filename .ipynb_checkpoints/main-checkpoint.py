@@ -3,8 +3,7 @@ import ismail_pdfImg as imopdf
 import os
 import argparse
 
-### need to add in template height and width into variable or hardcode in to replace tempImgAligned.shape[0] and [1] - maybe have default value for alignform func??#
-#add metadata into template file? - temp width, height, 
+### need to add in template height and width into variable or hardcode in to replace tempImgAligned.shape[0] and [1] - maybe have default value for alignform func??##
 ## wrap image processing in separate function and put spot size and pctfilled values as arguments##
 ##for image in pdf file:
 ##  align image, rotate, threshold
