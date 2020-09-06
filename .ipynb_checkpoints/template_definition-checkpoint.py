@@ -1,5 +1,5 @@
 import cv2
-
+from . import img_processing as ip
 
 def getQuestionDetails(questionString, templateQuestionList):
     '''return list of answer dictionaries for a question'''
@@ -62,4 +62,4 @@ def showQuestion(questionString, templateQuestions, img, fontSize, time=0, show=
         cv2.circle(img, (x,y), 5, (0,0,255), -1)        
         cv2.putText(img, str(qn['value']), (x+10, y), cv2.FONT_HERSHEY_SIMPLEX, fontSize, (0,0,0))
     if show:
-        showImg(img, time)
+        ip.showImg(img, time)

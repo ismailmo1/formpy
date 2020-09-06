@@ -3,12 +3,9 @@ import numpy as np
 import pandas as pd
 import copy
 import json
-import img_processing as ip
+from . import img_processing as ip
 
-with open(r"C:\Users\ismail\Documents\GitHub\ismail_omr\templates\OEEv3.4Template_meta.json", 'r') as jsonFile:
-    jsonTempLoad = json.load(jsonFile)
-    template = jsonTempLoad
-    
+   
 def omrRead(imgList, templatePath, filledThresh = 0.4, circleSize=6, showOmr=False):
     '''
     returns pandas dataframe of img files as rows and question/answers as columns

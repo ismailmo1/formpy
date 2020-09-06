@@ -4,7 +4,7 @@ from pdf2image import convert_from_path
 from pathlib import Path
 import os
 
-def pdfFolderToImgs(pdfFolderPath, outputLoc='pdfFolder', deletePdf = True, popplerPath=r"C:\Users\ismail.mohammed\poppler-0.68.0\bin"):
+def pdfFolderToImgs(pdfFolderPath, outputLoc='pdfFolder', deletePdf = False, popplerPath=r"C:\Users\ismail\poppler-0.68.0_x86\poppler-0.68.0\bin"):
     '''
     returns list of img paths
     convert all pdfs in pdfFolderPath to imgs with pdfFileName + page number in outputLoc
@@ -26,7 +26,7 @@ def pdfFolderToImgs(pdfFolderPath, outputLoc='pdfFolder', deletePdf = True, popp
         for i,p in enumerate(pages):
             #if rotation needed? - shouldnt need if scanned properly - (maybe add label to sheet: SCAN THIS WAY ->)
             #p = p.rotate(180, expand=True)            
-            imgPath = Path.joinpath(outputLoc, str(pdf.split('.')[0]) +'pg_' + str(imgNum) +".jpg")
+            imgPath = Path.joinpath(outputLoc, str(pdf.split('.pdf')[0]) +'pg_' + str(imgNum) +".jpg")
             p.save(imgPath)
             imgPaths.append(imgPath)
             imgNum+=1
@@ -152,4 +152,8 @@ def alignForm(img, width=0, height=0, isTemplate = False):
     matrix = cv2.getPerspectiveTransform(orderedPts, dst)
 
     #transform image and resize to original size (map spots to correct locations)
-    return cv2.warpPerspective(imgResize, matrix, (maxWidth, maxHeight))
+    warpImg = cv2.warpPerspective(imgResize, matrix, (maxWidth, maxHeight))
+    if warpImg.shape[0]>warpImg.shape[1]:
+            warpImg=cv2.rotate(warpImg, cv2.ROTATE_90_CLOCKWISE)
+    
+    return warpImg
