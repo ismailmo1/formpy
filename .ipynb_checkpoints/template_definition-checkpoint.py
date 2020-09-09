@@ -11,7 +11,7 @@ def getQuestionDetails(questionString, templateQuestionList):
         raise Exception("{} questions returned!".format(len(index)))
     return templateQuestionList[index]['answers']
 
-def generateQuestion(xRange, yRange, orient, questionName, answerValues, spotCoordsList):
+def generateQuestion(xRange, yRange, orient, questionName, answerValues, spotCoordsList, show=False, img=None):
     '''returns question dictionary 
     xRange/yRange = list of x and y coordinates
     orient = 'column' or 'row' or 'grid'
@@ -41,6 +41,7 @@ def generateQuestion(xRange, yRange, orient, questionName, answerValues, spotCoo
         valueCoords = zip(answerValues, coordList)
     else:
         raise Exception("answerValues length: ({}) must match coordList length: ({})".format(len(answerValues), len(coordList)))
+        
     
     #add question to template
     questionDict = {'question': questionName, 'answers':[]}
@@ -52,6 +53,9 @@ def generateQuestion(xRange, yRange, orient, questionName, answerValues, spotCoo
     return questionDict
 
 def showQuestion(questionString, templateQuestions, img, fontSize, time=0, show=True):
+    '''
+    puts circle with text of questionString and corresponding answer values from templateQuestions onto img     
+    '''
     questionDetails = getQuestionDetails(questionString, templateQuestions)
     questionLocX = questionDetails[0]['coord'][0]-10
     questionLocY = questionDetails[0]['coord'][1]-10

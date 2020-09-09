@@ -1,4 +1,5 @@
 import cv2
+import numpy as np
 from . import img_processing as ip
 
 def getQuestionDetails(questionString, templateQuestionList):
@@ -11,7 +12,16 @@ def getQuestionDetails(questionString, templateQuestionList):
         raise Exception("{} questions returned!".format(len(index)))
     return templateQuestionList[index]['answers']
 
-def generateQuestion(xRange, yRange, orient, questionName, answerValues, spotCoordsList):
+def showSearchArea(xRange, yRange, img):
+    '''
+    returns image with square of search area from x and y ranges
+    '''    
+    outputImg = img.copy()    
+    cv2.rectangle(outputImg, (int(min(xRange)),int(min(yRange))), (int(max(xRange)),int(max(yRange))), (0,0,255), 1)
+    cv2.putText(outputImg, "Search Area:",(int(min(xRange)),int(min(yRange)-10)),cv2.FONT_HERSHEY_PLAIN, 1, (0,0,0))
+    return outputImg
+
+def generateQuestion(xRange, yRange, orient, questionName, answerValues, spotCoordsList, check=False, img=None):
     '''returns question dictionary 
     xRange/yRange = list of x and y coordinates
     orient = 'column' or 'row' or 'grid'
@@ -22,6 +32,23 @@ def generateQuestion(xRange, yRange, orient, questionName, answerValues, spotCoo
     left to right, then top to bottom - like reading english (if orient = 'grid')
     spotCoordsList = list of all x,y coordinates from template to extract spots within xRange and yRange from.
     '''
+    if check==True:
+        if type(img)!=np.ndarray:
+            raise Exception("need image as numpy array if check==True!")
+        else:
+            searchAreaImg = showSearchArea(xRange, yRange, img.copy())
+            ip.showImg(searchAreaImg, 0)
+            #keep asking to change range unless 'n'
+            while True:
+                if input("change search range? (y/n)") =='n':
+                    break
+                else:
+                    xRangeInput = input("enter new xRange (xStart, xEnd)\n  current: {}".format(xRange))
+                    xRange = [int(i) for i in xRangeInput.split(",")]
+                    yRangeInput = input("enter new yRange (yStart, yEnd)\n  current: {}".format(yRange))
+                    yRange = [int(i) for i in yRangeInput.split(",")]
+                    ip.showImg(showSearchArea(xRange, yRange, img.copy()), 0)
+
     #return list of coordinates within range
     coordList = [i for i in spotCoordsList if xRange[0]<=i[0]<=xRange[1] and yRange[0]<=i[1]<=yRange[1]]
     
@@ -41,6 +68,7 @@ def generateQuestion(xRange, yRange, orient, questionName, answerValues, spotCoo
         valueCoords = zip(answerValues, coordList)
     else:
         raise Exception("answerValues length: ({}) must match coordList length: ({})".format(len(answerValues), len(coordList)))
+        
     
     #add question to template
     questionDict = {'question': questionName, 'answers':[]}
@@ -52,6 +80,9 @@ def generateQuestion(xRange, yRange, orient, questionName, answerValues, spotCoo
     return questionDict
 
 def showQuestion(questionString, templateQuestions, img, fontSize, time=0, show=True):
+    '''
+    puts circle with text of questionString and corresponding answer values from templateQuestions onto img     
+    '''
     questionDetails = getQuestionDetails(questionString, templateQuestions)
     questionLocX = questionDetails[0]['coord'][0]-10
     questionLocY = questionDetails[0]['coord'][1]-10
