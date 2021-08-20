@@ -4,7 +4,8 @@ import os
 import argparse
 import pandas as pd
 
-##  add in analysis script into separate module
+##  TODO add in analysis script into separate module
+## TODO plan class structure
 def main():
     
     parser = argparse.ArgumentParser()
