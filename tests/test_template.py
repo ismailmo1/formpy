@@ -1,13 +1,18 @@
 import cv2
+import numpy as np
 import pytest
-from omr.questions import Template
-from omr.utils.img_processing import alignForm, showImg
+from formpy.questions import Template
+from formpy.utils.img_processing import align_page, get_outer_box, show_img
+
+OEE_TEMPLATE_JSON = "tests/oee_forms/test_template.json"
+OEE_TEMPLATE_JPG = "tests/oee_forms/test_template.jpg"
 
 
 @pytest.fixture()
 def template_from_json():
     template = Template.from_json(
-        "tests/test_template.json", "tests/test_template.jpg"
+        OEE_TEMPLATE_JSON,
+        OEE_TEMPLATE_JPG,
     )
     return template
 
@@ -19,17 +24,17 @@ def test_questions(template_from_json):
 
 def test_answers(template_from_json):
     template = template_from_json
-    assert len(template.questions[1].answers) == 47
+    assert len(template.questions[1].answers) == 307
 
 
 def test_answer_value(template_from_json):
     template = template_from_json
-    assert template.questions[0].answers[600].value == "val_600"
+    assert template.questions[0].answers[350].value == "val_350"
 
 
 def test_answer_x(template_from_json):
     template = template_from_json
-    assert template.questions[1].answers[30].x == 2087
+    assert template.questions[1].answers[30].x == 1534
 
 
 def test_question_id(template_from_json):
@@ -49,22 +54,32 @@ def test_answer_check_fill_perc(template_from_json):
     temp_img = template.img
     ans = template.questions[0].answers[100]
     filled_perc = ans.calc_filled_perc(temp_img)
-    assert round(filled_perc, 3) == 0.983
+    assert round(filled_perc, 3) == 1.0
 
 
 def test_align_form():
-    img = cv2.imread("tests/test_template.jpg")
-    aligned_img = alignForm(img, None)
-    showImg(aligned_img)
+    img = cv2.imread(OEE_TEMPLATE_JPG)
+    aligned_img = align_page(img)
+    pts = get_outer_box(aligned_img)
+    aligned_pts = np.array(
+        [[6.0, 5.0], [2152.0, 4.0], [2152.0, 1557.0], [5.0, 1554.0]],
+        dtype="float32",
+    )
+    assert np.array_equal(pts, aligned_pts)
 
 
 def test_template_from_img():
     question_ans = {
-        0: [i for i in range(0, 700)],
-        1: [i for i in range(700, 747)],
+        0: [i for i in range(0, 400)],
+        1: [i for i in range(400, 707)],
     }
-    template = Template.from_img_template(
-        "tests/test_template.jpg", question_ans
-    )
-    template.to_json("tests/test_template.json")
-    assert template.questions[0].answers[22].x == 124
+    template = Template.from_img_template(OEE_TEMPLATE_JPG, question_ans)
+
+    img = cv2.cvtColor(template.img, cv2.COLOR_GRAY2BGR)
+    for question in template.questions:
+        for ans in question.answers:
+            ans.mark_answer(img, -1)
+
+    show_img(img)
+    template.to_json(OEE_TEMPLATE_JSON)
+    assert template.questions[0].answers[22].x == 123
