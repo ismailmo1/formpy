@@ -18,8 +18,8 @@ import json
 import cv2
 import numpy as np
 
-import utils.img_processing as ip
-from utils.template_definition import find_spots
+import formpy.utils.img_processing as ip
+from formpy.utils.template_definition import find_spots
 
 CIRCLE_RADIUS = 13
 
@@ -163,20 +163,29 @@ class Template:
         """Init template of form from img - ask for user input to assign question to
         answers-question config to assign multi answer true/false"""
 
+        # load image and align
         raw_img = cv2.imread(img_path)
         img = ip.process_img(raw_img)
 
-        # show user image and assign question:answers
-
-        # testing out functionality with mock question
-        all_spots = find_spots(img)
+        # find all spots - sorted by x then y
+        all_spots = find_spots(
+            img, max_radius=CIRCLE_RADIUS + 5, min_radius=CIRCLE_RADIUS - 5
+        )
         unassigned_answers = all_spots.copy()
+
+        # create colour image to highlight answers in red
         colour_img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
+
+        # initialise question_id
         question_id = 0
+        # list to hold assigned questions
         questions = []
+        # keep looping until all found spots are assigned to a questions
         while len(unassigned_answers) > 0:
+            # list to hold assigned answers
             assigned_answers = []
             for i, spot in enumerate(all_spots):
+                # color unassigned qns in red and assigned in green
                 if spot in unassigned_answers:
                     color = (0, 0, 255)
                 else:
@@ -190,6 +199,7 @@ class Template:
                     color,
                     1,
                 )
+
             if question_assigment == None:
                 assigned_answers_idx = input(
                     f"enter answer id (shown in red) to add to question{question_id}"

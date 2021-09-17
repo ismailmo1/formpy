@@ -28,7 +28,7 @@ def find_spots(
         if (
             min_radius * 2 < w < max_radius * 2
             and min_radius * 2 < h < max_radius * 2
-            and 0.7 < ar < 1.3
+            and 0.9 < ar < 1.1
         ):
             # draw on blank to show correct detection
             # cv2.rectangle(img, (x, y), (x + w, y + h), (255, 255, 255))
