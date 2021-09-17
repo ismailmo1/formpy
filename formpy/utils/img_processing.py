@@ -21,11 +21,12 @@ def show_img(img, time=0):
 def thresh_img(img, min_thresh=100, max_thresh=255):
     """apply grayscale conversion and thresholding to image
     returns image"""
-    img_channels = img.shape[2]
-    if img_channels == 3:
+    if len(img.shape) == 3 and img.shape[2] == 3:
+        # three channels aka coloured img
         img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     else:
-        img_gray=img
+        # img already greyscale
+        img_gray = img
     _, img_thresh = cv2.threshold(
         img_gray, min_thresh, max_thresh, cv2.THRESH_BINARY_INV
     )
