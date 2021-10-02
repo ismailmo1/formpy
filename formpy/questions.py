@@ -161,7 +161,7 @@ class Template:
         question_config: dict = None,
     ) -> Template:
         """Init template of form from img - ask for user input to assign question to
-        answers-question config to assign multi answer true/false"""
+        answers-question config and to assign multi answer true/false"""
 
         # load image and align
         raw_img = cv2.imread(img_path)
@@ -272,28 +272,55 @@ class Template:
 
         return Template(img, questions)
 
-    def to_json(self, output_file: str) -> None:
-        """Save form obj to json in form of
+    @classmethod
+    def from_dict(
+        cls, img: str | np.ndarray, question_config: dict
+    ) -> Template:
+        # question_config in form {question_id:{multiple:bool, answers:list[answer]}, question_id2}
+        # if img is path then read img into array, else assume image is already np array
+        img = cv2.imread(img) if type(img) == str else img
+
+        questions = []
+
+        for question_id in question_config.keys():
+            answers = []
+            multiple = question_config[question_id].get("multiple", False)
+            for answer in question_config[question_id]["answers"].values():
+                x, y = [
+                    int(coord) for coord in answer["answer_coords"].split(",")
+                ]
+                answer_val = answer["answer_val"]
+                answers.append(Answer(x, y, answer_val))
+
+            question = Question(
+                question_id=question_id,
+                answers=answers,
+                multiple=multiple,
+            )
+            questions.append(question)
+
+        return Template(img, questions)
+
+    def to_dict(self) -> str:
+        """Convert template obj to dict in form of
         {question_id:[
             {answer_val:'val', answer_coords:(x,y)},
             {answer_val:'val', answer_coords:(x,y)}
             ]}"""
 
-        form_dict = {}
+        template_dict = {}
 
         for question in self.questions:
-            form_dict[question.question_id] = []
+            template_dict[question.question_id] = []
 
             for answer in question.answers:
-                form_dict[question.question_id].append(
+                template_dict[question.question_id].append(
                     {
                         "answer_val": answer.value,
                         "answer_coords": (answer.x, answer.y),
                     }
                 )
-
-        with open(output_file, "w") as fp:
-            json.dump(form_dict, fp)
+        return template_dict
 
     @property
     def perspective_matrix(self):
