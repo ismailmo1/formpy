@@ -116,12 +116,13 @@ class Question:
     def search_area_y1(self):
         return max([ans.y for ans in self.answers])
 
-    def find_answers(self):
+    def find_answers(self, img):
         # loop through each answer coordinate and check_fill() -
         # stop when found if multiple = false
         answers = []
         for ans in self.answers:
-            if ans.is_filled:
+            if ans.is_filled(img):
+                print(ans)
                 if self.multiple:
                     answers.append(ans)
                 else:
@@ -132,7 +133,7 @@ class Question:
 class Form:
     """Class to represent a single paged form containing questions."""
 
-    def __init__(self, img: np.ndarray, template: Template):
+    def __init__(self, img: np.ndarray, template: Template) -> Form:
         """Form Class with associated template.
 
         Args:
@@ -146,6 +147,25 @@ class Form:
 
     def __repr__(self) -> str:
         return f"Form with {len(self.questions)} questions and {sum([len(i.answers) for i in self.questions])}"
+
+    def mark_all_answers(self, found_answers: list) -> np.ndarray:
+        color_img = cv2.cvtColor(self.img, cv2.COLOR_GRAY2BGR)
+        for qn in found_answers:
+            answers = found_answers[qn]
+            for ans in answers:
+                color = (0, 0, 255)
+                cv2.putText(
+                    color_img,
+                    str(qn.question_id) + ans.value,
+                    (ans.x, ans.y),
+                    cv2.FONT_HERSHEY_COMPLEX,
+                    0.4,
+                    color,
+                )
+
+                ans.mark_answer(color_img, color=color, circle_thickness=2)
+
+        return color_img
 
 
 class Template:
@@ -276,8 +296,9 @@ class Template:
     def from_dict(
         cls, img: str | np.ndarray, question_config: dict
     ) -> Template:
-        # question_config in form {question_id:{multiple:bool, answers:list[answer]}, question_id2}
-        # if img is path then read img into array, else assume image is already np array
+        """question_config in form {question_id:{multiple:bool, answers:list[answer]}, question_id2}
+        if img is str, assume path and img into array, else assume image is already np array
+        """
         img = cv2.imread(img) if type(img) == str else img
 
         questions = []
