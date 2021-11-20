@@ -14,6 +14,7 @@ is used to check the filled in status and find answer(s) to question.
 from __future__ import annotations
 
 import json
+from typing import Tuple
 
 import cv2
 import numpy as np
@@ -148,12 +149,14 @@ class Form:
     def __repr__(self) -> str:
         return f"Form with {len(self.questions)} questions and {sum([len(i.answers) for i in self.questions])}"
 
-    def mark_all_answers(self, found_answers: list) -> np.ndarray:
+    def mark_all_answers(
+        self, found_answers: list, color: Tuple[int] = (0, 0, 255)
+    ) -> np.ndarray:
         color_img = cv2.cvtColor(self.img, cv2.COLOR_GRAY2BGR)
         for qn in found_answers:
             answers = found_answers[qn]
             for ans in answers:
-                color = (0, 0, 255)
+
                 cv2.putText(
                     color_img,
                     str(qn.question_id) + ans.value,
@@ -163,7 +166,7 @@ class Form:
                     color,
                 )
 
-                ans.mark_answer(color_img, color=color, circle_thickness=2)
+                ans.mark_answer(color_img, color=color, circle_thickness=-1)
 
         return color_img
 

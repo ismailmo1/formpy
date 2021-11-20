@@ -135,12 +135,15 @@ def get_outer_box(img: np.ndarray) -> np.ndarray:
     return pts
 
 
-def align_page(img: np.ndarray):
+def align_page(img: np.ndarray, corner_pts=None):
     """apply perspective transformation to align form with template
     img = input form as np.array (use cv2.imread)
     width = use template imagmage, will override width and height with euclidean distances of outer border"""
 
-    ordered_pts = get_outer_box(img)
+    if corner_pts is not None:
+        ordered_pts = corner_pts
+    else:
+        ordered_pts = get_outer_box(img)
 
     dst = get_perspective_matrix(ordered_pts)
 
