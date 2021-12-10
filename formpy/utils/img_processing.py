@@ -2,6 +2,10 @@ import cv2
 import numpy as np
 
 
+class ImageAlignmentError(Exception):
+    pass
+
+
 def show_img(img, time=0):
     """
     Img = single np.array or list of np.array imgs.
@@ -101,13 +105,17 @@ def get_outer_box(img: np.ndarray) -> np.ndarray:
             # outer contour found with area method
             top_contours = area_sort[:5]
         else:
-            raise Exception("Image Alignment Failed: outer box not detected")
+            raise ImageAlignmentError(
+                "Image Alignment Failed: outer box not detected"
+            )
     elif area_cont_max_x < length_cont_max_x:
         if area_cont_max_y < length_cont_max_y:
             # outer contour found with length method
             top_contours = length_sort[:5]
         else:
-            raise Exception("Image Alignment Failed: outer box not detected")
+            raise ImageAlignmentError(
+                "Image Alignment Failed: outer box not detected"
+            )
 
     # find outer rectangle
     for c in top_contours:
@@ -126,11 +134,12 @@ def get_outer_box(img: np.ndarray) -> np.ndarray:
             pts[3] = approx[np.argmax(np.diff(approx, axis=2))]
 
             break
-    # debug snippet to show pts on img
+    ## debug snippet to show pts on img
     # color_img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
+    # color_img = img
     # for p in pts:
     #     cv2.circle(color_img, (int(p[0]), int(p[1])), 10, (0, 0, 255), -1)
-    # showImg(color_img)
+    # show_img(color_img)
     # color_img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
     return pts
 
@@ -155,8 +164,11 @@ def align_page(img: np.ndarray, corner_pts=None):
 
     # transform image and resize to original size (map spots to correct locations)
     img_warp = cv2.warpPerspective(img, matrix, (width, height))
-    if img_warp.shape[0] > img_warp.shape[1]:
-        img_warp = cv2.rotate(img_warp, cv2.ROTATE_90_CLOCKWISE)
+
+    # TODO add rotation feature (separate func probably) - add detection mechanism for choosing rotation e.g. top left spot or something
+
+    # if img_warp.shape[0] > img_warp.shape[1]:
+    #     img_warp = cv2.rotate(img_warp, cv2.ROTATE_90_CLOCKWISE)
 
     return img_warp
 
