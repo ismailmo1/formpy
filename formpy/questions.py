@@ -22,7 +22,7 @@ import numpy as np
 import formpy.utils.img_processing as ip
 from formpy.utils.template_definition import find_spots
 
-CIRCLE_RADIUS = 13
+CIRCLE_RADIUS = 30
 
 
 class Answer:
@@ -143,7 +143,12 @@ class Form:
             questions (list): list of Question instances
         """
         self.template = template
-        self.img = ip.process_img(img)
+        # resize processed image to same as template
+        self.img = cv2.resize(
+            ip.process_img(img),
+            (template.img.shape[1], template.img.shape[0]),
+            interpolation=cv2.INTER_LINEAR,
+        )
         self.questions = template.questions
 
     def __repr__(self) -> str:
@@ -152,7 +157,7 @@ class Form:
     def mark_all_answers(
         self, found_answers: list, color: Tuple[int] = (0, 0, 255)
     ) -> np.ndarray:
-        color_img = cv2.cvtColor(self.img, cv2.COLOR_GRAY2BGR)
+        color_img = cv2.cvtColor(cv2.bitwise_not(self.img), cv2.COLOR_GRAY2BGR)
         for qn in found_answers:
             answers = found_answers[qn]
             for ans in answers:
@@ -287,9 +292,7 @@ class Template:
                 answers.append(Answer(x, y, answer_val))
 
             question = Question(
-                question_id=int(question_id),
-                answers=answers,
-                multiple=None,
+                question_id=int(question_id), answers=answers, multiple=None
             )
             questions.append(question)
 
@@ -317,9 +320,7 @@ class Template:
                 answers.append(Answer(x, y, answer_val))
 
             question = Question(
-                question_id=question_id,
-                answers=answers,
-                multiple=multiple,
+                question_id=question_id, answers=answers, multiple=multiple
             )
             questions.append(question)
 
