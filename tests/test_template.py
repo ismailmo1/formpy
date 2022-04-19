@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import pytest
 from formpy.questions import Template
-from formpy.utils.img_processing import align_page, get_outer_box, show_img
+from formpy.utils.img_processing import align_page, get_outer_box
 
 OEE_TEMPLATE_JSON = "tests/oee_forms/test_template.json"
 OEE_TEMPLATE_JPG = "tests/oee_forms/test_template.jpg"
@@ -48,7 +48,6 @@ def test_question_id(template_from_json):
 def test_answer_check_fill(template_from_json):
     template = template_from_json
     temp_img = template.img
-
     assert template.questions[1].answers[42].is_filled(temp_img) == True
 
 
