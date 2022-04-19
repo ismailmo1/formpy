@@ -1,5 +1,7 @@
 """This module contains helper functions to define a new template."""
 
+from __future__ import annotations
+
 import cv2
 import numpy as np
 
