@@ -1,19 +1,4 @@
 import cv2
-import pytest
-from formpy.questions import Form
-from formpy.utils import img_processing as ip
-
-from tests.test_template import template_from_json
-
-OEE_FILLED_FORM = "tests/oee_forms/test_filled_form.jpg"
-
-
-@pytest.fixture()
-def form(template_from_json):
-    form_img_path = OEE_FILLED_FORM
-    template = template_from_json
-    form = Form(cv2.imread(form_img_path), template)
-    return form
 
 
 def test_form_answer(form):
@@ -36,7 +21,7 @@ def test_form_answer(form):
                 color = (0, 255, 0)
 
             ans.mark_answer(img, color=color, circle_thickness=2)
+    cv2.imwrite("test.jpeg", img)
 
 # TODO generate new form template - simpler version of OEE? - run all tests on new template
 # TODO use gimp/googledocs? - future googledocs API integration to create new templates?
-# TODO build MVP flask app

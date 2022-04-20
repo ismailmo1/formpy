@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import pytest
 from formpy.questions import Template
 from formpy.utils.img_processing import align_page, get_outer_box
 
@@ -9,15 +8,6 @@ OEE_TEMPLATE_JPG = "tests/oee_forms/test_template.jpg"
 
 OEE_TEMPLATE_SIMPLE_JSON = "tests/oee_forms/test_template_simple.json"
 OEE_TEMPLATE_SIMPLE_JPG = "tests/oee_forms/test_template_simple.jpg"
-
-
-@pytest.fixture()
-def template_from_json():
-    template = Template.from_json(
-        OEE_TEMPLATE_JSON,
-        OEE_TEMPLATE_JPG,
-    )
-    return template
 
 
 def test_questions(template_from_json):
