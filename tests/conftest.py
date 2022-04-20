@@ -2,9 +2,8 @@ import cv2
 import pytest
 from formpy.questions import Form, Template
 
-OEE_FILLED_FORM = "tests/oee_forms/test_filled_form.jpg"
-OEE_TEMPLATE_JSON = "tests/oee_forms/test_template.json"
-OEE_TEMPLATE_JPG = "tests/oee_forms/test_template.jpg"
+from .paths import OEE_FILLED_FORM, OEE_TEMPLATE_JPG, OEE_TEMPLATE_JSON
+
 
 @pytest.fixture
 def template_from_json():
