@@ -78,12 +78,12 @@ def test_template_from_img():
     template = Template.from_img_template(OEE_TEMPLATE_JPG, question_ans)
 
     # uncomment below to show answers on img
-    # img = cv2.cvtColor(template.img, cv2.COLOR_GRAY2BGR)
-    # for question in template.questions:
-    #     for ans in question.answers:
-    #         ans.mark_answer(img, -1)
+    img = cv2.cvtColor(template.img, cv2.COLOR_GRAY2BGR)
+    for question in template.questions:
+        for ans in question.answers:
+            ans.mark_answer(img, -1)
 
-    # show_img(img)
+    cv2.imwrite("test.jpeg",img)
     # template.to_json(OEE_TEMPLATE_JSON)
     assert template.questions[0].answers[22].x == 123
 

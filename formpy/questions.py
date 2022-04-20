@@ -22,7 +22,7 @@ import numpy as np
 import formpy.utils.img_processing as ip
 from formpy.utils.template_definition import find_spots
 
-CIRCLE_RADIUS = 30
+CIRCLE_RADIUS = 15
 
 
 class Answer:
@@ -61,14 +61,14 @@ class Answer:
             cv2.circle(
                 form_img,
                 (self.x, self.y),
-                CIRCLE_RADIUS,
+                self.circle_radius,
                 color,
                 circle_thickness,
             )
 
     def calc_filled_perc(self, form_img) -> float:
         mask = np.zeros(form_img.shape, dtype="uint8")
-        cv2.circle(mask, (self.x, self.y), CIRCLE_RADIUS, 255, -1)
+        cv2.circle(mask, (self.x, self.y), self.circle_radius, 255, -1)
         maskPixels = cv2.countNonZero(mask)
         mask = cv2.bitwise_and(form_img, mask)
         pctFilled = cv2.countNonZero(mask) / maskPixels
@@ -177,9 +177,10 @@ class Form:
 
 
 class Template:
-    def __init__(self, img: np.ndarray, questions: list[Question]):
+    def __init__(self, img: np.ndarray, questions: list[Question], circle_radius:int=CIRCLE_RADIUS):
         self.questions = questions
         self.img = ip.process_img(img)
+        self.circle_radius = circle_radius
 
     @classmethod
     def from_img_template(
@@ -187,6 +188,7 @@ class Template:
         img_path: str,
         question_assigment: dict = None,
         question_config: dict = None,
+        circle_radius: int = CIRCLE_RADIUS
     ) -> Template:
         """Init template of form from img - ask for user input to assign question to
         answers-question config and to assign multi answer true/false"""
@@ -197,7 +199,7 @@ class Template:
 
         # find all spots - sorted by x then y
         all_spots = find_spots(
-            img, max_radius=CIRCLE_RADIUS + 5, min_radius=CIRCLE_RADIUS - 5
+            img, max_radius=circle_radius + 5, min_radius=circle_radius - 5
         )
         unassigned_answers = all_spots.copy()
 
@@ -260,7 +262,7 @@ class Template:
 
             questions.append(question)
 
-        template = Template(raw_img, questions)
+        template = Template(raw_img, questions, circle_radius)
 
         return template
 
@@ -275,7 +277,7 @@ class Template:
         Returns:
             Form: Return form instantiated from JSON config and image.
         """
-
+        #TODO add circle radius metadata
         img = cv2.imread(img_path)
 
         with open(json_path, "r") as fp:
@@ -305,6 +307,8 @@ class Template:
         """question_config in form {question_id:{multiple:bool, answers:list[answer]}, question_id2}
         if img is str, assume path and img into array, else assume image is already np array
         """
+        #TODO add circle radius metadata
+
         img = cv2.imread(img) if type(img) == str else img
 
         questions = []
@@ -332,6 +336,7 @@ class Template:
             {answer_val:'val', answer_coords:(x,y)},
             {answer_val:'val', answer_coords:(x,y)}
             ]}"""
+        #TODO add circle radius metadata
 
         template_dict = {}
 
