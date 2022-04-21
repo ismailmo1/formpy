@@ -1,0 +1,5 @@
+OEE_TEMPLATE_JSON = "tests/oee_forms/test_template.json"
+OEE_TEMPLATE_JPG = "tests/oee_forms/test_template.jpg"
+OEE_FILLED_FORM = "tests/oee_forms/test_filled_form.jpg"
+OEE_TEMPLATE_SIMPLE_JSON = "tests/oee_forms/test_template_simple.json"
+OEE_TEMPLATE_SIMPLE_JPG = "tests/oee_forms/test_template_simple.jpg"

@@ -1,466 +1,471 @@
 {
-    "1": [
-        {
-            "answer_val": "val_0",
-            "answer_coords": [
-                555,
-                628
-            ]
-        },
-        {
-            "answer_val": "val_1",
-            "answer_coords": [
-                557,
-                464
-            ]
-        },
-        {
-            "answer_val": "val_2",
-            "answer_coords": [
-                558,
-                958
-            ]
-        },
-        {
-            "answer_val": "val_3",
-            "answer_coords": [
-                560,
-                793
-            ]
-        },
-        {
-            "answer_val": "val_4",
-            "answer_coords": [
-                609,
-                627
-            ]
-        },
-        {
-            "answer_val": "val_5",
-            "answer_coords": [
-                611,
-                464
-            ]
-        },
-        {
-            "answer_val": "val_6",
-            "answer_coords": [
-                612,
-                958
-            ]
-        },
-        {
-            "answer_val": "val_7",
-            "answer_coords": [
-                614,
-                794
-            ]
-        }
-    ],
-    "2": [
-        {
-            "answer_val": "val_8",
-            "answer_coords": [
-                660,
-                628
-            ]
-        },
-        {
-            "answer_val": "val_9",
-            "answer_coords": [
-                662,
-                464
-            ]
-        },
-        {
-            "answer_val": "val_10",
-            "answer_coords": [
-                663,
-                958
-            ]
-        },
-        {
-            "answer_val": "val_11",
-            "answer_coords": [
-                665,
-                794
-            ]
-        },
-        {
-            "answer_val": "val_12",
-            "answer_coords": [
-                714,
-                628
-            ]
-        },
-        {
-            "answer_val": "val_13",
-            "answer_coords": [
-                716,
-                464
-            ]
-        },
-        {
-            "answer_val": "val_14",
-            "answer_coords": [
-                716,
-                958
-            ]
-        },
-        {
-            "answer_val": "val_15",
-            "answer_coords": [
-                719,
-                794
-            ]
-        }
-    ],
-    "3": [
-        {
-            "answer_val": "val_16",
-            "answer_coords": [
-                759,
-                629
-            ]
-        },
-        {
-            "answer_val": "val_17",
-            "answer_coords": [
-                761,
-                465
-            ]
-        },
-        {
-            "answer_val": "val_18",
-            "answer_coords": [
-                761,
-                960
-            ]
-        },
-        {
-            "answer_val": "val_19",
-            "answer_coords": [
-                764,
-                795
-            ]
-        },
-        {
-            "answer_val": "val_20",
-            "answer_coords": [
-                813,
-                629
-            ]
-        },
-        {
-            "answer_val": "val_21",
-            "answer_coords": [
-                815,
-                465
-            ]
-        },
-        {
-            "answer_val": "val_22",
-            "answer_coords": [
-                815,
-                960
-            ]
-        },
-        {
-            "answer_val": "val_23",
-            "answer_coords": [
-                818,
-                796
-            ]
-        }
-    ],
-    "4": [
-        {
-            "answer_val": "val_24",
-            "answer_coords": [
-                864,
-                630
-            ]
-        },
-        {
-            "answer_val": "val_25",
-            "answer_coords": [
-                866,
-                465
-            ]
-        },
-        {
-            "answer_val": "val_26",
-            "answer_coords": [
-                866,
-                960
-            ]
-        },
-        {
-            "answer_val": "val_27",
-            "answer_coords": [
-                868,
-                796
-            ]
-        },
-        {
-            "answer_val": "val_28",
-            "answer_coords": [
-                918,
-                630
-            ]
-        },
-        {
-            "answer_val": "val_29",
-            "answer_coords": [
-                920,
-                466
-            ]
-        },
-        {
-            "answer_val": "val_30",
-            "answer_coords": [
-                920,
-                960
-            ]
-        },
-        {
-            "answer_val": "val_31",
-            "answer_coords": [
-                922,
-                796
-            ]
-        }
-    ],
-    "5": [
-        {
-            "answer_val": "val_32",
-            "answer_coords": [
-                1460,
-                610
-            ]
-        },
-        {
-            "answer_val": "val_33",
-            "answer_coords": [
-                1462,
-                445
-            ]
-        },
-        {
-            "answer_val": "val_34",
-            "answer_coords": [
-                1462,
-                970
-            ]
-        },
-        {
-            "answer_val": "val_35",
-            "answer_coords": [
-                1464,
-                806
-            ]
-        },
-        {
-            "answer_val": "val_36",
-            "answer_coords": [
-                1514,
-                610
-            ]
-        },
-        {
-            "answer_val": "val_37",
-            "answer_coords": [
-                1516,
-                446
-            ]
-        },
-        {
-            "answer_val": "val_38",
-            "answer_coords": [
-                1516,
-                971
-            ]
-        },
-        {
-            "answer_val": "val_39",
-            "answer_coords": [
-                1518,
-                806
-            ]
-        }
-    ],
-    "6": [
-        {
-            "answer_val": "val_40",
-            "answer_coords": [
-                1565,
-                610
-            ]
-        },
-        {
-            "answer_val": "val_41",
-            "answer_coords": [
-                1567,
-                446
-            ]
-        },
-        {
-            "answer_val": "val_42",
-            "answer_coords": [
-                1567,
-                971
-            ]
-        },
-        {
-            "answer_val": "val_43",
-            "answer_coords": [
-                1569,
-                805
-            ]
-        },
-        {
-            "answer_val": "val_44",
-            "answer_coords": [
-                1619,
-                610
-            ]
-        },
-        {
-            "answer_val": "val_45",
-            "answer_coords": [
-                1621,
-                446
-            ]
-        },
-        {
-            "answer_val": "val_46",
-            "answer_coords": [
-                1621,
-                971
-            ]
-        },
-        {
-            "answer_val": "val_47",
-            "answer_coords": [
-                1623,
-                806
-            ]
-        }
-    ],
-    "7": [
-        {
-            "answer_val": "val_48",
-            "answer_coords": [
-                1664,
-                611
-            ]
-        },
-        {
-            "answer_val": "val_49",
-            "answer_coords": [
-                1666,
-                447
-            ]
-        },
-        {
-            "answer_val": "val_50",
-            "answer_coords": [
-                1666,
-                972
-            ]
-        },
-        {
-            "answer_val": "val_51",
-            "answer_coords": [
-                1668,
-                808
-            ]
-        },
-        {
-            "answer_val": "val_52",
-            "answer_coords": [
-                1718,
-                611
-            ]
-        },
-        {
-            "answer_val": "val_53",
-            "answer_coords": [
-                1720,
-                447
-            ]
-        },
-        {
-            "answer_val": "val_54",
-            "answer_coords": [
-                1720,
-                972
-            ]
-        },
-        {
-            "answer_val": "val_55",
-            "answer_coords": [
-                1722,
-                808
-            ]
-        }
-    ],
-    "8": [
-        {
-            "answer_val": "val_56",
-            "answer_coords": [
-                1769,
-                611
-            ]
-        },
-        {
-            "answer_val": "val_57",
-            "answer_coords": [
-                1771,
-                447
-            ]
-        },
-        {
-            "answer_val": "val_58",
-            "answer_coords": [
-                1771,
-                972
-            ]
-        },
-        {
-            "answer_val": "val_59",
-            "answer_coords": [
-                1773,
-                808
-            ]
-        },
-        {
-            "answer_val": "val_60",
-            "answer_coords": [
-                1823,
-                611
-            ]
-        },
-        {
-            "answer_val": "val_61",
-            "answer_coords": [
-                1825,
-                447
-            ]
-        },
-        {
-            "answer_val": "val_62",
-            "answer_coords": [
-                1825,
-                972
-            ]
-        },
-        {
-            "answer_val": "val_63",
-            "answer_coords": [
-                1827,
-                808
-            ]
-        }
-    ]
+    "config": {
+        "radius": 15
+    },
+    "questions": {
+        "1": [
+            {
+                "answer_val": "val_0",
+                "answer_coords": [
+                    555,
+                    628
+                ]
+            },
+            {
+                "answer_val": "val_1",
+                "answer_coords": [
+                    557,
+                    464
+                ]
+            },
+            {
+                "answer_val": "val_2",
+                "answer_coords": [
+                    558,
+                    958
+                ]
+            },
+            {
+                "answer_val": "val_3",
+                "answer_coords": [
+                    560,
+                    793
+                ]
+            },
+            {
+                "answer_val": "val_4",
+                "answer_coords": [
+                    609,
+                    627
+                ]
+            },
+            {
+                "answer_val": "val_5",
+                "answer_coords": [
+                    611,
+                    464
+                ]
+            },
+            {
+                "answer_val": "val_6",
+                "answer_coords": [
+                    612,
+                    958
+                ]
+            },
+            {
+                "answer_val": "val_7",
+                "answer_coords": [
+                    614,
+                    794
+                ]
+            }
+        ],
+        "2": [
+            {
+                "answer_val": "val_8",
+                "answer_coords": [
+                    660,
+                    628
+                ]
+            },
+            {
+                "answer_val": "val_9",
+                "answer_coords": [
+                    662,
+                    464
+                ]
+            },
+            {
+                "answer_val": "val_10",
+                "answer_coords": [
+                    663,
+                    958
+                ]
+            },
+            {
+                "answer_val": "val_11",
+                "answer_coords": [
+                    665,
+                    794
+                ]
+            },
+            {
+                "answer_val": "val_12",
+                "answer_coords": [
+                    714,
+                    628
+                ]
+            },
+            {
+                "answer_val": "val_13",
+                "answer_coords": [
+                    716,
+                    464
+                ]
+            },
+            {
+                "answer_val": "val_14",
+                "answer_coords": [
+                    716,
+                    958
+                ]
+            },
+            {
+                "answer_val": "val_15",
+                "answer_coords": [
+                    719,
+                    794
+                ]
+            }
+        ],
+        "3": [
+            {
+                "answer_val": "val_16",
+                "answer_coords": [
+                    759,
+                    629
+                ]
+            },
+            {
+                "answer_val": "val_17",
+                "answer_coords": [
+                    761,
+                    465
+                ]
+            },
+            {
+                "answer_val": "val_18",
+                "answer_coords": [
+                    761,
+                    960
+                ]
+            },
+            {
+                "answer_val": "val_19",
+                "answer_coords": [
+                    764,
+                    795
+                ]
+            },
+            {
+                "answer_val": "val_20",
+                "answer_coords": [
+                    813,
+                    629
+                ]
+            },
+            {
+                "answer_val": "val_21",
+                "answer_coords": [
+                    815,
+                    465
+                ]
+            },
+            {
+                "answer_val": "val_22",
+                "answer_coords": [
+                    815,
+                    960
+                ]
+            },
+            {
+                "answer_val": "val_23",
+                "answer_coords": [
+                    818,
+                    796
+                ]
+            }
+        ],
+        "4": [
+            {
+                "answer_val": "val_24",
+                "answer_coords": [
+                    864,
+                    630
+                ]
+            },
+            {
+                "answer_val": "val_25",
+                "answer_coords": [
+                    866,
+                    465
+                ]
+            },
+            {
+                "answer_val": "val_26",
+                "answer_coords": [
+                    866,
+                    960
+                ]
+            },
+            {
+                "answer_val": "val_27",
+                "answer_coords": [
+                    868,
+                    796
+                ]
+            },
+            {
+                "answer_val": "val_28",
+                "answer_coords": [
+                    918,
+                    630
+                ]
+            },
+            {
+                "answer_val": "val_29",
+                "answer_coords": [
+                    920,
+                    466
+                ]
+            },
+            {
+                "answer_val": "val_30",
+                "answer_coords": [
+                    920,
+                    960
+                ]
+            },
+            {
+                "answer_val": "val_31",
+                "answer_coords": [
+                    922,
+                    796
+                ]
+            }
+        ],
+        "5": [
+            {
+                "answer_val": "val_32",
+                "answer_coords": [
+                    1460,
+                    610
+                ]
+            },
+            {
+                "answer_val": "val_33",
+                "answer_coords": [
+                    1462,
+                    445
+                ]
+            },
+            {
+                "answer_val": "val_34",
+                "answer_coords": [
+                    1462,
+                    970
+                ]
+            },
+            {
+                "answer_val": "val_35",
+                "answer_coords": [
+                    1464,
+                    806
+                ]
+            },
+            {
+                "answer_val": "val_36",
+                "answer_coords": [
+                    1514,
+                    610
+                ]
+            },
+            {
+                "answer_val": "val_37",
+                "answer_coords": [
+                    1516,
+                    446
+                ]
+            },
+            {
+                "answer_val": "val_38",
+                "answer_coords": [
+                    1516,
+                    971
+                ]
+            },
+            {
+                "answer_val": "val_39",
+                "answer_coords": [
+                    1518,
+                    806
+                ]
+            }
+        ],
+        "6": [
+            {
+                "answer_val": "val_40",
+                "answer_coords": [
+                    1565,
+                    610
+                ]
+            },
+            {
+                "answer_val": "val_41",
+                "answer_coords": [
+                    1567,
+                    446
+                ]
+            },
+            {
+                "answer_val": "val_42",
+                "answer_coords": [
+                    1567,
+                    971
+                ]
+            },
+            {
+                "answer_val": "val_43",
+                "answer_coords": [
+                    1569,
+                    805
+                ]
+            },
+            {
+                "answer_val": "val_44",
+                "answer_coords": [
+                    1619,
+                    610
+                ]
+            },
+            {
+                "answer_val": "val_45",
+                "answer_coords": [
+                    1621,
+                    446
+                ]
+            },
+            {
+                "answer_val": "val_46",
+                "answer_coords": [
+                    1621,
+                    971
+                ]
+            },
+            {
+                "answer_val": "val_47",
+                "answer_coords": [
+                    1623,
+                    806
+                ]
+            }
+        ],
+        "7": [
+            {
+                "answer_val": "val_48",
+                "answer_coords": [
+                    1664,
+                    611
+                ]
+            },
+            {
+                "answer_val": "val_49",
+                "answer_coords": [
+                    1666,
+                    447
+                ]
+            },
+            {
+                "answer_val": "val_50",
+                "answer_coords": [
+                    1666,
+                    972
+                ]
+            },
+            {
+                "answer_val": "val_51",
+                "answer_coords": [
+                    1668,
+                    808
+                ]
+            },
+            {
+                "answer_val": "val_52",
+                "answer_coords": [
+                    1718,
+                    611
+                ]
+            },
+            {
+                "answer_val": "val_53",
+                "answer_coords": [
+                    1720,
+                    447
+                ]
+            },
+            {
+                "answer_val": "val_54",
+                "answer_coords": [
+                    1720,
+                    972
+                ]
+            },
+            {
+                "answer_val": "val_55",
+                "answer_coords": [
+                    1722,
+                    808
+                ]
+            }
+        ],
+        "8": [
+            {
+                "answer_val": "val_56",
+                "answer_coords": [
+                    1769,
+                    611
+                ]
+            },
+            {
+                "answer_val": "val_57",
+                "answer_coords": [
+                    1771,
+                    447
+                ]
+            },
+            {
+                "answer_val": "val_58",
+                "answer_coords": [
+                    1771,
+                    972
+                ]
+            },
+            {
+                "answer_val": "val_59",
+                "answer_coords": [
+                    1773,
+                    808
+                ]
+            },
+            {
+                "answer_val": "val_60",
+                "answer_coords": [
+                    1823,
+                    611
+                ]
+            },
+            {
+                "answer_val": "val_61",
+                "answer_coords": [
+                    1825,
+                    447
+                ]
+            },
+            {
+                "answer_val": "val_62",
+                "answer_coords": [
+                    1825,
+                    972
+                ]
+            },
+            {
+                "answer_val": "val_63",
+                "answer_coords": [
+                    1827,
+                    808
+                ]
+            }
+        ]
+    }
 }

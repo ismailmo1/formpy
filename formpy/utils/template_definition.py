@@ -1,5 +1,7 @@
 """This module contains helper functions to define a new template."""
 
+from __future__ import annotations
+
 import cv2
 import numpy as np
 
@@ -39,8 +41,6 @@ def find_spots(
             spotCentres.append([xCentre, yCentre])
 
     # sort by x, then y
-    sortedSpots = sorted(
-        spotCentres, key=lambda x: (x[0], x[1]), reverse=False
-    )
+    sortedSpots = sorted(spotCentres, key=lambda x: (x[0], x[1]), reverse=False)
 
     return sortedSpots
