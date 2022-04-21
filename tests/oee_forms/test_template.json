@@ -1,1 +1,4960 @@
-{"1": [{"answer_val": "val_0", "answer_coords": [73, 711]}, {"answer_val": "val_1", "answer_coords": [74, 676]}, {"answer_val": "val_2", "answer_coords": [74, 745]}, {"answer_val": "val_3", "answer_coords": [74, 780]}, {"answer_val": "val_4", "answer_coords": [121, 953]}, {"answer_val": "val_5", "answer_coords": [121, 1196]}, {"answer_val": "val_6", "answer_coords": [121, 1230]}, {"answer_val": "val_7", "answer_coords": [121, 1265]}, {"answer_val": "val_8", "answer_coords": [121, 1300]}, {"answer_val": "val_9", "answer_coords": [121, 1333]}, {"answer_val": "val_10", "answer_coords": [121, 1368]}, {"answer_val": "val_11", "answer_coords": [121, 1403]}, {"answer_val": "val_12", "answer_coords": [121, 1438]}, {"answer_val": "val_13", "answer_coords": [121, 1472]}, {"answer_val": "val_14", "answer_coords": [121, 1507]}, {"answer_val": "val_15", "answer_coords": [122, 711]}, {"answer_val": "val_16", "answer_coords": [122, 847]}, {"answer_val": "val_17", "answer_coords": [122, 988]}, {"answer_val": "val_18", "answer_coords": [123, 676]}, {"answer_val": "val_19", "answer_coords": [123, 745]}, {"answer_val": "val_20", "answer_coords": [123, 780]}, {"answer_val": "val_21", "answer_coords": [123, 813]}, {"answer_val": "val_22", "answer_coords": [123, 881]}, {"answer_val": "val_23", "answer_coords": [123, 916]}, {"answer_val": "val_24", "answer_coords": [169, 1196]}, {"answer_val": "val_25", "answer_coords": [169, 1230]}, {"answer_val": "val_26", "answer_coords": [169, 1265]}, {"answer_val": "val_27", "answer_coords": [169, 1300]}, {"answer_val": "val_28", "answer_coords": [169, 1333]}, {"answer_val": "val_29", "answer_coords": [169, 1368]}, {"answer_val": "val_30", "answer_coords": [169, 1403]}, {"answer_val": "val_31", "answer_coords": [169, 1438]}, {"answer_val": "val_32", "answer_coords": [169, 1472]}, {"answer_val": "val_33", "answer_coords": [169, 1507]}, {"answer_val": "val_34", "answer_coords": [216, 1195]}, {"answer_val": "val_35", "answer_coords": [216, 1230]}, {"answer_val": "val_36", "answer_coords": [216, 1265]}, {"answer_val": "val_37", "answer_coords": [216, 1300]}, {"answer_val": "val_38", "answer_coords": [216, 1333]}, {"answer_val": "val_39", "answer_coords": [216, 1368]}, {"answer_val": "val_40", "answer_coords": [216, 1403]}, {"answer_val": "val_41", "answer_coords": [216, 1438]}, {"answer_val": "val_42", "answer_coords": [216, 1472]}, {"answer_val": "val_43", "answer_coords": [216, 1507]}, {"answer_val": "val_44", "answer_coords": [218, 953]}, {"answer_val": "val_45", "answer_coords": [219, 988]}, {"answer_val": "val_46", "answer_coords": [219, 1023]}, {"answer_val": "val_47", "answer_coords": [220, 711]}, {"answer_val": "val_48", "answer_coords": [220, 813]}, {"answer_val": "val_49", "answer_coords": [220, 847]}, {"answer_val": "val_50", "answer_coords": [220, 1057]}, {"answer_val": "val_51", "answer_coords": [221, 676]}, {"answer_val": "val_52", "answer_coords": [221, 745]}, {"answer_val": "val_53", "answer_coords": [221, 780]}, {"answer_val": "val_54", "answer_coords": [221, 881]}, {"answer_val": "val_55", "answer_coords": [221, 916]}, {"answer_val": "val_56", "answer_coords": [264, 1195]}, {"answer_val": "val_57", "answer_coords": [264, 1230]}, {"answer_val": "val_58", "answer_coords": [264, 1265]}, {"answer_val": "val_59", "answer_coords": [264, 1300]}, {"answer_val": "val_60", "answer_coords": [264, 1333]}, {"answer_val": "val_61", "answer_coords": [264, 1368]}, {"answer_val": "val_62", "answer_coords": [264, 1403]}, {"answer_val": "val_63", "answer_coords": [264, 1438]}, {"answer_val": "val_64", "answer_coords": [264, 1472]}, {"answer_val": "val_65", "answer_coords": [264, 1507]}, {"answer_val": "val_66", "answer_coords": [312, 711]}, {"answer_val": "val_67", "answer_coords": [312, 745]}, {"answer_val": "val_68", "answer_coords": [312, 780]}, {"answer_val": "val_69", "answer_coords": [312, 813]}, {"answer_val": "val_70", "answer_coords": [312, 1196]}, {"answer_val": "val_71", "answer_coords": [312, 1230]}, {"answer_val": "val_72", "answer_coords": [312, 1265]}, {"answer_val": "val_73", "answer_coords": [312, 1300]}, {"answer_val": "val_74", "answer_coords": [312, 1333]}, {"answer_val": "val_75", "answer_coords": [312, 1369]}, {"answer_val": "val_76", "answer_coords": [312, 1404]}, {"answer_val": "val_77", "answer_coords": [312, 1439]}, {"answer_val": "val_78", "answer_coords": [312, 1473]}, {"answer_val": "val_79", "answer_coords": [312, 1508]}, {"answer_val": "val_80", "answer_coords": [313, 676]}, {"answer_val": "val_81", "answer_coords": [361, 1196]}, {"answer_val": "val_82", "answer_coords": [361, 1231]}, {"answer_val": "val_83", "answer_coords": [361, 1266]}, {"answer_val": "val_84", "answer_coords": [361, 1301]}, {"answer_val": "val_85", "answer_coords": [361, 1334]}, {"answer_val": "val_86", "answer_coords": [361, 1369]}, {"answer_val": "val_87", "answer_coords": [361, 1404]}, {"answer_val": "val_88", "answer_coords": [361, 1439]}, {"answer_val": "val_89", "answer_coords": [361, 1473]}, {"answer_val": "val_90", "answer_coords": [361, 1508]}, {"answer_val": "val_91", "answer_coords": [411, 989]}, {"answer_val": "val_92", "answer_coords": [411, 1024]}, {"answer_val": "val_93", "answer_coords": [417, 1196]}, {"answer_val": "val_94", "answer_coords": [417, 1231]}, {"answer_val": "val_95", "answer_coords": [417, 1266]}, {"answer_val": "val_96", "answer_coords": [417, 1301]}, {"answer_val": "val_97", "answer_coords": [417, 1334]}, {"answer_val": "val_98", "answer_coords": [417, 1369]}, {"answer_val": "val_99", "answer_coords": [417, 1404]}, {"answer_val": "val_100", "answer_coords": [417, 1439]}, {"answer_val": "val_101", "answer_coords": [417, 1473]}, {"answer_val": "val_102", "answer_coords": [417, 1509]}, {"answer_val": "val_103", "answer_coords": [459, 1024]}, {"answer_val": "val_104", "answer_coords": [460, 989]}, {"answer_val": "val_105", "answer_coords": [464, 1369]}, {"answer_val": "val_106", "answer_coords": [464, 1404]}, {"answer_val": "val_107", "answer_coords": [464, 1439]}, {"answer_val": "val_108", "answer_coords": [464, 1473]}, {"answer_val": "val_109", "answer_coords": [464, 1508]}, {"answer_val": "val_110", "answer_coords": [465, 1196]}, {"answer_val": "val_111", "answer_coords": [465, 1231]}, {"answer_val": "val_112", "answer_coords": [465, 1266]}, {"answer_val": "val_113", "answer_coords": [465, 1301]}, {"answer_val": "val_114", "answer_coords": [465, 1334]}, {"answer_val": "val_115", "answer_coords": [507, 1024]}, {"answer_val": "val_116", "answer_coords": [508, 989]}, {"answer_val": "val_117", "answer_coords": [511, 1335]}, {"answer_val": "val_118", "answer_coords": [511, 1370]}, {"answer_val": "val_119", "answer_coords": [511, 1405]}, {"answer_val": "val_120", "answer_coords": [511, 1440]}, {"answer_val": "val_121", "answer_coords": [511, 1474]}, {"answer_val": "val_122", "answer_coords": [511, 1509]}, {"answer_val": "val_123", "answer_coords": [512, 1197]}, {"answer_val": "val_124", "answer_coords": [512, 1232]}, {"answer_val": "val_125", "answer_coords": [512, 1267]}, {"answer_val": "val_126", "answer_coords": [512, 1301]}, {"answer_val": "val_127", "answer_coords": [556, 1024]}, {"answer_val": "val_128", "answer_coords": [557, 989]}, {"answer_val": "val_129", "answer_coords": [559, 1196]}, {"answer_val": "val_130", "answer_coords": [559, 1231]}, {"answer_val": "val_131", "answer_coords": [559, 1266]}, {"answer_val": "val_132", "answer_coords": [559, 1301]}, {"answer_val": "val_133", "answer_coords": [559, 1334]}, {"answer_val": "val_134", "answer_coords": [559, 1369]}, {"answer_val": "val_135", "answer_coords": [559, 1404]}, {"answer_val": "val_136", "answer_coords": [559, 1439]}, {"answer_val": "val_137", "answer_coords": [559, 1473]}, {"answer_val": "val_138", "answer_coords": [559, 1509]}, {"answer_val": "val_139", "answer_coords": [603, 712]}, {"answer_val": "val_140", "answer_coords": [604, 677]}, {"answer_val": "val_141", "answer_coords": [604, 746]}, {"answer_val": "val_142", "answer_coords": [604, 781]}, {"answer_val": "val_143", "answer_coords": [604, 1024]}, {"answer_val": "val_144", "answer_coords": [605, 989]}, {"answer_val": "val_145", "answer_coords": [608, 1196]}, {"answer_val": "val_146", "answer_coords": [608, 1231]}, {"answer_val": "val_147", "answer_coords": [608, 1266]}, {"answer_val": "val_148", "answer_coords": [608, 1301]}, {"answer_val": "val_149", "answer_coords": [608, 1334]}, {"answer_val": "val_150", "answer_coords": [608, 1370]}, {"answer_val": "val_151", "answer_coords": [608, 1405]}, {"answer_val": "val_152", "answer_coords": [608, 1440]}, {"answer_val": "val_153", "answer_coords": [608, 1474]}, {"answer_val": "val_154", "answer_coords": [608, 1510]}, {"answer_val": "val_155", "answer_coords": [656, 1196]}, {"answer_val": "val_156", "answer_coords": [656, 1232]}, {"answer_val": "val_157", "answer_coords": [656, 1267]}, {"answer_val": "val_158", "answer_coords": [656, 1302]}, {"answer_val": "val_159", "answer_coords": [656, 1335]}, {"answer_val": "val_160", "answer_coords": [656, 1370]}, {"answer_val": "val_161", "answer_coords": [656, 1405]}, {"answer_val": "val_162", "answer_coords": [656, 1440]}, {"answer_val": "val_163", "answer_coords": [656, 1474]}, {"answer_val": "val_164", "answer_coords": [656, 1509]}, {"answer_val": "val_165", "answer_coords": [703, 1198]}, {"answer_val": "val_166", "answer_coords": [703, 1233]}, {"answer_val": "val_167", "answer_coords": [703, 1268]}, {"answer_val": "val_168", "answer_coords": [703, 1302]}, {"answer_val": "val_169", "answer_coords": [703, 1336]}, {"answer_val": "val_170", "answer_coords": [703, 1371]}, {"answer_val": "val_171", "answer_coords": [703, 1406]}, {"answer_val": "val_172", "answer_coords": [703, 1441]}, {"answer_val": "val_173", "answer_coords": [703, 1475]}, {"answer_val": "val_174", "answer_coords": [703, 1510]}, {"answer_val": "val_175", "answer_coords": [751, 1197]}, {"answer_val": "val_176", "answer_coords": [751, 1232]}, {"answer_val": "val_177", "answer_coords": [751, 1267]}, {"answer_val": "val_178", "answer_coords": [751, 1302]}, {"answer_val": "val_179", "answer_coords": [751, 1335]}, {"answer_val": "val_180", "answer_coords": [751, 1370]}, {"answer_val": "val_181", "answer_coords": [751, 1405]}, {"answer_val": "val_182", "answer_coords": [751, 1440]}, {"answer_val": "val_183", "answer_coords": [751, 1474]}, {"answer_val": "val_184", "answer_coords": [751, 1509]}, {"answer_val": "val_185", "answer_coords": [793, 712]}, {"answer_val": "val_186", "answer_coords": [794, 677]}, {"answer_val": "val_187", "answer_coords": [794, 746]}, {"answer_val": "val_188", "answer_coords": [794, 781]}, {"answer_val": "val_189", "answer_coords": [799, 1198]}, {"answer_val": "val_190", "answer_coords": [799, 1233]}, {"answer_val": "val_191", "answer_coords": [799, 1268]}, {"answer_val": "val_192", "answer_coords": [799, 1302]}, {"answer_val": "val_193", "answer_coords": [799, 1336]}, {"answer_val": "val_194", "answer_coords": [799, 1371]}, {"answer_val": "val_195", "answer_coords": [799, 1406]}, {"answer_val": "val_196", "answer_coords": [799, 1441]}, {"answer_val": "val_197", "answer_coords": [799, 1475]}, {"answer_val": "val_198", "answer_coords": [799, 1510]}, {"answer_val": "val_199", "answer_coords": [847, 1197]}, {"answer_val": "val_200", "answer_coords": [847, 1232]}, {"answer_val": "val_201", "answer_coords": [847, 1267]}, {"answer_val": "val_202", "answer_coords": [847, 1302]}, {"answer_val": "val_203", "answer_coords": [847, 1335]}, {"answer_val": "val_204", "answer_coords": [847, 1370]}, {"answer_val": "val_205", "answer_coords": [847, 1405]}, {"answer_val": "val_206", "answer_coords": [847, 1440]}, {"answer_val": "val_207", "answer_coords": [847, 1475]}, {"answer_val": "val_208", "answer_coords": [847, 1510]}, {"answer_val": "val_209", "answer_coords": [888, 1197]}, {"answer_val": "val_210", "answer_coords": [888, 1232]}, {"answer_val": "val_211", "answer_coords": [888, 1267]}, {"answer_val": "val_212", "answer_coords": [888, 1302]}, {"answer_val": "val_213", "answer_coords": [888, 1335]}, {"answer_val": "val_214", "answer_coords": [888, 1370]}, {"answer_val": "val_215", "answer_coords": [888, 1406]}, {"answer_val": "val_216", "answer_coords": [888, 1441]}, {"answer_val": "val_217", "answer_coords": [888, 1475]}, {"answer_val": "val_218", "answer_coords": [888, 1510]}, {"answer_val": "val_219", "answer_coords": [937, 1197]}, {"answer_val": "val_220", "answer_coords": [937, 1232]}, {"answer_val": "val_221", "answer_coords": [937, 1267]}, {"answer_val": "val_222", "answer_coords": [937, 1302]}, {"answer_val": "val_223", "answer_coords": [937, 1336]}, {"answer_val": "val_224", "answer_coords": [937, 1371]}, {"answer_val": "val_225", "answer_coords": [937, 1406]}, {"answer_val": "val_226", "answer_coords": [937, 1441]}, {"answer_val": "val_227", "answer_coords": [937, 1475]}, {"answer_val": "val_228", "answer_coords": [937, 1510]}, {"answer_val": "val_229", "answer_coords": [985, 1197]}, {"answer_val": "val_230", "answer_coords": [985, 1233]}, {"answer_val": "val_231", "answer_coords": [985, 1268]}, {"answer_val": "val_232", "answer_coords": [985, 1303]}, {"answer_val": "val_233", "answer_coords": [985, 1336]}, {"answer_val": "val_234", "answer_coords": [985, 1371]}, {"answer_val": "val_235", "answer_coords": [985, 1406]}, {"answer_val": "val_236", "answer_coords": [985, 1441]}, {"answer_val": "val_237", "answer_coords": [985, 1475]}, {"answer_val": "val_238", "answer_coords": [985, 1510]}, {"answer_val": "val_239", "answer_coords": [986, 677]}, {"answer_val": "val_240", "answer_coords": [986, 712]}, {"answer_val": "val_241", "answer_coords": [986, 746]}, {"answer_val": "val_242", "answer_coords": [986, 781]}, {"answer_val": "val_243", "answer_coords": [1032, 1198]}, {"answer_val": "val_244", "answer_coords": [1032, 1234]}, {"answer_val": "val_245", "answer_coords": [1032, 1268]}, {"answer_val": "val_246", "answer_coords": [1032, 1303]}, {"answer_val": "val_247", "answer_coords": [1032, 1337]}, {"answer_val": "val_248", "answer_coords": [1032, 1372]}, {"answer_val": "val_249", "answer_coords": [1032, 1406]}, {"answer_val": "val_250", "answer_coords": [1032, 1442]}, {"answer_val": "val_251", "answer_coords": [1032, 1476]}, {"answer_val": "val_252", "answer_coords": [1032, 1511]}, {"answer_val": "val_253", "answer_coords": [1080, 1198]}, {"answer_val": "val_254", "answer_coords": [1080, 1233]}, {"answer_val": "val_255", "answer_coords": [1080, 1268]}, {"answer_val": "val_256", "answer_coords": [1080, 1303]}, {"answer_val": "val_257", "answer_coords": [1080, 1336]}, {"answer_val": "val_258", "answer_coords": [1080, 1371]}, {"answer_val": "val_259", "answer_coords": [1080, 1406]}, {"answer_val": "val_260", "answer_coords": [1080, 1441]}, {"answer_val": "val_261", "answer_coords": [1080, 1475]}, {"answer_val": "val_262", "answer_coords": [1080, 1510]}, {"answer_val": "val_263", "answer_coords": [1128, 1198]}, {"answer_val": "val_264", "answer_coords": [1128, 1234]}, {"answer_val": "val_265", "answer_coords": [1128, 1268]}, {"answer_val": "val_266", "answer_coords": [1128, 1303]}, {"answer_val": "val_267", "answer_coords": [1128, 1337]}, {"answer_val": "val_268", "answer_coords": [1128, 1372]}, {"answer_val": "val_269", "answer_coords": [1128, 1406]}, {"answer_val": "val_270", "answer_coords": [1128, 1442]}, {"answer_val": "val_271", "answer_coords": [1128, 1476]}, {"answer_val": "val_272", "answer_coords": [1128, 1512]}, {"answer_val": "val_273", "answer_coords": [1176, 1198]}, {"answer_val": "val_274", "answer_coords": [1176, 1233]}, {"answer_val": "val_275", "answer_coords": [1176, 1268]}, {"answer_val": "val_276", "answer_coords": [1176, 1303]}, {"answer_val": "val_277", "answer_coords": [1176, 1336]}, {"answer_val": "val_278", "answer_coords": [1176, 1371]}, {"answer_val": "val_279", "answer_coords": [1176, 1407]}, {"answer_val": "val_280", "answer_coords": [1176, 1442]}, {"answer_val": "val_281", "answer_coords": [1176, 1476]}, {"answer_val": "val_282", "answer_coords": [1176, 1511]}, {"answer_val": "val_283", "answer_coords": [1178, 711]}, {"answer_val": "val_284", "answer_coords": [1179, 676]}, {"answer_val": "val_285", "answer_coords": [1179, 745]}, {"answer_val": "val_286", "answer_coords": [1179, 780]}, {"answer_val": "val_287", "answer_coords": [1345, 1159]}, {"answer_val": "val_288", "answer_coords": [1346, 260]}, {"answer_val": "val_289", "answer_coords": [1346, 709]}, {"answer_val": "val_290", "answer_coords": [1346, 918]}, {"answer_val": "val_291", "answer_coords": [1346, 988]}, {"answer_val": "val_292", "answer_coords": [1346, 1022]}, {"answer_val": "val_293", "answer_coords": [1346, 1195]}, {"answer_val": "val_294", "answer_coords": [1346, 1229]}, {"answer_val": "val_295", "answer_coords": [1346, 1263]}, {"answer_val": "val_296", "answer_coords": [1346, 1298]}, {"answer_val": "val_297", "answer_coords": [1346, 1333]}, {"answer_val": "val_298", "answer_coords": [1346, 1368]}, {"answer_val": "val_299", "answer_coords": [1346, 1438]}, {"answer_val": "val_300", "answer_coords": [1346, 1472]}, {"answer_val": "val_301", "answer_coords": [1347, 296]}, {"answer_val": "val_302", "answer_coords": [1347, 330]}, {"answer_val": "val_303", "answer_coords": [1347, 364]}, {"answer_val": "val_304", "answer_coords": [1347, 399]}, {"answer_val": "val_305", "answer_coords": [1347, 434]}, {"answer_val": "val_306", "answer_coords": [1347, 469]}, {"answer_val": "val_307", "answer_coords": [1347, 539]}, {"answer_val": "val_308", "answer_coords": [1347, 573]}, {"answer_val": "val_309", "answer_coords": [1347, 745]}, {"answer_val": "val_310", "answer_coords": [1347, 779]}, {"answer_val": "val_311", "answer_coords": [1347, 813]}, {"answer_val": "val_312", "answer_coords": [1347, 848]}, {"answer_val": "val_313", "answer_coords": [1347, 883]}, {"answer_val": "val_314", "answer_coords": [1347, 954]}, {"answer_val": "val_315", "answer_coords": [1347, 1404]}, {"answer_val": "val_316", "answer_coords": [1348, 505]}, {"answer_val": "val_317", "answer_coords": [1388, 1158]}, {"answer_val": "val_318", "answer_coords": [1389, 259]}, {"answer_val": "val_319", "answer_coords": [1389, 708]}, {"answer_val": "val_320", "answer_coords": [1389, 987]}, {"answer_val": "val_321", "answer_coords": [1389, 1021]}, {"answer_val": "val_322", "answer_coords": [1389, 1194]}, {"answer_val": "val_323", "answer_coords": [1389, 1228]}, {"answer_val": "val_324", "answer_coords": [1389, 1262]}, {"answer_val": "val_325", "answer_coords": [1389, 1297]}, {"answer_val": "val_326", "answer_coords": [1389, 1332]}, {"answer_val": "val_327", "answer_coords": [1389, 1367]}, {"answer_val": "val_328", "answer_coords": [1389, 1437]}, {"answer_val": "val_329", "answer_coords": [1389, 1471]}, {"answer_val": "val_330", "answer_coords": [1390, 295]}, {"answer_val": "val_331", "answer_coords": [1390, 329]}, {"answer_val": "val_332", "answer_coords": [1390, 363]}, {"answer_val": "val_333", "answer_coords": [1390, 398]}, {"answer_val": "val_334", "answer_coords": [1390, 433]}, {"answer_val": "val_335", "answer_coords": [1390, 468]}, {"answer_val": "val_336", "answer_coords": [1390, 538]}, {"answer_val": "val_337", "answer_coords": [1390, 572]}, {"answer_val": "val_338", "answer_coords": [1390, 744]}, {"answer_val": "val_339", "answer_coords": [1390, 778]}, {"answer_val": "val_340", "answer_coords": [1390, 812]}, {"answer_val": "val_341", "answer_coords": [1390, 847]}, {"answer_val": "val_342", "answer_coords": [1390, 882]}, {"answer_val": "val_343", "answer_coords": [1390, 917]}, {"answer_val": "val_344", "answer_coords": [1390, 1403]}, {"answer_val": "val_345", "answer_coords": [1391, 504]}, {"answer_val": "val_346", "answer_coords": [1391, 953]}, {"answer_val": "val_347", "answer_coords": [1440, 259]}, {"answer_val": "val_348", "answer_coords": [1440, 708]}, {"answer_val": "val_349", "answer_coords": [1440, 1158]}, {"answer_val": "val_350", "answer_coords": [1440, 1194]}, {"answer_val": "val_351", "answer_coords": [1440, 1228]}, {"answer_val": "val_352", "answer_coords": [1440, 1262]}, {"answer_val": "val_353", "answer_coords": [1440, 1297]}, {"answer_val": "val_354", "answer_coords": [1440, 1332]}, {"answer_val": "val_355", "answer_coords": [1440, 1367]}, {"answer_val": "val_356", "answer_coords": [1440, 1438]}, {"answer_val": "val_357", "answer_coords": [1440, 1472]}, {"answer_val": "val_358", "answer_coords": [1441, 295]}, {"answer_val": "val_359", "answer_coords": [1441, 329]}, {"answer_val": "val_360", "answer_coords": [1441, 363]}, {"answer_val": "val_361", "answer_coords": [1441, 398]}, {"answer_val": "val_362", "answer_coords": [1441, 433]}, {"answer_val": "val_363", "answer_coords": [1441, 468]}, {"answer_val": "val_364", "answer_coords": [1441, 539]}, {"answer_val": "val_365", "answer_coords": [1441, 573]}, {"answer_val": "val_366", "answer_coords": [1441, 744]}, {"answer_val": "val_367", "answer_coords": [1441, 778]}, {"answer_val": "val_368", "answer_coords": [1441, 812]}, {"answer_val": "val_369", "answer_coords": [1441, 847]}, {"answer_val": "val_370", "answer_coords": [1441, 882]}, {"answer_val": "val_371", "answer_coords": [1441, 917]}, {"answer_val": "val_372", "answer_coords": [1441, 987]}, {"answer_val": "val_373", "answer_coords": [1441, 1021]}, {"answer_val": "val_374", "answer_coords": [1441, 1403]}, {"answer_val": "val_375", "answer_coords": [1442, 504]}, {"answer_val": "val_376", "answer_coords": [1442, 953]}, {"answer_val": "val_377", "answer_coords": [1483, 258]}, {"answer_val": "val_378", "answer_coords": [1483, 707]}, {"answer_val": "val_379", "answer_coords": [1483, 1157]}, {"answer_val": "val_380", "answer_coords": [1483, 1296]}, {"answer_val": "val_381", "answer_coords": [1483, 1366]}, {"answer_val": "val_382", "answer_coords": [1483, 1437]}, {"answer_val": "val_383", "answer_coords": [1483, 1471]}, {"answer_val": "val_384", "answer_coords": [1484, 294]}, {"answer_val": "val_385", "answer_coords": [1484, 328]}, {"answer_val": "val_386", "answer_coords": [1484, 362]}, {"answer_val": "val_387", "answer_coords": [1484, 397]}, {"answer_val": "val_388", "answer_coords": [1484, 432]}, {"answer_val": "val_389", "answer_coords": [1484, 467]}, {"answer_val": "val_390", "answer_coords": [1484, 538]}, {"answer_val": "val_391", "answer_coords": [1484, 572]}, {"answer_val": "val_392", "answer_coords": [1484, 743]}, {"answer_val": "val_393", "answer_coords": [1484, 777]}, {"answer_val": "val_394", "answer_coords": [1484, 811]}, {"answer_val": "val_395", "answer_coords": [1484, 846]}, {"answer_val": "val_396", "answer_coords": [1484, 881]}, {"answer_val": "val_397", "answer_coords": [1484, 916]}, {"answer_val": "val_398", "answer_coords": [1484, 987]}, {"answer_val": "val_399", "answer_coords": [1484, 1021]}], "2": [{"answer_val": "val_400", "answer_coords": [1484, 1193]}, {"answer_val": "val_401", "answer_coords": [1484, 1227]}, {"answer_val": "val_402", "answer_coords": [1484, 1261]}, {"answer_val": "val_403", "answer_coords": [1484, 1331]}, {"answer_val": "val_404", "answer_coords": [1484, 1403]}, {"answer_val": "val_405", "answer_coords": [1485, 504]}, {"answer_val": "val_406", "answer_coords": [1485, 952]}, {"answer_val": "val_407", "answer_coords": [1533, 259]}, {"answer_val": "val_408", "answer_coords": [1533, 708]}, {"answer_val": "val_409", "answer_coords": [1533, 1158]}, {"answer_val": "val_410", "answer_coords": [1534, 295]}, {"answer_val": "val_411", "answer_coords": [1534, 329]}, {"answer_val": "val_412", "answer_coords": [1534, 363]}, {"answer_val": "val_413", "answer_coords": [1534, 398]}, {"answer_val": "val_414", "answer_coords": [1534, 434]}, {"answer_val": "val_415", "answer_coords": [1534, 469]}, {"answer_val": "val_416", "answer_coords": [1534, 539]}, {"answer_val": "val_417", "answer_coords": [1534, 573]}, {"answer_val": "val_418", "answer_coords": [1534, 744]}, {"answer_val": "val_419", "answer_coords": [1534, 778]}, {"answer_val": "val_420", "answer_coords": [1534, 812]}, {"answer_val": "val_421", "answer_coords": [1534, 847]}, {"answer_val": "val_422", "answer_coords": [1534, 882]}, {"answer_val": "val_423", "answer_coords": [1534, 917]}, {"answer_val": "val_424", "answer_coords": [1534, 988]}, {"answer_val": "val_425", "answer_coords": [1534, 1022]}, {"answer_val": "val_426", "answer_coords": [1534, 1194]}, {"answer_val": "val_427", "answer_coords": [1534, 1228]}, {"answer_val": "val_428", "answer_coords": [1534, 1262]}, {"answer_val": "val_429", "answer_coords": [1534, 1297]}, {"answer_val": "val_430", "answer_coords": [1534, 1332]}, {"answer_val": "val_431", "answer_coords": [1534, 1368]}, {"answer_val": "val_432", "answer_coords": [1534, 1438]}, {"answer_val": "val_433", "answer_coords": [1534, 1472]}, {"answer_val": "val_434", "answer_coords": [1535, 505]}, {"answer_val": "val_435", "answer_coords": [1535, 954]}, {"answer_val": "val_436", "answer_coords": [1535, 1404]}, {"answer_val": "val_437", "answer_coords": [1584, 259]}, {"answer_val": "val_438", "answer_coords": [1584, 708]}, {"answer_val": "val_439", "answer_coords": [1584, 1158]}, {"answer_val": "val_440", "answer_coords": [1585, 295]}, {"answer_val": "val_441", "answer_coords": [1585, 329]}, {"answer_val": "val_442", "answer_coords": [1585, 364]}, {"answer_val": "val_443", "answer_coords": [1585, 399]}, {"answer_val": "val_444", "answer_coords": [1585, 434]}, {"answer_val": "val_445", "answer_coords": [1585, 469]}, {"answer_val": "val_446", "answer_coords": [1585, 539]}, {"answer_val": "val_447", "answer_coords": [1585, 573]}, {"answer_val": "val_448", "answer_coords": [1585, 744]}, {"answer_val": "val_449", "answer_coords": [1585, 778]}, {"answer_val": "val_450", "answer_coords": [1585, 812]}, {"answer_val": "val_451", "answer_coords": [1585, 847]}, {"answer_val": "val_452", "answer_coords": [1585, 883]}, {"answer_val": "val_453", "answer_coords": [1585, 918]}, {"answer_val": "val_454", "answer_coords": [1585, 988]}, {"answer_val": "val_455", "answer_coords": [1585, 1022]}, {"answer_val": "val_456", "answer_coords": [1585, 1194]}, {"answer_val": "val_457", "answer_coords": [1585, 1228]}, {"answer_val": "val_458", "answer_coords": [1585, 1263]}, {"answer_val": "val_459", "answer_coords": [1585, 1298]}, {"answer_val": "val_460", "answer_coords": [1585, 1333]}, {"answer_val": "val_461", "answer_coords": [1585, 1368]}, {"answer_val": "val_462", "answer_coords": [1585, 1438]}, {"answer_val": "val_463", "answer_coords": [1585, 1472]}, {"answer_val": "val_464", "answer_coords": [1586, 505]}, {"answer_val": "val_465", "answer_coords": [1586, 954]}, {"answer_val": "val_466", "answer_coords": [1586, 1404]}, {"answer_val": "val_467", "answer_coords": [1627, 258]}, {"answer_val": "val_468", "answer_coords": [1627, 707]}, {"answer_val": "val_469", "answer_coords": [1627, 1157]}, {"answer_val": "val_470", "answer_coords": [1628, 294]}, {"answer_val": "val_471", "answer_coords": [1628, 328]}, {"answer_val": "val_472", "answer_coords": [1628, 363]}, {"answer_val": "val_473", "answer_coords": [1628, 398]}, {"answer_val": "val_474", "answer_coords": [1628, 433]}, {"answer_val": "val_475", "answer_coords": [1628, 468]}, {"answer_val": "val_476", "answer_coords": [1628, 538]}, {"answer_val": "val_477", "answer_coords": [1628, 572]}, {"answer_val": "val_478", "answer_coords": [1628, 743]}, {"answer_val": "val_479", "answer_coords": [1628, 777]}, {"answer_val": "val_480", "answer_coords": [1628, 812]}, {"answer_val": "val_481", "answer_coords": [1628, 847]}, {"answer_val": "val_482", "answer_coords": [1628, 882]}, {"answer_val": "val_483", "answer_coords": [1628, 917]}, {"answer_val": "val_484", "answer_coords": [1628, 987]}, {"answer_val": "val_485", "answer_coords": [1628, 1021]}, {"answer_val": "val_486", "answer_coords": [1628, 1193]}, {"answer_val": "val_487", "answer_coords": [1628, 1227]}, {"answer_val": "val_488", "answer_coords": [1628, 1262]}, {"answer_val": "val_489", "answer_coords": [1628, 1297]}, {"answer_val": "val_490", "answer_coords": [1628, 1332]}, {"answer_val": "val_491", "answer_coords": [1628, 1367]}, {"answer_val": "val_492", "answer_coords": [1628, 1437]}, {"answer_val": "val_493", "answer_coords": [1628, 1471]}, {"answer_val": "val_494", "answer_coords": [1629, 504]}, {"answer_val": "val_495", "answer_coords": [1629, 953]}, {"answer_val": "val_496", "answer_coords": [1629, 1403]}, {"answer_val": "val_497", "answer_coords": [1800, 261]}, {"answer_val": "val_498", "answer_coords": [1800, 710]}, {"answer_val": "val_499", "answer_coords": [1800, 1160]}, {"answer_val": "val_500", "answer_coords": [1801, 297]}, {"answer_val": "val_501", "answer_coords": [1801, 331]}, {"answer_val": "val_502", "answer_coords": [1801, 365]}, {"answer_val": "val_503", "answer_coords": [1801, 400]}, {"answer_val": "val_504", "answer_coords": [1801, 435]}, {"answer_val": "val_505", "answer_coords": [1801, 470]}, {"answer_val": "val_506", "answer_coords": [1801, 540]}, {"answer_val": "val_507", "answer_coords": [1801, 574]}, {"answer_val": "val_508", "answer_coords": [1801, 746]}, {"answer_val": "val_509", "answer_coords": [1801, 780]}, {"answer_val": "val_510", "answer_coords": [1801, 814]}, {"answer_val": "val_511", "answer_coords": [1801, 849]}, {"answer_val": "val_512", "answer_coords": [1801, 884]}, {"answer_val": "val_513", "answer_coords": [1801, 919]}, {"answer_val": "val_514", "answer_coords": [1801, 989]}, {"answer_val": "val_515", "answer_coords": [1801, 1023]}, {"answer_val": "val_516", "answer_coords": [1801, 1196]}, {"answer_val": "val_517", "answer_coords": [1801, 1230]}, {"answer_val": "val_518", "answer_coords": [1801, 1264]}, {"answer_val": "val_519", "answer_coords": [1801, 1299]}, {"answer_val": "val_520", "answer_coords": [1801, 1334]}, {"answer_val": "val_521", "answer_coords": [1801, 1369]}, {"answer_val": "val_522", "answer_coords": [1801, 1440]}, {"answer_val": "val_523", "answer_coords": [1801, 1474]}, {"answer_val": "val_524", "answer_coords": [1802, 506]}, {"answer_val": "val_525", "answer_coords": [1802, 955]}, {"answer_val": "val_526", "answer_coords": [1802, 1406]}, {"answer_val": "val_527", "answer_coords": [1843, 1159]}, {"answer_val": "val_528", "answer_coords": [1844, 260]}, {"answer_val": "val_529", "answer_coords": [1844, 539]}, {"answer_val": "val_530", "answer_coords": [1844, 573]}, {"answer_val": "val_531", "answer_coords": [1844, 709]}, {"answer_val": "val_532", "answer_coords": [1844, 745]}, {"answer_val": "val_533", "answer_coords": [1844, 779]}, {"answer_val": "val_534", "answer_coords": [1844, 813]}, {"answer_val": "val_535", "answer_coords": [1844, 848]}, {"answer_val": "val_536", "answer_coords": [1844, 883]}, {"answer_val": "val_537", "answer_coords": [1844, 918]}, {"answer_val": "val_538", "answer_coords": [1844, 989]}, {"answer_val": "val_539", "answer_coords": [1844, 1023]}, {"answer_val": "val_540", "answer_coords": [1844, 1195]}, {"answer_val": "val_541", "answer_coords": [1844, 1229]}, {"answer_val": "val_542", "answer_coords": [1844, 1263]}, {"answer_val": "val_543", "answer_coords": [1844, 1298]}, {"answer_val": "val_544", "answer_coords": [1844, 1333]}, {"answer_val": "val_545", "answer_coords": [1844, 1369]}, {"answer_val": "val_546", "answer_coords": [1844, 1439]}, {"answer_val": "val_547", "answer_coords": [1844, 1473]}, {"answer_val": "val_548", "answer_coords": [1845, 296]}, {"answer_val": "val_549", "answer_coords": [1845, 330]}, {"answer_val": "val_550", "answer_coords": [1845, 364]}, {"answer_val": "val_551", "answer_coords": [1845, 399]}, {"answer_val": "val_552", "answer_coords": [1845, 434]}, {"answer_val": "val_553", "answer_coords": [1845, 469]}, {"answer_val": "val_554", "answer_coords": [1845, 505]}, {"answer_val": "val_555", "answer_coords": [1845, 954]}, {"answer_val": "val_556", "answer_coords": [1845, 1405]}, {"answer_val": "val_557", "answer_coords": [1895, 261]}, {"answer_val": "val_558", "answer_coords": [1895, 710]}, {"answer_val": "val_559", "answer_coords": [1895, 1160]}, {"answer_val": "val_560", "answer_coords": [1895, 1299]}, {"answer_val": "val_561", "answer_coords": [1895, 1439]}, {"answer_val": "val_562", "answer_coords": [1895, 1473]}, {"answer_val": "val_563", "answer_coords": [1896, 296]}, {"answer_val": "val_564", "answer_coords": [1896, 330]}, {"answer_val": "val_565", "answer_coords": [1896, 364]}, {"answer_val": "val_566", "answer_coords": [1896, 399]}, {"answer_val": "val_567", "answer_coords": [1896, 434]}, {"answer_val": "val_568", "answer_coords": [1896, 469]}, {"answer_val": "val_569", "answer_coords": [1896, 539]}, {"answer_val": "val_570", "answer_coords": [1896, 573]}, {"answer_val": "val_571", "answer_coords": [1896, 745]}, {"answer_val": "val_572", "answer_coords": [1896, 779]}, {"answer_val": "val_573", "answer_coords": [1896, 813]}, {"answer_val": "val_574", "answer_coords": [1896, 848]}, {"answer_val": "val_575", "answer_coords": [1896, 883]}, {"answer_val": "val_576", "answer_coords": [1896, 918]}, {"answer_val": "val_577", "answer_coords": [1896, 989]}, {"answer_val": "val_578", "answer_coords": [1896, 1023]}, {"answer_val": "val_579", "answer_coords": [1896, 1195]}, {"answer_val": "val_580", "answer_coords": [1896, 1229]}, {"answer_val": "val_581", "answer_coords": [1896, 1264]}, {"answer_val": "val_582", "answer_coords": [1896, 1334]}, {"answer_val": "val_583", "answer_coords": [1896, 1369]}, {"answer_val": "val_584", "answer_coords": [1896, 1405]}, {"answer_val": "val_585", "answer_coords": [1897, 505]}, {"answer_val": "val_586", "answer_coords": [1897, 954]}, {"answer_val": "val_587", "answer_coords": [1938, 259]}, {"answer_val": "val_588", "answer_coords": [1938, 708]}, {"answer_val": "val_589", "answer_coords": [1938, 1158]}, {"answer_val": "val_590", "answer_coords": [1939, 295]}, {"answer_val": "val_591", "answer_coords": [1939, 329]}, {"answer_val": "val_592", "answer_coords": [1939, 363]}, {"answer_val": "val_593", "answer_coords": [1939, 398]}, {"answer_val": "val_594", "answer_coords": [1939, 433]}, {"answer_val": "val_595", "answer_coords": [1939, 468]}, {"answer_val": "val_596", "answer_coords": [1939, 539]}, {"answer_val": "val_597", "answer_coords": [1939, 573]}, {"answer_val": "val_598", "answer_coords": [1939, 744]}, {"answer_val": "val_599", "answer_coords": [1939, 778]}, {"answer_val": "val_600", "answer_coords": [1939, 812]}, {"answer_val": "val_601", "answer_coords": [1939, 847]}, {"answer_val": "val_602", "answer_coords": [1939, 882]}, {"answer_val": "val_603", "answer_coords": [1939, 917]}, {"answer_val": "val_604", "answer_coords": [1939, 989]}, {"answer_val": "val_605", "answer_coords": [1939, 1022]}, {"answer_val": "val_606", "answer_coords": [1939, 1194]}, {"answer_val": "val_607", "answer_coords": [1939, 1228]}, {"answer_val": "val_608", "answer_coords": [1939, 1263]}, {"answer_val": "val_609", "answer_coords": [1939, 1298]}, {"answer_val": "val_610", "answer_coords": [1939, 1333]}, {"answer_val": "val_611", "answer_coords": [1939, 1368]}, {"answer_val": "val_612", "answer_coords": [1939, 1438]}, {"answer_val": "val_613", "answer_coords": [1939, 1472]}, {"answer_val": "val_614", "answer_coords": [1940, 504]}, {"answer_val": "val_615", "answer_coords": [1940, 954]}, {"answer_val": "val_616", "answer_coords": [1940, 1404]}, {"answer_val": "val_617", "answer_coords": [1988, 260]}, {"answer_val": "val_618", "answer_coords": [1988, 709]}, {"answer_val": "val_619", "answer_coords": [1988, 1159]}, {"answer_val": "val_620", "answer_coords": [1989, 296]}, {"answer_val": "val_621", "answer_coords": [1989, 330]}, {"answer_val": "val_622", "answer_coords": [1989, 364]}, {"answer_val": "val_623", "answer_coords": [1989, 399]}, {"answer_val": "val_624", "answer_coords": [1989, 434]}, {"answer_val": "val_625", "answer_coords": [1989, 469]}, {"answer_val": "val_626", "answer_coords": [1989, 540]}, {"answer_val": "val_627", "answer_coords": [1989, 574]}, {"answer_val": "val_628", "answer_coords": [1989, 745]}, {"answer_val": "val_629", "answer_coords": [1989, 779]}, {"answer_val": "val_630", "answer_coords": [1989, 813]}, {"answer_val": "val_631", "answer_coords": [1989, 848]}, {"answer_val": "val_632", "answer_coords": [1989, 884]}, {"answer_val": "val_633", "answer_coords": [1989, 919]}, {"answer_val": "val_634", "answer_coords": [1989, 989]}, {"answer_val": "val_635", "answer_coords": [1989, 1023]}, {"answer_val": "val_636", "answer_coords": [1989, 1195]}, {"answer_val": "val_637", "answer_coords": [1989, 1230]}, {"answer_val": "val_638", "answer_coords": [1989, 1264]}, {"answer_val": "val_639", "answer_coords": [1989, 1299]}, {"answer_val": "val_640", "answer_coords": [1989, 1334]}, {"answer_val": "val_641", "answer_coords": [1989, 1369]}, {"answer_val": "val_642", "answer_coords": [1989, 1439]}, {"answer_val": "val_643", "answer_coords": [1989, 1473]}, {"answer_val": "val_644", "answer_coords": [1990, 505]}, {"answer_val": "val_645", "answer_coords": [1990, 955]}, {"answer_val": "val_646", "answer_coords": [1990, 1405]}, {"answer_val": "val_647", "answer_coords": [2039, 261]}, {"answer_val": "val_648", "answer_coords": [2039, 710]}, {"answer_val": "val_649", "answer_coords": [2039, 1161]}, {"answer_val": "val_650", "answer_coords": [2040, 296]}, {"answer_val": "val_651", "answer_coords": [2040, 330]}, {"answer_val": "val_652", "answer_coords": [2040, 364]}, {"answer_val": "val_653", "answer_coords": [2040, 399]}, {"answer_val": "val_654", "answer_coords": [2040, 434]}, {"answer_val": "val_655", "answer_coords": [2040, 469]}, {"answer_val": "val_656", "answer_coords": [2040, 540]}, {"answer_val": "val_657", "answer_coords": [2040, 574]}, {"answer_val": "val_658", "answer_coords": [2040, 745]}, {"answer_val": "val_659", "answer_coords": [2040, 779]}, {"answer_val": "val_660", "answer_coords": [2040, 813]}, {"answer_val": "val_661", "answer_coords": [2040, 849]}, {"answer_val": "val_662", "answer_coords": [2040, 884]}, {"answer_val": "val_663", "answer_coords": [2040, 919]}, {"answer_val": "val_664", "answer_coords": [2040, 989]}, {"answer_val": "val_665", "answer_coords": [2040, 1023]}, {"answer_val": "val_666", "answer_coords": [2040, 1196]}, {"answer_val": "val_667", "answer_coords": [2040, 1230]}, {"answer_val": "val_668", "answer_coords": [2040, 1264]}, {"answer_val": "val_669", "answer_coords": [2040, 1299]}, {"answer_val": "val_670", "answer_coords": [2040, 1334]}, {"answer_val": "val_671", "answer_coords": [2040, 1369]}, {"answer_val": "val_672", "answer_coords": [2040, 1440]}, {"answer_val": "val_673", "answer_coords": [2040, 1474]}, {"answer_val": "val_674", "answer_coords": [2041, 506]}, {"answer_val": "val_675", "answer_coords": [2041, 955]}, {"answer_val": "val_676", "answer_coords": [2041, 1405]}, {"answer_val": "val_677", "answer_coords": [2082, 259]}, {"answer_val": "val_678", "answer_coords": [2082, 708]}, {"answer_val": "val_679", "answer_coords": [2082, 1159]}, {"answer_val": "val_680", "answer_coords": [2083, 295]}, {"answer_val": "val_681", "answer_coords": [2083, 329]}, {"answer_val": "val_682", "answer_coords": [2083, 363]}, {"answer_val": "val_683", "answer_coords": [2083, 398]}, {"answer_val": "val_684", "answer_coords": [2083, 433]}, {"answer_val": "val_685", "answer_coords": [2083, 469]}, {"answer_val": "val_686", "answer_coords": [2083, 540]}, {"answer_val": "val_687", "answer_coords": [2083, 573]}, {"answer_val": "val_688", "answer_coords": [2083, 744]}, {"answer_val": "val_689", "answer_coords": [2083, 778]}, {"answer_val": "val_690", "answer_coords": [2083, 813]}, {"answer_val": "val_691", "answer_coords": [2083, 848]}, {"answer_val": "val_692", "answer_coords": [2083, 883]}, {"answer_val": "val_693", "answer_coords": [2083, 918]}, {"answer_val": "val_694", "answer_coords": [2083, 989]}, {"answer_val": "val_695", "answer_coords": [2083, 1022]}, {"answer_val": "val_696", "answer_coords": [2083, 1195]}, {"answer_val": "val_697", "answer_coords": [2083, 1229]}, {"answer_val": "val_698", "answer_coords": [2083, 1263]}, {"answer_val": "val_699", "answer_coords": [2083, 1298]}, {"answer_val": "val_700", "answer_coords": [2083, 1333]}, {"answer_val": "val_701", "answer_coords": [2083, 1368]}, {"answer_val": "val_702", "answer_coords": [2083, 1439]}, {"answer_val": "val_703", "answer_coords": [2083, 1473]}, {"answer_val": "val_704", "answer_coords": [2084, 505]}, {"answer_val": "val_705", "answer_coords": [2084, 954]}, {"answer_val": "val_706", "answer_coords": [2084, 1405]}]}
+{
+    "config": {
+        "radius": 15
+    },
+    "questions": {
+        "1": [
+            {
+                "answer_val": "val_0",
+                "answer_coords": [
+                    73,
+                    711
+                ]
+            },
+            {
+                "answer_val": "val_1",
+                "answer_coords": [
+                    74,
+                    676
+                ]
+            },
+            {
+                "answer_val": "val_2",
+                "answer_coords": [
+                    74,
+                    745
+                ]
+            },
+            {
+                "answer_val": "val_3",
+                "answer_coords": [
+                    74,
+                    780
+                ]
+            },
+            {
+                "answer_val": "val_4",
+                "answer_coords": [
+                    121,
+                    953
+                ]
+            },
+            {
+                "answer_val": "val_5",
+                "answer_coords": [
+                    121,
+                    1196
+                ]
+            },
+            {
+                "answer_val": "val_6",
+                "answer_coords": [
+                    121,
+                    1230
+                ]
+            },
+            {
+                "answer_val": "val_7",
+                "answer_coords": [
+                    121,
+                    1265
+                ]
+            },
+            {
+                "answer_val": "val_8",
+                "answer_coords": [
+                    121,
+                    1300
+                ]
+            },
+            {
+                "answer_val": "val_9",
+                "answer_coords": [
+                    121,
+                    1333
+                ]
+            },
+            {
+                "answer_val": "val_10",
+                "answer_coords": [
+                    121,
+                    1368
+                ]
+            },
+            {
+                "answer_val": "val_11",
+                "answer_coords": [
+                    121,
+                    1403
+                ]
+            },
+            {
+                "answer_val": "val_12",
+                "answer_coords": [
+                    121,
+                    1438
+                ]
+            },
+            {
+                "answer_val": "val_13",
+                "answer_coords": [
+                    121,
+                    1472
+                ]
+            },
+            {
+                "answer_val": "val_14",
+                "answer_coords": [
+                    121,
+                    1507
+                ]
+            },
+            {
+                "answer_val": "val_15",
+                "answer_coords": [
+                    122,
+                    711
+                ]
+            },
+            {
+                "answer_val": "val_16",
+                "answer_coords": [
+                    122,
+                    847
+                ]
+            },
+            {
+                "answer_val": "val_17",
+                "answer_coords": [
+                    122,
+                    988
+                ]
+            },
+            {
+                "answer_val": "val_18",
+                "answer_coords": [
+                    123,
+                    676
+                ]
+            },
+            {
+                "answer_val": "val_19",
+                "answer_coords": [
+                    123,
+                    745
+                ]
+            },
+            {
+                "answer_val": "val_20",
+                "answer_coords": [
+                    123,
+                    780
+                ]
+            },
+            {
+                "answer_val": "val_21",
+                "answer_coords": [
+                    123,
+                    813
+                ]
+            },
+            {
+                "answer_val": "val_22",
+                "answer_coords": [
+                    123,
+                    881
+                ]
+            },
+            {
+                "answer_val": "val_23",
+                "answer_coords": [
+                    123,
+                    916
+                ]
+            },
+            {
+                "answer_val": "val_24",
+                "answer_coords": [
+                    169,
+                    1196
+                ]
+            },
+            {
+                "answer_val": "val_25",
+                "answer_coords": [
+                    169,
+                    1230
+                ]
+            },
+            {
+                "answer_val": "val_26",
+                "answer_coords": [
+                    169,
+                    1265
+                ]
+            },
+            {
+                "answer_val": "val_27",
+                "answer_coords": [
+                    169,
+                    1300
+                ]
+            },
+            {
+                "answer_val": "val_28",
+                "answer_coords": [
+                    169,
+                    1333
+                ]
+            },
+            {
+                "answer_val": "val_29",
+                "answer_coords": [
+                    169,
+                    1368
+                ]
+            },
+            {
+                "answer_val": "val_30",
+                "answer_coords": [
+                    169,
+                    1403
+                ]
+            },
+            {
+                "answer_val": "val_31",
+                "answer_coords": [
+                    169,
+                    1438
+                ]
+            },
+            {
+                "answer_val": "val_32",
+                "answer_coords": [
+                    169,
+                    1472
+                ]
+            },
+            {
+                "answer_val": "val_33",
+                "answer_coords": [
+                    169,
+                    1507
+                ]
+            },
+            {
+                "answer_val": "val_34",
+                "answer_coords": [
+                    216,
+                    1195
+                ]
+            },
+            {
+                "answer_val": "val_35",
+                "answer_coords": [
+                    216,
+                    1230
+                ]
+            },
+            {
+                "answer_val": "val_36",
+                "answer_coords": [
+                    216,
+                    1265
+                ]
+            },
+            {
+                "answer_val": "val_37",
+                "answer_coords": [
+                    216,
+                    1300
+                ]
+            },
+            {
+                "answer_val": "val_38",
+                "answer_coords": [
+                    216,
+                    1333
+                ]
+            },
+            {
+                "answer_val": "val_39",
+                "answer_coords": [
+                    216,
+                    1368
+                ]
+            },
+            {
+                "answer_val": "val_40",
+                "answer_coords": [
+                    216,
+                    1403
+                ]
+            },
+            {
+                "answer_val": "val_41",
+                "answer_coords": [
+                    216,
+                    1438
+                ]
+            },
+            {
+                "answer_val": "val_42",
+                "answer_coords": [
+                    216,
+                    1472
+                ]
+            },
+            {
+                "answer_val": "val_43",
+                "answer_coords": [
+                    216,
+                    1507
+                ]
+            },
+            {
+                "answer_val": "val_44",
+                "answer_coords": [
+                    218,
+                    953
+                ]
+            },
+            {
+                "answer_val": "val_45",
+                "answer_coords": [
+                    219,
+                    988
+                ]
+            },
+            {
+                "answer_val": "val_46",
+                "answer_coords": [
+                    219,
+                    1023
+                ]
+            },
+            {
+                "answer_val": "val_47",
+                "answer_coords": [
+                    220,
+                    711
+                ]
+            },
+            {
+                "answer_val": "val_48",
+                "answer_coords": [
+                    220,
+                    813
+                ]
+            },
+            {
+                "answer_val": "val_49",
+                "answer_coords": [
+                    220,
+                    847
+                ]
+            },
+            {
+                "answer_val": "val_50",
+                "answer_coords": [
+                    220,
+                    1057
+                ]
+            },
+            {
+                "answer_val": "val_51",
+                "answer_coords": [
+                    221,
+                    676
+                ]
+            },
+            {
+                "answer_val": "val_52",
+                "answer_coords": [
+                    221,
+                    745
+                ]
+            },
+            {
+                "answer_val": "val_53",
+                "answer_coords": [
+                    221,
+                    780
+                ]
+            },
+            {
+                "answer_val": "val_54",
+                "answer_coords": [
+                    221,
+                    881
+                ]
+            },
+            {
+                "answer_val": "val_55",
+                "answer_coords": [
+                    221,
+                    916
+                ]
+            },
+            {
+                "answer_val": "val_56",
+                "answer_coords": [
+                    264,
+                    1195
+                ]
+            },
+            {
+                "answer_val": "val_57",
+                "answer_coords": [
+                    264,
+                    1230
+                ]
+            },
+            {
+                "answer_val": "val_58",
+                "answer_coords": [
+                    264,
+                    1265
+                ]
+            },
+            {
+                "answer_val": "val_59",
+                "answer_coords": [
+                    264,
+                    1300
+                ]
+            },
+            {
+                "answer_val": "val_60",
+                "answer_coords": [
+                    264,
+                    1333
+                ]
+            },
+            {
+                "answer_val": "val_61",
+                "answer_coords": [
+                    264,
+                    1368
+                ]
+            },
+            {
+                "answer_val": "val_62",
+                "answer_coords": [
+                    264,
+                    1403
+                ]
+            },
+            {
+                "answer_val": "val_63",
+                "answer_coords": [
+                    264,
+                    1438
+                ]
+            },
+            {
+                "answer_val": "val_64",
+                "answer_coords": [
+                    264,
+                    1472
+                ]
+            },
+            {
+                "answer_val": "val_65",
+                "answer_coords": [
+                    264,
+                    1507
+                ]
+            },
+            {
+                "answer_val": "val_66",
+                "answer_coords": [
+                    312,
+                    711
+                ]
+            },
+            {
+                "answer_val": "val_67",
+                "answer_coords": [
+                    312,
+                    745
+                ]
+            },
+            {
+                "answer_val": "val_68",
+                "answer_coords": [
+                    312,
+                    780
+                ]
+            },
+            {
+                "answer_val": "val_69",
+                "answer_coords": [
+                    312,
+                    813
+                ]
+            },
+            {
+                "answer_val": "val_70",
+                "answer_coords": [
+                    312,
+                    1196
+                ]
+            },
+            {
+                "answer_val": "val_71",
+                "answer_coords": [
+                    312,
+                    1230
+                ]
+            },
+            {
+                "answer_val": "val_72",
+                "answer_coords": [
+                    312,
+                    1265
+                ]
+            },
+            {
+                "answer_val": "val_73",
+                "answer_coords": [
+                    312,
+                    1300
+                ]
+            },
+            {
+                "answer_val": "val_74",
+                "answer_coords": [
+                    312,
+                    1333
+                ]
+            },
+            {
+                "answer_val": "val_75",
+                "answer_coords": [
+                    312,
+                    1369
+                ]
+            },
+            {
+                "answer_val": "val_76",
+                "answer_coords": [
+                    312,
+                    1404
+                ]
+            },
+            {
+                "answer_val": "val_77",
+                "answer_coords": [
+                    312,
+                    1439
+                ]
+            },
+            {
+                "answer_val": "val_78",
+                "answer_coords": [
+                    312,
+                    1473
+                ]
+            },
+            {
+                "answer_val": "val_79",
+                "answer_coords": [
+                    312,
+                    1508
+                ]
+            },
+            {
+                "answer_val": "val_80",
+                "answer_coords": [
+                    313,
+                    676
+                ]
+            },
+            {
+                "answer_val": "val_81",
+                "answer_coords": [
+                    361,
+                    1196
+                ]
+            },
+            {
+                "answer_val": "val_82",
+                "answer_coords": [
+                    361,
+                    1231
+                ]
+            },
+            {
+                "answer_val": "val_83",
+                "answer_coords": [
+                    361,
+                    1266
+                ]
+            },
+            {
+                "answer_val": "val_84",
+                "answer_coords": [
+                    361,
+                    1301
+                ]
+            },
+            {
+                "answer_val": "val_85",
+                "answer_coords": [
+                    361,
+                    1334
+                ]
+            },
+            {
+                "answer_val": "val_86",
+                "answer_coords": [
+                    361,
+                    1369
+                ]
+            },
+            {
+                "answer_val": "val_87",
+                "answer_coords": [
+                    361,
+                    1404
+                ]
+            },
+            {
+                "answer_val": "val_88",
+                "answer_coords": [
+                    361,
+                    1439
+                ]
+            },
+            {
+                "answer_val": "val_89",
+                "answer_coords": [
+                    361,
+                    1473
+                ]
+            },
+            {
+                "answer_val": "val_90",
+                "answer_coords": [
+                    361,
+                    1508
+                ]
+            },
+            {
+                "answer_val": "val_91",
+                "answer_coords": [
+                    411,
+                    989
+                ]
+            },
+            {
+                "answer_val": "val_92",
+                "answer_coords": [
+                    411,
+                    1024
+                ]
+            },
+            {
+                "answer_val": "val_93",
+                "answer_coords": [
+                    417,
+                    1196
+                ]
+            },
+            {
+                "answer_val": "val_94",
+                "answer_coords": [
+                    417,
+                    1231
+                ]
+            },
+            {
+                "answer_val": "val_95",
+                "answer_coords": [
+                    417,
+                    1266
+                ]
+            },
+            {
+                "answer_val": "val_96",
+                "answer_coords": [
+                    417,
+                    1301
+                ]
+            },
+            {
+                "answer_val": "val_97",
+                "answer_coords": [
+                    417,
+                    1334
+                ]
+            },
+            {
+                "answer_val": "val_98",
+                "answer_coords": [
+                    417,
+                    1369
+                ]
+            },
+            {
+                "answer_val": "val_99",
+                "answer_coords": [
+                    417,
+                    1404
+                ]
+            },
+            {
+                "answer_val": "val_100",
+                "answer_coords": [
+                    417,
+                    1439
+                ]
+            },
+            {
+                "answer_val": "val_101",
+                "answer_coords": [
+                    417,
+                    1473
+                ]
+            },
+            {
+                "answer_val": "val_102",
+                "answer_coords": [
+                    417,
+                    1509
+                ]
+            },
+            {
+                "answer_val": "val_103",
+                "answer_coords": [
+                    459,
+                    1024
+                ]
+            },
+            {
+                "answer_val": "val_104",
+                "answer_coords": [
+                    460,
+                    989
+                ]
+            },
+            {
+                "answer_val": "val_105",
+                "answer_coords": [
+                    464,
+                    1369
+                ]
+            },
+            {
+                "answer_val": "val_106",
+                "answer_coords": [
+                    464,
+                    1404
+                ]
+            },
+            {
+                "answer_val": "val_107",
+                "answer_coords": [
+                    464,
+                    1439
+                ]
+            },
+            {
+                "answer_val": "val_108",
+                "answer_coords": [
+                    464,
+                    1473
+                ]
+            },
+            {
+                "answer_val": "val_109",
+                "answer_coords": [
+                    464,
+                    1508
+                ]
+            },
+            {
+                "answer_val": "val_110",
+                "answer_coords": [
+                    465,
+                    1196
+                ]
+            },
+            {
+                "answer_val": "val_111",
+                "answer_coords": [
+                    465,
+                    1231
+                ]
+            },
+            {
+                "answer_val": "val_112",
+                "answer_coords": [
+                    465,
+                    1266
+                ]
+            },
+            {
+                "answer_val": "val_113",
+                "answer_coords": [
+                    465,
+                    1301
+                ]
+            },
+            {
+                "answer_val": "val_114",
+                "answer_coords": [
+                    465,
+                    1334
+                ]
+            },
+            {
+                "answer_val": "val_115",
+                "answer_coords": [
+                    507,
+                    1024
+                ]
+            },
+            {
+                "answer_val": "val_116",
+                "answer_coords": [
+                    508,
+                    989
+                ]
+            },
+            {
+                "answer_val": "val_117",
+                "answer_coords": [
+                    511,
+                    1335
+                ]
+            },
+            {
+                "answer_val": "val_118",
+                "answer_coords": [
+                    511,
+                    1370
+                ]
+            },
+            {
+                "answer_val": "val_119",
+                "answer_coords": [
+                    511,
+                    1405
+                ]
+            },
+            {
+                "answer_val": "val_120",
+                "answer_coords": [
+                    511,
+                    1440
+                ]
+            },
+            {
+                "answer_val": "val_121",
+                "answer_coords": [
+                    511,
+                    1474
+                ]
+            },
+            {
+                "answer_val": "val_122",
+                "answer_coords": [
+                    511,
+                    1509
+                ]
+            },
+            {
+                "answer_val": "val_123",
+                "answer_coords": [
+                    512,
+                    1197
+                ]
+            },
+            {
+                "answer_val": "val_124",
+                "answer_coords": [
+                    512,
+                    1232
+                ]
+            },
+            {
+                "answer_val": "val_125",
+                "answer_coords": [
+                    512,
+                    1267
+                ]
+            },
+            {
+                "answer_val": "val_126",
+                "answer_coords": [
+                    512,
+                    1301
+                ]
+            },
+            {
+                "answer_val": "val_127",
+                "answer_coords": [
+                    556,
+                    1024
+                ]
+            },
+            {
+                "answer_val": "val_128",
+                "answer_coords": [
+                    557,
+                    989
+                ]
+            },
+            {
+                "answer_val": "val_129",
+                "answer_coords": [
+                    559,
+                    1196
+                ]
+            },
+            {
+                "answer_val": "val_130",
+                "answer_coords": [
+                    559,
+                    1231
+                ]
+            },
+            {
+                "answer_val": "val_131",
+                "answer_coords": [
+                    559,
+                    1266
+                ]
+            },
+            {
+                "answer_val": "val_132",
+                "answer_coords": [
+                    559,
+                    1301
+                ]
+            },
+            {
+                "answer_val": "val_133",
+                "answer_coords": [
+                    559,
+                    1334
+                ]
+            },
+            {
+                "answer_val": "val_134",
+                "answer_coords": [
+                    559,
+                    1369
+                ]
+            },
+            {
+                "answer_val": "val_135",
+                "answer_coords": [
+                    559,
+                    1404
+                ]
+            },
+            {
+                "answer_val": "val_136",
+                "answer_coords": [
+                    559,
+                    1439
+                ]
+            },
+            {
+                "answer_val": "val_137",
+                "answer_coords": [
+                    559,
+                    1473
+                ]
+            },
+            {
+                "answer_val": "val_138",
+                "answer_coords": [
+                    559,
+                    1509
+                ]
+            },
+            {
+                "answer_val": "val_139",
+                "answer_coords": [
+                    603,
+                    712
+                ]
+            },
+            {
+                "answer_val": "val_140",
+                "answer_coords": [
+                    604,
+                    677
+                ]
+            },
+            {
+                "answer_val": "val_141",
+                "answer_coords": [
+                    604,
+                    746
+                ]
+            },
+            {
+                "answer_val": "val_142",
+                "answer_coords": [
+                    604,
+                    781
+                ]
+            },
+            {
+                "answer_val": "val_143",
+                "answer_coords": [
+                    604,
+                    1024
+                ]
+            },
+            {
+                "answer_val": "val_144",
+                "answer_coords": [
+                    605,
+                    989
+                ]
+            },
+            {
+                "answer_val": "val_145",
+                "answer_coords": [
+                    608,
+                    1196
+                ]
+            },
+            {
+                "answer_val": "val_146",
+                "answer_coords": [
+                    608,
+                    1231
+                ]
+            },
+            {
+                "answer_val": "val_147",
+                "answer_coords": [
+                    608,
+                    1266
+                ]
+            },
+            {
+                "answer_val": "val_148",
+                "answer_coords": [
+                    608,
+                    1301
+                ]
+            },
+            {
+                "answer_val": "val_149",
+                "answer_coords": [
+                    608,
+                    1334
+                ]
+            },
+            {
+                "answer_val": "val_150",
+                "answer_coords": [
+                    608,
+                    1370
+                ]
+            },
+            {
+                "answer_val": "val_151",
+                "answer_coords": [
+                    608,
+                    1405
+                ]
+            },
+            {
+                "answer_val": "val_152",
+                "answer_coords": [
+                    608,
+                    1440
+                ]
+            },
+            {
+                "answer_val": "val_153",
+                "answer_coords": [
+                    608,
+                    1474
+                ]
+            },
+            {
+                "answer_val": "val_154",
+                "answer_coords": [
+                    608,
+                    1510
+                ]
+            },
+            {
+                "answer_val": "val_155",
+                "answer_coords": [
+                    656,
+                    1196
+                ]
+            },
+            {
+                "answer_val": "val_156",
+                "answer_coords": [
+                    656,
+                    1232
+                ]
+            },
+            {
+                "answer_val": "val_157",
+                "answer_coords": [
+                    656,
+                    1267
+                ]
+            },
+            {
+                "answer_val": "val_158",
+                "answer_coords": [
+                    656,
+                    1302
+                ]
+            },
+            {
+                "answer_val": "val_159",
+                "answer_coords": [
+                    656,
+                    1335
+                ]
+            },
+            {
+                "answer_val": "val_160",
+                "answer_coords": [
+                    656,
+                    1370
+                ]
+            },
+            {
+                "answer_val": "val_161",
+                "answer_coords": [
+                    656,
+                    1405
+                ]
+            },
+            {
+                "answer_val": "val_162",
+                "answer_coords": [
+                    656,
+                    1440
+                ]
+            },
+            {
+                "answer_val": "val_163",
+                "answer_coords": [
+                    656,
+                    1474
+                ]
+            },
+            {
+                "answer_val": "val_164",
+                "answer_coords": [
+                    656,
+                    1509
+                ]
+            },
+            {
+                "answer_val": "val_165",
+                "answer_coords": [
+                    703,
+                    1198
+                ]
+            },
+            {
+                "answer_val": "val_166",
+                "answer_coords": [
+                    703,
+                    1233
+                ]
+            },
+            {
+                "answer_val": "val_167",
+                "answer_coords": [
+                    703,
+                    1268
+                ]
+            },
+            {
+                "answer_val": "val_168",
+                "answer_coords": [
+                    703,
+                    1302
+                ]
+            },
+            {
+                "answer_val": "val_169",
+                "answer_coords": [
+                    703,
+                    1336
+                ]
+            },
+            {
+                "answer_val": "val_170",
+                "answer_coords": [
+                    703,
+                    1371
+                ]
+            },
+            {
+                "answer_val": "val_171",
+                "answer_coords": [
+                    703,
+                    1406
+                ]
+            },
+            {
+                "answer_val": "val_172",
+                "answer_coords": [
+                    703,
+                    1441
+                ]
+            },
+            {
+                "answer_val": "val_173",
+                "answer_coords": [
+                    703,
+                    1475
+                ]
+            },
+            {
+                "answer_val": "val_174",
+                "answer_coords": [
+                    703,
+                    1510
+                ]
+            },
+            {
+                "answer_val": "val_175",
+                "answer_coords": [
+                    751,
+                    1197
+                ]
+            },
+            {
+                "answer_val": "val_176",
+                "answer_coords": [
+                    751,
+                    1232
+                ]
+            },
+            {
+                "answer_val": "val_177",
+                "answer_coords": [
+                    751,
+                    1267
+                ]
+            },
+            {
+                "answer_val": "val_178",
+                "answer_coords": [
+                    751,
+                    1302
+                ]
+            },
+            {
+                "answer_val": "val_179",
+                "answer_coords": [
+                    751,
+                    1335
+                ]
+            },
+            {
+                "answer_val": "val_180",
+                "answer_coords": [
+                    751,
+                    1370
+                ]
+            },
+            {
+                "answer_val": "val_181",
+                "answer_coords": [
+                    751,
+                    1405
+                ]
+            },
+            {
+                "answer_val": "val_182",
+                "answer_coords": [
+                    751,
+                    1440
+                ]
+            },
+            {
+                "answer_val": "val_183",
+                "answer_coords": [
+                    751,
+                    1474
+                ]
+            },
+            {
+                "answer_val": "val_184",
+                "answer_coords": [
+                    751,
+                    1509
+                ]
+            },
+            {
+                "answer_val": "val_185",
+                "answer_coords": [
+                    793,
+                    712
+                ]
+            },
+            {
+                "answer_val": "val_186",
+                "answer_coords": [
+                    794,
+                    677
+                ]
+            },
+            {
+                "answer_val": "val_187",
+                "answer_coords": [
+                    794,
+                    746
+                ]
+            },
+            {
+                "answer_val": "val_188",
+                "answer_coords": [
+                    794,
+                    781
+                ]
+            },
+            {
+                "answer_val": "val_189",
+                "answer_coords": [
+                    799,
+                    1198
+                ]
+            },
+            {
+                "answer_val": "val_190",
+                "answer_coords": [
+                    799,
+                    1233
+                ]
+            },
+            {
+                "answer_val": "val_191",
+                "answer_coords": [
+                    799,
+                    1268
+                ]
+            },
+            {
+                "answer_val": "val_192",
+                "answer_coords": [
+                    799,
+                    1302
+                ]
+            },
+            {
+                "answer_val": "val_193",
+                "answer_coords": [
+                    799,
+                    1336
+                ]
+            },
+            {
+                "answer_val": "val_194",
+                "answer_coords": [
+                    799,
+                    1371
+                ]
+            },
+            {
+                "answer_val": "val_195",
+                "answer_coords": [
+                    799,
+                    1406
+                ]
+            },
+            {
+                "answer_val": "val_196",
+                "answer_coords": [
+                    799,
+                    1441
+                ]
+            },
+            {
+                "answer_val": "val_197",
+                "answer_coords": [
+                    799,
+                    1475
+                ]
+            },
+            {
+                "answer_val": "val_198",
+                "answer_coords": [
+                    799,
+                    1510
+                ]
+            },
+            {
+                "answer_val": "val_199",
+                "answer_coords": [
+                    847,
+                    1197
+                ]
+            },
+            {
+                "answer_val": "val_200",
+                "answer_coords": [
+                    847,
+                    1232
+                ]
+            },
+            {
+                "answer_val": "val_201",
+                "answer_coords": [
+                    847,
+                    1267
+                ]
+            },
+            {
+                "answer_val": "val_202",
+                "answer_coords": [
+                    847,
+                    1302
+                ]
+            },
+            {
+                "answer_val": "val_203",
+                "answer_coords": [
+                    847,
+                    1335
+                ]
+            },
+            {
+                "answer_val": "val_204",
+                "answer_coords": [
+                    847,
+                    1370
+                ]
+            },
+            {
+                "answer_val": "val_205",
+                "answer_coords": [
+                    847,
+                    1405
+                ]
+            },
+            {
+                "answer_val": "val_206",
+                "answer_coords": [
+                    847,
+                    1440
+                ]
+            },
+            {
+                "answer_val": "val_207",
+                "answer_coords": [
+                    847,
+                    1475
+                ]
+            },
+            {
+                "answer_val": "val_208",
+                "answer_coords": [
+                    847,
+                    1510
+                ]
+            },
+            {
+                "answer_val": "val_209",
+                "answer_coords": [
+                    888,
+                    1197
+                ]
+            },
+            {
+                "answer_val": "val_210",
+                "answer_coords": [
+                    888,
+                    1232
+                ]
+            },
+            {
+                "answer_val": "val_211",
+                "answer_coords": [
+                    888,
+                    1267
+                ]
+            },
+            {
+                "answer_val": "val_212",
+                "answer_coords": [
+                    888,
+                    1302
+                ]
+            },
+            {
+                "answer_val": "val_213",
+                "answer_coords": [
+                    888,
+                    1335
+                ]
+            },
+            {
+                "answer_val": "val_214",
+                "answer_coords": [
+                    888,
+                    1370
+                ]
+            },
+            {
+                "answer_val": "val_215",
+                "answer_coords": [
+                    888,
+                    1406
+                ]
+            },
+            {
+                "answer_val": "val_216",
+                "answer_coords": [
+                    888,
+                    1441
+                ]
+            },
+            {
+                "answer_val": "val_217",
+                "answer_coords": [
+                    888,
+                    1475
+                ]
+            },
+            {
+                "answer_val": "val_218",
+                "answer_coords": [
+                    888,
+                    1510
+                ]
+            },
+            {
+                "answer_val": "val_219",
+                "answer_coords": [
+                    937,
+                    1197
+                ]
+            },
+            {
+                "answer_val": "val_220",
+                "answer_coords": [
+                    937,
+                    1232
+                ]
+            },
+            {
+                "answer_val": "val_221",
+                "answer_coords": [
+                    937,
+                    1267
+                ]
+            },
+            {
+                "answer_val": "val_222",
+                "answer_coords": [
+                    937,
+                    1302
+                ]
+            },
+            {
+                "answer_val": "val_223",
+                "answer_coords": [
+                    937,
+                    1336
+                ]
+            },
+            {
+                "answer_val": "val_224",
+                "answer_coords": [
+                    937,
+                    1371
+                ]
+            },
+            {
+                "answer_val": "val_225",
+                "answer_coords": [
+                    937,
+                    1406
+                ]
+            },
+            {
+                "answer_val": "val_226",
+                "answer_coords": [
+                    937,
+                    1441
+                ]
+            },
+            {
+                "answer_val": "val_227",
+                "answer_coords": [
+                    937,
+                    1475
+                ]
+            },
+            {
+                "answer_val": "val_228",
+                "answer_coords": [
+                    937,
+                    1510
+                ]
+            },
+            {
+                "answer_val": "val_229",
+                "answer_coords": [
+                    985,
+                    1197
+                ]
+            },
+            {
+                "answer_val": "val_230",
+                "answer_coords": [
+                    985,
+                    1233
+                ]
+            },
+            {
+                "answer_val": "val_231",
+                "answer_coords": [
+                    985,
+                    1268
+                ]
+            },
+            {
+                "answer_val": "val_232",
+                "answer_coords": [
+                    985,
+                    1303
+                ]
+            },
+            {
+                "answer_val": "val_233",
+                "answer_coords": [
+                    985,
+                    1336
+                ]
+            },
+            {
+                "answer_val": "val_234",
+                "answer_coords": [
+                    985,
+                    1371
+                ]
+            },
+            {
+                "answer_val": "val_235",
+                "answer_coords": [
+                    985,
+                    1406
+                ]
+            },
+            {
+                "answer_val": "val_236",
+                "answer_coords": [
+                    985,
+                    1441
+                ]
+            },
+            {
+                "answer_val": "val_237",
+                "answer_coords": [
+                    985,
+                    1475
+                ]
+            },
+            {
+                "answer_val": "val_238",
+                "answer_coords": [
+                    985,
+                    1510
+                ]
+            },
+            {
+                "answer_val": "val_239",
+                "answer_coords": [
+                    986,
+                    677
+                ]
+            },
+            {
+                "answer_val": "val_240",
+                "answer_coords": [
+                    986,
+                    712
+                ]
+            },
+            {
+                "answer_val": "val_241",
+                "answer_coords": [
+                    986,
+                    746
+                ]
+            },
+            {
+                "answer_val": "val_242",
+                "answer_coords": [
+                    986,
+                    781
+                ]
+            },
+            {
+                "answer_val": "val_243",
+                "answer_coords": [
+                    1032,
+                    1198
+                ]
+            },
+            {
+                "answer_val": "val_244",
+                "answer_coords": [
+                    1032,
+                    1234
+                ]
+            },
+            {
+                "answer_val": "val_245",
+                "answer_coords": [
+                    1032,
+                    1268
+                ]
+            },
+            {
+                "answer_val": "val_246",
+                "answer_coords": [
+                    1032,
+                    1303
+                ]
+            },
+            {
+                "answer_val": "val_247",
+                "answer_coords": [
+                    1032,
+                    1337
+                ]
+            },
+            {
+                "answer_val": "val_248",
+                "answer_coords": [
+                    1032,
+                    1372
+                ]
+            },
+            {
+                "answer_val": "val_249",
+                "answer_coords": [
+                    1032,
+                    1406
+                ]
+            },
+            {
+                "answer_val": "val_250",
+                "answer_coords": [
+                    1032,
+                    1442
+                ]
+            },
+            {
+                "answer_val": "val_251",
+                "answer_coords": [
+                    1032,
+                    1476
+                ]
+            },
+            {
+                "answer_val": "val_252",
+                "answer_coords": [
+                    1032,
+                    1511
+                ]
+            },
+            {
+                "answer_val": "val_253",
+                "answer_coords": [
+                    1080,
+                    1198
+                ]
+            },
+            {
+                "answer_val": "val_254",
+                "answer_coords": [
+                    1080,
+                    1233
+                ]
+            },
+            {
+                "answer_val": "val_255",
+                "answer_coords": [
+                    1080,
+                    1268
+                ]
+            },
+            {
+                "answer_val": "val_256",
+                "answer_coords": [
+                    1080,
+                    1303
+                ]
+            },
+            {
+                "answer_val": "val_257",
+                "answer_coords": [
+                    1080,
+                    1336
+                ]
+            },
+            {
+                "answer_val": "val_258",
+                "answer_coords": [
+                    1080,
+                    1371
+                ]
+            },
+            {
+                "answer_val": "val_259",
+                "answer_coords": [
+                    1080,
+                    1406
+                ]
+            },
+            {
+                "answer_val": "val_260",
+                "answer_coords": [
+                    1080,
+                    1441
+                ]
+            },
+            {
+                "answer_val": "val_261",
+                "answer_coords": [
+                    1080,
+                    1475
+                ]
+            },
+            {
+                "answer_val": "val_262",
+                "answer_coords": [
+                    1080,
+                    1510
+                ]
+            },
+            {
+                "answer_val": "val_263",
+                "answer_coords": [
+                    1128,
+                    1198
+                ]
+            },
+            {
+                "answer_val": "val_264",
+                "answer_coords": [
+                    1128,
+                    1234
+                ]
+            },
+            {
+                "answer_val": "val_265",
+                "answer_coords": [
+                    1128,
+                    1268
+                ]
+            },
+            {
+                "answer_val": "val_266",
+                "answer_coords": [
+                    1128,
+                    1303
+                ]
+            },
+            {
+                "answer_val": "val_267",
+                "answer_coords": [
+                    1128,
+                    1337
+                ]
+            },
+            {
+                "answer_val": "val_268",
+                "answer_coords": [
+                    1128,
+                    1372
+                ]
+            },
+            {
+                "answer_val": "val_269",
+                "answer_coords": [
+                    1128,
+                    1406
+                ]
+            },
+            {
+                "answer_val": "val_270",
+                "answer_coords": [
+                    1128,
+                    1442
+                ]
+            },
+            {
+                "answer_val": "val_271",
+                "answer_coords": [
+                    1128,
+                    1476
+                ]
+            },
+            {
+                "answer_val": "val_272",
+                "answer_coords": [
+                    1128,
+                    1512
+                ]
+            },
+            {
+                "answer_val": "val_273",
+                "answer_coords": [
+                    1176,
+                    1198
+                ]
+            },
+            {
+                "answer_val": "val_274",
+                "answer_coords": [
+                    1176,
+                    1233
+                ]
+            },
+            {
+                "answer_val": "val_275",
+                "answer_coords": [
+                    1176,
+                    1268
+                ]
+            },
+            {
+                "answer_val": "val_276",
+                "answer_coords": [
+                    1176,
+                    1303
+                ]
+            },
+            {
+                "answer_val": "val_277",
+                "answer_coords": [
+                    1176,
+                    1336
+                ]
+            },
+            {
+                "answer_val": "val_278",
+                "answer_coords": [
+                    1176,
+                    1371
+                ]
+            },
+            {
+                "answer_val": "val_279",
+                "answer_coords": [
+                    1176,
+                    1407
+                ]
+            },
+            {
+                "answer_val": "val_280",
+                "answer_coords": [
+                    1176,
+                    1442
+                ]
+            },
+            {
+                "answer_val": "val_281",
+                "answer_coords": [
+                    1176,
+                    1476
+                ]
+            },
+            {
+                "answer_val": "val_282",
+                "answer_coords": [
+                    1176,
+                    1511
+                ]
+            },
+            {
+                "answer_val": "val_283",
+                "answer_coords": [
+                    1178,
+                    711
+                ]
+            },
+            {
+                "answer_val": "val_284",
+                "answer_coords": [
+                    1179,
+                    676
+                ]
+            },
+            {
+                "answer_val": "val_285",
+                "answer_coords": [
+                    1179,
+                    745
+                ]
+            },
+            {
+                "answer_val": "val_286",
+                "answer_coords": [
+                    1179,
+                    780
+                ]
+            },
+            {
+                "answer_val": "val_287",
+                "answer_coords": [
+                    1345,
+                    1159
+                ]
+            },
+            {
+                "answer_val": "val_288",
+                "answer_coords": [
+                    1346,
+                    260
+                ]
+            },
+            {
+                "answer_val": "val_289",
+                "answer_coords": [
+                    1346,
+                    709
+                ]
+            },
+            {
+                "answer_val": "val_290",
+                "answer_coords": [
+                    1346,
+                    918
+                ]
+            },
+            {
+                "answer_val": "val_291",
+                "answer_coords": [
+                    1346,
+                    988
+                ]
+            },
+            {
+                "answer_val": "val_292",
+                "answer_coords": [
+                    1346,
+                    1022
+                ]
+            },
+            {
+                "answer_val": "val_293",
+                "answer_coords": [
+                    1346,
+                    1195
+                ]
+            },
+            {
+                "answer_val": "val_294",
+                "answer_coords": [
+                    1346,
+                    1229
+                ]
+            },
+            {
+                "answer_val": "val_295",
+                "answer_coords": [
+                    1346,
+                    1263
+                ]
+            },
+            {
+                "answer_val": "val_296",
+                "answer_coords": [
+                    1346,
+                    1298
+                ]
+            },
+            {
+                "answer_val": "val_297",
+                "answer_coords": [
+                    1346,
+                    1333
+                ]
+            },
+            {
+                "answer_val": "val_298",
+                "answer_coords": [
+                    1346,
+                    1368
+                ]
+            },
+            {
+                "answer_val": "val_299",
+                "answer_coords": [
+                    1346,
+                    1438
+                ]
+            },
+            {
+                "answer_val": "val_300",
+                "answer_coords": [
+                    1346,
+                    1472
+                ]
+            },
+            {
+                "answer_val": "val_301",
+                "answer_coords": [
+                    1347,
+                    296
+                ]
+            },
+            {
+                "answer_val": "val_302",
+                "answer_coords": [
+                    1347,
+                    330
+                ]
+            },
+            {
+                "answer_val": "val_303",
+                "answer_coords": [
+                    1347,
+                    364
+                ]
+            },
+            {
+                "answer_val": "val_304",
+                "answer_coords": [
+                    1347,
+                    399
+                ]
+            },
+            {
+                "answer_val": "val_305",
+                "answer_coords": [
+                    1347,
+                    434
+                ]
+            },
+            {
+                "answer_val": "val_306",
+                "answer_coords": [
+                    1347,
+                    469
+                ]
+            },
+            {
+                "answer_val": "val_307",
+                "answer_coords": [
+                    1347,
+                    539
+                ]
+            },
+            {
+                "answer_val": "val_308",
+                "answer_coords": [
+                    1347,
+                    573
+                ]
+            },
+            {
+                "answer_val": "val_309",
+                "answer_coords": [
+                    1347,
+                    745
+                ]
+            },
+            {
+                "answer_val": "val_310",
+                "answer_coords": [
+                    1347,
+                    779
+                ]
+            },
+            {
+                "answer_val": "val_311",
+                "answer_coords": [
+                    1347,
+                    813
+                ]
+            },
+            {
+                "answer_val": "val_312",
+                "answer_coords": [
+                    1347,
+                    848
+                ]
+            },
+            {
+                "answer_val": "val_313",
+                "answer_coords": [
+                    1347,
+                    883
+                ]
+            },
+            {
+                "answer_val": "val_314",
+                "answer_coords": [
+                    1347,
+                    954
+                ]
+            },
+            {
+                "answer_val": "val_315",
+                "answer_coords": [
+                    1347,
+                    1404
+                ]
+            },
+            {
+                "answer_val": "val_316",
+                "answer_coords": [
+                    1348,
+                    505
+                ]
+            },
+            {
+                "answer_val": "val_317",
+                "answer_coords": [
+                    1388,
+                    1158
+                ]
+            },
+            {
+                "answer_val": "val_318",
+                "answer_coords": [
+                    1389,
+                    259
+                ]
+            },
+            {
+                "answer_val": "val_319",
+                "answer_coords": [
+                    1389,
+                    708
+                ]
+            },
+            {
+                "answer_val": "val_320",
+                "answer_coords": [
+                    1389,
+                    987
+                ]
+            },
+            {
+                "answer_val": "val_321",
+                "answer_coords": [
+                    1389,
+                    1021
+                ]
+            },
+            {
+                "answer_val": "val_322",
+                "answer_coords": [
+                    1389,
+                    1194
+                ]
+            },
+            {
+                "answer_val": "val_323",
+                "answer_coords": [
+                    1389,
+                    1228
+                ]
+            },
+            {
+                "answer_val": "val_324",
+                "answer_coords": [
+                    1389,
+                    1262
+                ]
+            },
+            {
+                "answer_val": "val_325",
+                "answer_coords": [
+                    1389,
+                    1297
+                ]
+            },
+            {
+                "answer_val": "val_326",
+                "answer_coords": [
+                    1389,
+                    1332
+                ]
+            },
+            {
+                "answer_val": "val_327",
+                "answer_coords": [
+                    1389,
+                    1367
+                ]
+            },
+            {
+                "answer_val": "val_328",
+                "answer_coords": [
+                    1389,
+                    1437
+                ]
+            },
+            {
+                "answer_val": "val_329",
+                "answer_coords": [
+                    1389,
+                    1471
+                ]
+            },
+            {
+                "answer_val": "val_330",
+                "answer_coords": [
+                    1390,
+                    295
+                ]
+            },
+            {
+                "answer_val": "val_331",
+                "answer_coords": [
+                    1390,
+                    329
+                ]
+            },
+            {
+                "answer_val": "val_332",
+                "answer_coords": [
+                    1390,
+                    363
+                ]
+            },
+            {
+                "answer_val": "val_333",
+                "answer_coords": [
+                    1390,
+                    398
+                ]
+            },
+            {
+                "answer_val": "val_334",
+                "answer_coords": [
+                    1390,
+                    433
+                ]
+            },
+            {
+                "answer_val": "val_335",
+                "answer_coords": [
+                    1390,
+                    468
+                ]
+            },
+            {
+                "answer_val": "val_336",
+                "answer_coords": [
+                    1390,
+                    538
+                ]
+            },
+            {
+                "answer_val": "val_337",
+                "answer_coords": [
+                    1390,
+                    572
+                ]
+            },
+            {
+                "answer_val": "val_338",
+                "answer_coords": [
+                    1390,
+                    744
+                ]
+            },
+            {
+                "answer_val": "val_339",
+                "answer_coords": [
+                    1390,
+                    778
+                ]
+            },
+            {
+                "answer_val": "val_340",
+                "answer_coords": [
+                    1390,
+                    812
+                ]
+            },
+            {
+                "answer_val": "val_341",
+                "answer_coords": [
+                    1390,
+                    847
+                ]
+            },
+            {
+                "answer_val": "val_342",
+                "answer_coords": [
+                    1390,
+                    882
+                ]
+            },
+            {
+                "answer_val": "val_343",
+                "answer_coords": [
+                    1390,
+                    917
+                ]
+            },
+            {
+                "answer_val": "val_344",
+                "answer_coords": [
+                    1390,
+                    1403
+                ]
+            },
+            {
+                "answer_val": "val_345",
+                "answer_coords": [
+                    1391,
+                    504
+                ]
+            },
+            {
+                "answer_val": "val_346",
+                "answer_coords": [
+                    1391,
+                    953
+                ]
+            },
+            {
+                "answer_val": "val_347",
+                "answer_coords": [
+                    1440,
+                    259
+                ]
+            },
+            {
+                "answer_val": "val_348",
+                "answer_coords": [
+                    1440,
+                    708
+                ]
+            },
+            {
+                "answer_val": "val_349",
+                "answer_coords": [
+                    1440,
+                    1158
+                ]
+            },
+            {
+                "answer_val": "val_350",
+                "answer_coords": [
+                    1440,
+                    1194
+                ]
+            },
+            {
+                "answer_val": "val_351",
+                "answer_coords": [
+                    1440,
+                    1228
+                ]
+            },
+            {
+                "answer_val": "val_352",
+                "answer_coords": [
+                    1440,
+                    1262
+                ]
+            },
+            {
+                "answer_val": "val_353",
+                "answer_coords": [
+                    1440,
+                    1297
+                ]
+            },
+            {
+                "answer_val": "val_354",
+                "answer_coords": [
+                    1440,
+                    1332
+                ]
+            },
+            {
+                "answer_val": "val_355",
+                "answer_coords": [
+                    1440,
+                    1367
+                ]
+            },
+            {
+                "answer_val": "val_356",
+                "answer_coords": [
+                    1440,
+                    1438
+                ]
+            },
+            {
+                "answer_val": "val_357",
+                "answer_coords": [
+                    1440,
+                    1472
+                ]
+            },
+            {
+                "answer_val": "val_358",
+                "answer_coords": [
+                    1441,
+                    295
+                ]
+            },
+            {
+                "answer_val": "val_359",
+                "answer_coords": [
+                    1441,
+                    329
+                ]
+            },
+            {
+                "answer_val": "val_360",
+                "answer_coords": [
+                    1441,
+                    363
+                ]
+            },
+            {
+                "answer_val": "val_361",
+                "answer_coords": [
+                    1441,
+                    398
+                ]
+            },
+            {
+                "answer_val": "val_362",
+                "answer_coords": [
+                    1441,
+                    433
+                ]
+            },
+            {
+                "answer_val": "val_363",
+                "answer_coords": [
+                    1441,
+                    468
+                ]
+            },
+            {
+                "answer_val": "val_364",
+                "answer_coords": [
+                    1441,
+                    539
+                ]
+            },
+            {
+                "answer_val": "val_365",
+                "answer_coords": [
+                    1441,
+                    573
+                ]
+            },
+            {
+                "answer_val": "val_366",
+                "answer_coords": [
+                    1441,
+                    744
+                ]
+            },
+            {
+                "answer_val": "val_367",
+                "answer_coords": [
+                    1441,
+                    778
+                ]
+            },
+            {
+                "answer_val": "val_368",
+                "answer_coords": [
+                    1441,
+                    812
+                ]
+            },
+            {
+                "answer_val": "val_369",
+                "answer_coords": [
+                    1441,
+                    847
+                ]
+            },
+            {
+                "answer_val": "val_370",
+                "answer_coords": [
+                    1441,
+                    882
+                ]
+            },
+            {
+                "answer_val": "val_371",
+                "answer_coords": [
+                    1441,
+                    917
+                ]
+            },
+            {
+                "answer_val": "val_372",
+                "answer_coords": [
+                    1441,
+                    987
+                ]
+            },
+            {
+                "answer_val": "val_373",
+                "answer_coords": [
+                    1441,
+                    1021
+                ]
+            },
+            {
+                "answer_val": "val_374",
+                "answer_coords": [
+                    1441,
+                    1403
+                ]
+            },
+            {
+                "answer_val": "val_375",
+                "answer_coords": [
+                    1442,
+                    504
+                ]
+            },
+            {
+                "answer_val": "val_376",
+                "answer_coords": [
+                    1442,
+                    953
+                ]
+            },
+            {
+                "answer_val": "val_377",
+                "answer_coords": [
+                    1483,
+                    258
+                ]
+            },
+            {
+                "answer_val": "val_378",
+                "answer_coords": [
+                    1483,
+                    707
+                ]
+            },
+            {
+                "answer_val": "val_379",
+                "answer_coords": [
+                    1483,
+                    1157
+                ]
+            },
+            {
+                "answer_val": "val_380",
+                "answer_coords": [
+                    1483,
+                    1296
+                ]
+            },
+            {
+                "answer_val": "val_381",
+                "answer_coords": [
+                    1483,
+                    1366
+                ]
+            },
+            {
+                "answer_val": "val_382",
+                "answer_coords": [
+                    1483,
+                    1437
+                ]
+            },
+            {
+                "answer_val": "val_383",
+                "answer_coords": [
+                    1483,
+                    1471
+                ]
+            },
+            {
+                "answer_val": "val_384",
+                "answer_coords": [
+                    1484,
+                    294
+                ]
+            },
+            {
+                "answer_val": "val_385",
+                "answer_coords": [
+                    1484,
+                    328
+                ]
+            },
+            {
+                "answer_val": "val_386",
+                "answer_coords": [
+                    1484,
+                    362
+                ]
+            },
+            {
+                "answer_val": "val_387",
+                "answer_coords": [
+                    1484,
+                    397
+                ]
+            },
+            {
+                "answer_val": "val_388",
+                "answer_coords": [
+                    1484,
+                    432
+                ]
+            },
+            {
+                "answer_val": "val_389",
+                "answer_coords": [
+                    1484,
+                    467
+                ]
+            },
+            {
+                "answer_val": "val_390",
+                "answer_coords": [
+                    1484,
+                    538
+                ]
+            },
+            {
+                "answer_val": "val_391",
+                "answer_coords": [
+                    1484,
+                    572
+                ]
+            },
+            {
+                "answer_val": "val_392",
+                "answer_coords": [
+                    1484,
+                    743
+                ]
+            },
+            {
+                "answer_val": "val_393",
+                "answer_coords": [
+                    1484,
+                    777
+                ]
+            },
+            {
+                "answer_val": "val_394",
+                "answer_coords": [
+                    1484,
+                    811
+                ]
+            },
+            {
+                "answer_val": "val_395",
+                "answer_coords": [
+                    1484,
+                    846
+                ]
+            },
+            {
+                "answer_val": "val_396",
+                "answer_coords": [
+                    1484,
+                    881
+                ]
+            },
+            {
+                "answer_val": "val_397",
+                "answer_coords": [
+                    1484,
+                    916
+                ]
+            },
+            {
+                "answer_val": "val_398",
+                "answer_coords": [
+                    1484,
+                    987
+                ]
+            },
+            {
+                "answer_val": "val_399",
+                "answer_coords": [
+                    1484,
+                    1021
+                ]
+            }
+        ],
+        "2": [
+            {
+                "answer_val": "val_400",
+                "answer_coords": [
+                    1484,
+                    1193
+                ]
+            },
+            {
+                "answer_val": "val_401",
+                "answer_coords": [
+                    1484,
+                    1227
+                ]
+            },
+            {
+                "answer_val": "val_402",
+                "answer_coords": [
+                    1484,
+                    1261
+                ]
+            },
+            {
+                "answer_val": "val_403",
+                "answer_coords": [
+                    1484,
+                    1331
+                ]
+            },
+            {
+                "answer_val": "val_404",
+                "answer_coords": [
+                    1484,
+                    1403
+                ]
+            },
+            {
+                "answer_val": "val_405",
+                "answer_coords": [
+                    1485,
+                    504
+                ]
+            },
+            {
+                "answer_val": "val_406",
+                "answer_coords": [
+                    1485,
+                    952
+                ]
+            },
+            {
+                "answer_val": "val_407",
+                "answer_coords": [
+                    1533,
+                    259
+                ]
+            },
+            {
+                "answer_val": "val_408",
+                "answer_coords": [
+                    1533,
+                    708
+                ]
+            },
+            {
+                "answer_val": "val_409",
+                "answer_coords": [
+                    1533,
+                    1158
+                ]
+            },
+            {
+                "answer_val": "val_410",
+                "answer_coords": [
+                    1534,
+                    295
+                ]
+            },
+            {
+                "answer_val": "val_411",
+                "answer_coords": [
+                    1534,
+                    329
+                ]
+            },
+            {
+                "answer_val": "val_412",
+                "answer_coords": [
+                    1534,
+                    363
+                ]
+            },
+            {
+                "answer_val": "val_413",
+                "answer_coords": [
+                    1534,
+                    398
+                ]
+            },
+            {
+                "answer_val": "val_414",
+                "answer_coords": [
+                    1534,
+                    434
+                ]
+            },
+            {
+                "answer_val": "val_415",
+                "answer_coords": [
+                    1534,
+                    469
+                ]
+            },
+            {
+                "answer_val": "val_416",
+                "answer_coords": [
+                    1534,
+                    539
+                ]
+            },
+            {
+                "answer_val": "val_417",
+                "answer_coords": [
+                    1534,
+                    573
+                ]
+            },
+            {
+                "answer_val": "val_418",
+                "answer_coords": [
+                    1534,
+                    744
+                ]
+            },
+            {
+                "answer_val": "val_419",
+                "answer_coords": [
+                    1534,
+                    778
+                ]
+            },
+            {
+                "answer_val": "val_420",
+                "answer_coords": [
+                    1534,
+                    812
+                ]
+            },
+            {
+                "answer_val": "val_421",
+                "answer_coords": [
+                    1534,
+                    847
+                ]
+            },
+            {
+                "answer_val": "val_422",
+                "answer_coords": [
+                    1534,
+                    882
+                ]
+            },
+            {
+                "answer_val": "val_423",
+                "answer_coords": [
+                    1534,
+                    917
+                ]
+            },
+            {
+                "answer_val": "val_424",
+                "answer_coords": [
+                    1534,
+                    988
+                ]
+            },
+            {
+                "answer_val": "val_425",
+                "answer_coords": [
+                    1534,
+                    1022
+                ]
+            },
+            {
+                "answer_val": "val_426",
+                "answer_coords": [
+                    1534,
+                    1194
+                ]
+            },
+            {
+                "answer_val": "val_427",
+                "answer_coords": [
+                    1534,
+                    1228
+                ]
+            },
+            {
+                "answer_val": "val_428",
+                "answer_coords": [
+                    1534,
+                    1262
+                ]
+            },
+            {
+                "answer_val": "val_429",
+                "answer_coords": [
+                    1534,
+                    1297
+                ]
+            },
+            {
+                "answer_val": "val_430",
+                "answer_coords": [
+                    1534,
+                    1332
+                ]
+            },
+            {
+                "answer_val": "val_431",
+                "answer_coords": [
+                    1534,
+                    1368
+                ]
+            },
+            {
+                "answer_val": "val_432",
+                "answer_coords": [
+                    1534,
+                    1438
+                ]
+            },
+            {
+                "answer_val": "val_433",
+                "answer_coords": [
+                    1534,
+                    1472
+                ]
+            },
+            {
+                "answer_val": "val_434",
+                "answer_coords": [
+                    1535,
+                    505
+                ]
+            },
+            {
+                "answer_val": "val_435",
+                "answer_coords": [
+                    1535,
+                    954
+                ]
+            },
+            {
+                "answer_val": "val_436",
+                "answer_coords": [
+                    1535,
+                    1404
+                ]
+            },
+            {
+                "answer_val": "val_437",
+                "answer_coords": [
+                    1584,
+                    259
+                ]
+            },
+            {
+                "answer_val": "val_438",
+                "answer_coords": [
+                    1584,
+                    708
+                ]
+            },
+            {
+                "answer_val": "val_439",
+                "answer_coords": [
+                    1584,
+                    1158
+                ]
+            },
+            {
+                "answer_val": "val_440",
+                "answer_coords": [
+                    1585,
+                    295
+                ]
+            },
+            {
+                "answer_val": "val_441",
+                "answer_coords": [
+                    1585,
+                    329
+                ]
+            },
+            {
+                "answer_val": "val_442",
+                "answer_coords": [
+                    1585,
+                    364
+                ]
+            },
+            {
+                "answer_val": "val_443",
+                "answer_coords": [
+                    1585,
+                    399
+                ]
+            },
+            {
+                "answer_val": "val_444",
+                "answer_coords": [
+                    1585,
+                    434
+                ]
+            },
+            {
+                "answer_val": "val_445",
+                "answer_coords": [
+                    1585,
+                    469
+                ]
+            },
+            {
+                "answer_val": "val_446",
+                "answer_coords": [
+                    1585,
+                    539
+                ]
+            },
+            {
+                "answer_val": "val_447",
+                "answer_coords": [
+                    1585,
+                    573
+                ]
+            },
+            {
+                "answer_val": "val_448",
+                "answer_coords": [
+                    1585,
+                    744
+                ]
+            },
+            {
+                "answer_val": "val_449",
+                "answer_coords": [
+                    1585,
+                    778
+                ]
+            },
+            {
+                "answer_val": "val_450",
+                "answer_coords": [
+                    1585,
+                    812
+                ]
+            },
+            {
+                "answer_val": "val_451",
+                "answer_coords": [
+                    1585,
+                    847
+                ]
+            },
+            {
+                "answer_val": "val_452",
+                "answer_coords": [
+                    1585,
+                    883
+                ]
+            },
+            {
+                "answer_val": "val_453",
+                "answer_coords": [
+                    1585,
+                    918
+                ]
+            },
+            {
+                "answer_val": "val_454",
+                "answer_coords": [
+                    1585,
+                    988
+                ]
+            },
+            {
+                "answer_val": "val_455",
+                "answer_coords": [
+                    1585,
+                    1022
+                ]
+            },
+            {
+                "answer_val": "val_456",
+                "answer_coords": [
+                    1585,
+                    1194
+                ]
+            },
+            {
+                "answer_val": "val_457",
+                "answer_coords": [
+                    1585,
+                    1228
+                ]
+            },
+            {
+                "answer_val": "val_458",
+                "answer_coords": [
+                    1585,
+                    1263
+                ]
+            },
+            {
+                "answer_val": "val_459",
+                "answer_coords": [
+                    1585,
+                    1298
+                ]
+            },
+            {
+                "answer_val": "val_460",
+                "answer_coords": [
+                    1585,
+                    1333
+                ]
+            },
+            {
+                "answer_val": "val_461",
+                "answer_coords": [
+                    1585,
+                    1368
+                ]
+            },
+            {
+                "answer_val": "val_462",
+                "answer_coords": [
+                    1585,
+                    1438
+                ]
+            },
+            {
+                "answer_val": "val_463",
+                "answer_coords": [
+                    1585,
+                    1472
+                ]
+            },
+            {
+                "answer_val": "val_464",
+                "answer_coords": [
+                    1586,
+                    505
+                ]
+            },
+            {
+                "answer_val": "val_465",
+                "answer_coords": [
+                    1586,
+                    954
+                ]
+            },
+            {
+                "answer_val": "val_466",
+                "answer_coords": [
+                    1586,
+                    1404
+                ]
+            },
+            {
+                "answer_val": "val_467",
+                "answer_coords": [
+                    1627,
+                    258
+                ]
+            },
+            {
+                "answer_val": "val_468",
+                "answer_coords": [
+                    1627,
+                    707
+                ]
+            },
+            {
+                "answer_val": "val_469",
+                "answer_coords": [
+                    1627,
+                    1157
+                ]
+            },
+            {
+                "answer_val": "val_470",
+                "answer_coords": [
+                    1628,
+                    294
+                ]
+            },
+            {
+                "answer_val": "val_471",
+                "answer_coords": [
+                    1628,
+                    328
+                ]
+            },
+            {
+                "answer_val": "val_472",
+                "answer_coords": [
+                    1628,
+                    363
+                ]
+            },
+            {
+                "answer_val": "val_473",
+                "answer_coords": [
+                    1628,
+                    398
+                ]
+            },
+            {
+                "answer_val": "val_474",
+                "answer_coords": [
+                    1628,
+                    433
+                ]
+            },
+            {
+                "answer_val": "val_475",
+                "answer_coords": [
+                    1628,
+                    468
+                ]
+            },
+            {
+                "answer_val": "val_476",
+                "answer_coords": [
+                    1628,
+                    538
+                ]
+            },
+            {
+                "answer_val": "val_477",
+                "answer_coords": [
+                    1628,
+                    572
+                ]
+            },
+            {
+                "answer_val": "val_478",
+                "answer_coords": [
+                    1628,
+                    743
+                ]
+            },
+            {
+                "answer_val": "val_479",
+                "answer_coords": [
+                    1628,
+                    777
+                ]
+            },
+            {
+                "answer_val": "val_480",
+                "answer_coords": [
+                    1628,
+                    812
+                ]
+            },
+            {
+                "answer_val": "val_481",
+                "answer_coords": [
+                    1628,
+                    847
+                ]
+            },
+            {
+                "answer_val": "val_482",
+                "answer_coords": [
+                    1628,
+                    882
+                ]
+            },
+            {
+                "answer_val": "val_483",
+                "answer_coords": [
+                    1628,
+                    917
+                ]
+            },
+            {
+                "answer_val": "val_484",
+                "answer_coords": [
+                    1628,
+                    987
+                ]
+            },
+            {
+                "answer_val": "val_485",
+                "answer_coords": [
+                    1628,
+                    1021
+                ]
+            },
+            {
+                "answer_val": "val_486",
+                "answer_coords": [
+                    1628,
+                    1193
+                ]
+            },
+            {
+                "answer_val": "val_487",
+                "answer_coords": [
+                    1628,
+                    1227
+                ]
+            },
+            {
+                "answer_val": "val_488",
+                "answer_coords": [
+                    1628,
+                    1262
+                ]
+            },
+            {
+                "answer_val": "val_489",
+                "answer_coords": [
+                    1628,
+                    1297
+                ]
+            },
+            {
+                "answer_val": "val_490",
+                "answer_coords": [
+                    1628,
+                    1332
+                ]
+            },
+            {
+                "answer_val": "val_491",
+                "answer_coords": [
+                    1628,
+                    1367
+                ]
+            },
+            {
+                "answer_val": "val_492",
+                "answer_coords": [
+                    1628,
+                    1437
+                ]
+            },
+            {
+                "answer_val": "val_493",
+                "answer_coords": [
+                    1628,
+                    1471
+                ]
+            },
+            {
+                "answer_val": "val_494",
+                "answer_coords": [
+                    1629,
+                    504
+                ]
+            },
+            {
+                "answer_val": "val_495",
+                "answer_coords": [
+                    1629,
+                    953
+                ]
+            },
+            {
+                "answer_val": "val_496",
+                "answer_coords": [
+                    1629,
+                    1403
+                ]
+            },
+            {
+                "answer_val": "val_497",
+                "answer_coords": [
+                    1800,
+                    261
+                ]
+            },
+            {
+                "answer_val": "val_498",
+                "answer_coords": [
+                    1800,
+                    710
+                ]
+            },
+            {
+                "answer_val": "val_499",
+                "answer_coords": [
+                    1800,
+                    1160
+                ]
+            },
+            {
+                "answer_val": "val_500",
+                "answer_coords": [
+                    1801,
+                    297
+                ]
+            },
+            {
+                "answer_val": "val_501",
+                "answer_coords": [
+                    1801,
+                    331
+                ]
+            },
+            {
+                "answer_val": "val_502",
+                "answer_coords": [
+                    1801,
+                    365
+                ]
+            },
+            {
+                "answer_val": "val_503",
+                "answer_coords": [
+                    1801,
+                    400
+                ]
+            },
+            {
+                "answer_val": "val_504",
+                "answer_coords": [
+                    1801,
+                    435
+                ]
+            },
+            {
+                "answer_val": "val_505",
+                "answer_coords": [
+                    1801,
+                    470
+                ]
+            },
+            {
+                "answer_val": "val_506",
+                "answer_coords": [
+                    1801,
+                    540
+                ]
+            },
+            {
+                "answer_val": "val_507",
+                "answer_coords": [
+                    1801,
+                    574
+                ]
+            },
+            {
+                "answer_val": "val_508",
+                "answer_coords": [
+                    1801,
+                    746
+                ]
+            },
+            {
+                "answer_val": "val_509",
+                "answer_coords": [
+                    1801,
+                    780
+                ]
+            },
+            {
+                "answer_val": "val_510",
+                "answer_coords": [
+                    1801,
+                    814
+                ]
+            },
+            {
+                "answer_val": "val_511",
+                "answer_coords": [
+                    1801,
+                    849
+                ]
+            },
+            {
+                "answer_val": "val_512",
+                "answer_coords": [
+                    1801,
+                    884
+                ]
+            },
+            {
+                "answer_val": "val_513",
+                "answer_coords": [
+                    1801,
+                    919
+                ]
+            },
+            {
+                "answer_val": "val_514",
+                "answer_coords": [
+                    1801,
+                    989
+                ]
+            },
+            {
+                "answer_val": "val_515",
+                "answer_coords": [
+                    1801,
+                    1023
+                ]
+            },
+            {
+                "answer_val": "val_516",
+                "answer_coords": [
+                    1801,
+                    1196
+                ]
+            },
+            {
+                "answer_val": "val_517",
+                "answer_coords": [
+                    1801,
+                    1230
+                ]
+            },
+            {
+                "answer_val": "val_518",
+                "answer_coords": [
+                    1801,
+                    1264
+                ]
+            },
+            {
+                "answer_val": "val_519",
+                "answer_coords": [
+                    1801,
+                    1299
+                ]
+            },
+            {
+                "answer_val": "val_520",
+                "answer_coords": [
+                    1801,
+                    1334
+                ]
+            },
+            {
+                "answer_val": "val_521",
+                "answer_coords": [
+                    1801,
+                    1369
+                ]
+            },
+            {
+                "answer_val": "val_522",
+                "answer_coords": [
+                    1801,
+                    1440
+                ]
+            },
+            {
+                "answer_val": "val_523",
+                "answer_coords": [
+                    1801,
+                    1474
+                ]
+            },
+            {
+                "answer_val": "val_524",
+                "answer_coords": [
+                    1802,
+                    506
+                ]
+            },
+            {
+                "answer_val": "val_525",
+                "answer_coords": [
+                    1802,
+                    955
+                ]
+            },
+            {
+                "answer_val": "val_526",
+                "answer_coords": [
+                    1802,
+                    1406
+                ]
+            },
+            {
+                "answer_val": "val_527",
+                "answer_coords": [
+                    1843,
+                    1159
+                ]
+            },
+            {
+                "answer_val": "val_528",
+                "answer_coords": [
+                    1844,
+                    260
+                ]
+            },
+            {
+                "answer_val": "val_529",
+                "answer_coords": [
+                    1844,
+                    539
+                ]
+            },
+            {
+                "answer_val": "val_530",
+                "answer_coords": [
+                    1844,
+                    573
+                ]
+            },
+            {
+                "answer_val": "val_531",
+                "answer_coords": [
+                    1844,
+                    709
+                ]
+            },
+            {
+                "answer_val": "val_532",
+                "answer_coords": [
+                    1844,
+                    745
+                ]
+            },
+            {
+                "answer_val": "val_533",
+                "answer_coords": [
+                    1844,
+                    779
+                ]
+            },
+            {
+                "answer_val": "val_534",
+                "answer_coords": [
+                    1844,
+                    813
+                ]
+            },
+            {
+                "answer_val": "val_535",
+                "answer_coords": [
+                    1844,
+                    848
+                ]
+            },
+            {
+                "answer_val": "val_536",
+                "answer_coords": [
+                    1844,
+                    883
+                ]
+            },
+            {
+                "answer_val": "val_537",
+                "answer_coords": [
+                    1844,
+                    918
+                ]
+            },
+            {
+                "answer_val": "val_538",
+                "answer_coords": [
+                    1844,
+                    989
+                ]
+            },
+            {
+                "answer_val": "val_539",
+                "answer_coords": [
+                    1844,
+                    1023
+                ]
+            },
+            {
+                "answer_val": "val_540",
+                "answer_coords": [
+                    1844,
+                    1195
+                ]
+            },
+            {
+                "answer_val": "val_541",
+                "answer_coords": [
+                    1844,
+                    1229
+                ]
+            },
+            {
+                "answer_val": "val_542",
+                "answer_coords": [
+                    1844,
+                    1263
+                ]
+            },
+            {
+                "answer_val": "val_543",
+                "answer_coords": [
+                    1844,
+                    1298
+                ]
+            },
+            {
+                "answer_val": "val_544",
+                "answer_coords": [
+                    1844,
+                    1333
+                ]
+            },
+            {
+                "answer_val": "val_545",
+                "answer_coords": [
+                    1844,
+                    1369
+                ]
+            },
+            {
+                "answer_val": "val_546",
+                "answer_coords": [
+                    1844,
+                    1439
+                ]
+            },
+            {
+                "answer_val": "val_547",
+                "answer_coords": [
+                    1844,
+                    1473
+                ]
+            },
+            {
+                "answer_val": "val_548",
+                "answer_coords": [
+                    1845,
+                    296
+                ]
+            },
+            {
+                "answer_val": "val_549",
+                "answer_coords": [
+                    1845,
+                    330
+                ]
+            },
+            {
+                "answer_val": "val_550",
+                "answer_coords": [
+                    1845,
+                    364
+                ]
+            },
+            {
+                "answer_val": "val_551",
+                "answer_coords": [
+                    1845,
+                    399
+                ]
+            },
+            {
+                "answer_val": "val_552",
+                "answer_coords": [
+                    1845,
+                    434
+                ]
+            },
+            {
+                "answer_val": "val_553",
+                "answer_coords": [
+                    1845,
+                    469
+                ]
+            },
+            {
+                "answer_val": "val_554",
+                "answer_coords": [
+                    1845,
+                    505
+                ]
+            },
+            {
+                "answer_val": "val_555",
+                "answer_coords": [
+                    1845,
+                    954
+                ]
+            },
+            {
+                "answer_val": "val_556",
+                "answer_coords": [
+                    1845,
+                    1405
+                ]
+            },
+            {
+                "answer_val": "val_557",
+                "answer_coords": [
+                    1895,
+                    261
+                ]
+            },
+            {
+                "answer_val": "val_558",
+                "answer_coords": [
+                    1895,
+                    710
+                ]
+            },
+            {
+                "answer_val": "val_559",
+                "answer_coords": [
+                    1895,
+                    1160
+                ]
+            },
+            {
+                "answer_val": "val_560",
+                "answer_coords": [
+                    1895,
+                    1299
+                ]
+            },
+            {
+                "answer_val": "val_561",
+                "answer_coords": [
+                    1895,
+                    1439
+                ]
+            },
+            {
+                "answer_val": "val_562",
+                "answer_coords": [
+                    1895,
+                    1473
+                ]
+            },
+            {
+                "answer_val": "val_563",
+                "answer_coords": [
+                    1896,
+                    296
+                ]
+            },
+            {
+                "answer_val": "val_564",
+                "answer_coords": [
+                    1896,
+                    330
+                ]
+            },
+            {
+                "answer_val": "val_565",
+                "answer_coords": [
+                    1896,
+                    364
+                ]
+            },
+            {
+                "answer_val": "val_566",
+                "answer_coords": [
+                    1896,
+                    399
+                ]
+            },
+            {
+                "answer_val": "val_567",
+                "answer_coords": [
+                    1896,
+                    434
+                ]
+            },
+            {
+                "answer_val": "val_568",
+                "answer_coords": [
+                    1896,
+                    469
+                ]
+            },
+            {
+                "answer_val": "val_569",
+                "answer_coords": [
+                    1896,
+                    539
+                ]
+            },
+            {
+                "answer_val": "val_570",
+                "answer_coords": [
+                    1896,
+                    573
+                ]
+            },
+            {
+                "answer_val": "val_571",
+                "answer_coords": [
+                    1896,
+                    745
+                ]
+            },
+            {
+                "answer_val": "val_572",
+                "answer_coords": [
+                    1896,
+                    779
+                ]
+            },
+            {
+                "answer_val": "val_573",
+                "answer_coords": [
+                    1896,
+                    813
+                ]
+            },
+            {
+                "answer_val": "val_574",
+                "answer_coords": [
+                    1896,
+                    848
+                ]
+            },
+            {
+                "answer_val": "val_575",
+                "answer_coords": [
+                    1896,
+                    883
+                ]
+            },
+            {
+                "answer_val": "val_576",
+                "answer_coords": [
+                    1896,
+                    918
+                ]
+            },
+            {
+                "answer_val": "val_577",
+                "answer_coords": [
+                    1896,
+                    989
+                ]
+            },
+            {
+                "answer_val": "val_578",
+                "answer_coords": [
+                    1896,
+                    1023
+                ]
+            },
+            {
+                "answer_val": "val_579",
+                "answer_coords": [
+                    1896,
+                    1195
+                ]
+            },
+            {
+                "answer_val": "val_580",
+                "answer_coords": [
+                    1896,
+                    1229
+                ]
+            },
+            {
+                "answer_val": "val_581",
+                "answer_coords": [
+                    1896,
+                    1264
+                ]
+            },
+            {
+                "answer_val": "val_582",
+                "answer_coords": [
+                    1896,
+                    1334
+                ]
+            },
+            {
+                "answer_val": "val_583",
+                "answer_coords": [
+                    1896,
+                    1369
+                ]
+            },
+            {
+                "answer_val": "val_584",
+                "answer_coords": [
+                    1896,
+                    1405
+                ]
+            },
+            {
+                "answer_val": "val_585",
+                "answer_coords": [
+                    1897,
+                    505
+                ]
+            },
+            {
+                "answer_val": "val_586",
+                "answer_coords": [
+                    1897,
+                    954
+                ]
+            },
+            {
+                "answer_val": "val_587",
+                "answer_coords": [
+                    1938,
+                    259
+                ]
+            },
+            {
+                "answer_val": "val_588",
+                "answer_coords": [
+                    1938,
+                    708
+                ]
+            },
+            {
+                "answer_val": "val_589",
+                "answer_coords": [
+                    1938,
+                    1158
+                ]
+            },
+            {
+                "answer_val": "val_590",
+                "answer_coords": [
+                    1939,
+                    295
+                ]
+            },
+            {
+                "answer_val": "val_591",
+                "answer_coords": [
+                    1939,
+                    329
+                ]
+            },
+            {
+                "answer_val": "val_592",
+                "answer_coords": [
+                    1939,
+                    363
+                ]
+            },
+            {
+                "answer_val": "val_593",
+                "answer_coords": [
+                    1939,
+                    398
+                ]
+            },
+            {
+                "answer_val": "val_594",
+                "answer_coords": [
+                    1939,
+                    433
+                ]
+            },
+            {
+                "answer_val": "val_595",
+                "answer_coords": [
+                    1939,
+                    468
+                ]
+            },
+            {
+                "answer_val": "val_596",
+                "answer_coords": [
+                    1939,
+                    539
+                ]
+            },
+            {
+                "answer_val": "val_597",
+                "answer_coords": [
+                    1939,
+                    573
+                ]
+            },
+            {
+                "answer_val": "val_598",
+                "answer_coords": [
+                    1939,
+                    744
+                ]
+            },
+            {
+                "answer_val": "val_599",
+                "answer_coords": [
+                    1939,
+                    778
+                ]
+            },
+            {
+                "answer_val": "val_600",
+                "answer_coords": [
+                    1939,
+                    812
+                ]
+            },
+            {
+                "answer_val": "val_601",
+                "answer_coords": [
+                    1939,
+                    847
+                ]
+            },
+            {
+                "answer_val": "val_602",
+                "answer_coords": [
+                    1939,
+                    882
+                ]
+            },
+            {
+                "answer_val": "val_603",
+                "answer_coords": [
+                    1939,
+                    917
+                ]
+            },
+            {
+                "answer_val": "val_604",
+                "answer_coords": [
+                    1939,
+                    989
+                ]
+            },
+            {
+                "answer_val": "val_605",
+                "answer_coords": [
+                    1939,
+                    1022
+                ]
+            },
+            {
+                "answer_val": "val_606",
+                "answer_coords": [
+                    1939,
+                    1194
+                ]
+            },
+            {
+                "answer_val": "val_607",
+                "answer_coords": [
+                    1939,
+                    1228
+                ]
+            },
+            {
+                "answer_val": "val_608",
+                "answer_coords": [
+                    1939,
+                    1263
+                ]
+            },
+            {
+                "answer_val": "val_609",
+                "answer_coords": [
+                    1939,
+                    1298
+                ]
+            },
+            {
+                "answer_val": "val_610",
+                "answer_coords": [
+                    1939,
+                    1333
+                ]
+            },
+            {
+                "answer_val": "val_611",
+                "answer_coords": [
+                    1939,
+                    1368
+                ]
+            },
+            {
+                "answer_val": "val_612",
+                "answer_coords": [
+                    1939,
+                    1438
+                ]
+            },
+            {
+                "answer_val": "val_613",
+                "answer_coords": [
+                    1939,
+                    1472
+                ]
+            },
+            {
+                "answer_val": "val_614",
+                "answer_coords": [
+                    1940,
+                    504
+                ]
+            },
+            {
+                "answer_val": "val_615",
+                "answer_coords": [
+                    1940,
+                    954
+                ]
+            },
+            {
+                "answer_val": "val_616",
+                "answer_coords": [
+                    1940,
+                    1404
+                ]
+            },
+            {
+                "answer_val": "val_617",
+                "answer_coords": [
+                    1988,
+                    260
+                ]
+            },
+            {
+                "answer_val": "val_618",
+                "answer_coords": [
+                    1988,
+                    709
+                ]
+            },
+            {
+                "answer_val": "val_619",
+                "answer_coords": [
+                    1988,
+                    1159
+                ]
+            },
+            {
+                "answer_val": "val_620",
+                "answer_coords": [
+                    1989,
+                    296
+                ]
+            },
+            {
+                "answer_val": "val_621",
+                "answer_coords": [
+                    1989,
+                    330
+                ]
+            },
+            {
+                "answer_val": "val_622",
+                "answer_coords": [
+                    1989,
+                    364
+                ]
+            },
+            {
+                "answer_val": "val_623",
+                "answer_coords": [
+                    1989,
+                    399
+                ]
+            },
+            {
+                "answer_val": "val_624",
+                "answer_coords": [
+                    1989,
+                    434
+                ]
+            },
+            {
+                "answer_val": "val_625",
+                "answer_coords": [
+                    1989,
+                    469
+                ]
+            },
+            {
+                "answer_val": "val_626",
+                "answer_coords": [
+                    1989,
+                    540
+                ]
+            },
+            {
+                "answer_val": "val_627",
+                "answer_coords": [
+                    1989,
+                    574
+                ]
+            },
+            {
+                "answer_val": "val_628",
+                "answer_coords": [
+                    1989,
+                    745
+                ]
+            },
+            {
+                "answer_val": "val_629",
+                "answer_coords": [
+                    1989,
+                    779
+                ]
+            },
+            {
+                "answer_val": "val_630",
+                "answer_coords": [
+                    1989,
+                    813
+                ]
+            },
+            {
+                "answer_val": "val_631",
+                "answer_coords": [
+                    1989,
+                    848
+                ]
+            },
+            {
+                "answer_val": "val_632",
+                "answer_coords": [
+                    1989,
+                    884
+                ]
+            },
+            {
+                "answer_val": "val_633",
+                "answer_coords": [
+                    1989,
+                    919
+                ]
+            },
+            {
+                "answer_val": "val_634",
+                "answer_coords": [
+                    1989,
+                    989
+                ]
+            },
+            {
+                "answer_val": "val_635",
+                "answer_coords": [
+                    1989,
+                    1023
+                ]
+            },
+            {
+                "answer_val": "val_636",
+                "answer_coords": [
+                    1989,
+                    1195
+                ]
+            },
+            {
+                "answer_val": "val_637",
+                "answer_coords": [
+                    1989,
+                    1230
+                ]
+            },
+            {
+                "answer_val": "val_638",
+                "answer_coords": [
+                    1989,
+                    1264
+                ]
+            },
+            {
+                "answer_val": "val_639",
+                "answer_coords": [
+                    1989,
+                    1299
+                ]
+            },
+            {
+                "answer_val": "val_640",
+                "answer_coords": [
+                    1989,
+                    1334
+                ]
+            },
+            {
+                "answer_val": "val_641",
+                "answer_coords": [
+                    1989,
+                    1369
+                ]
+            },
+            {
+                "answer_val": "val_642",
+                "answer_coords": [
+                    1989,
+                    1439
+                ]
+            },
+            {
+                "answer_val": "val_643",
+                "answer_coords": [
+                    1989,
+                    1473
+                ]
+            },
+            {
+                "answer_val": "val_644",
+                "answer_coords": [
+                    1990,
+                    505
+                ]
+            },
+            {
+                "answer_val": "val_645",
+                "answer_coords": [
+                    1990,
+                    955
+                ]
+            },
+            {
+                "answer_val": "val_646",
+                "answer_coords": [
+                    1990,
+                    1405
+                ]
+            },
+            {
+                "answer_val": "val_647",
+                "answer_coords": [
+                    2039,
+                    261
+                ]
+            },
+            {
+                "answer_val": "val_648",
+                "answer_coords": [
+                    2039,
+                    710
+                ]
+            },
+            {
+                "answer_val": "val_649",
+                "answer_coords": [
+                    2039,
+                    1161
+                ]
+            },
+            {
+                "answer_val": "val_650",
+                "answer_coords": [
+                    2040,
+                    296
+                ]
+            },
+            {
+                "answer_val": "val_651",
+                "answer_coords": [
+                    2040,
+                    330
+                ]
+            },
+            {
+                "answer_val": "val_652",
+                "answer_coords": [
+                    2040,
+                    364
+                ]
+            },
+            {
+                "answer_val": "val_653",
+                "answer_coords": [
+                    2040,
+                    399
+                ]
+            },
+            {
+                "answer_val": "val_654",
+                "answer_coords": [
+                    2040,
+                    434
+                ]
+            },
+            {
+                "answer_val": "val_655",
+                "answer_coords": [
+                    2040,
+                    469
+                ]
+            },
+            {
+                "answer_val": "val_656",
+                "answer_coords": [
+                    2040,
+                    540
+                ]
+            },
+            {
+                "answer_val": "val_657",
+                "answer_coords": [
+                    2040,
+                    574
+                ]
+            },
+            {
+                "answer_val": "val_658",
+                "answer_coords": [
+                    2040,
+                    745
+                ]
+            },
+            {
+                "answer_val": "val_659",
+                "answer_coords": [
+                    2040,
+                    779
+                ]
+            },
+            {
+                "answer_val": "val_660",
+                "answer_coords": [
+                    2040,
+                    813
+                ]
+            },
+            {
+                "answer_val": "val_661",
+                "answer_coords": [
+                    2040,
+                    849
+                ]
+            },
+            {
+                "answer_val": "val_662",
+                "answer_coords": [
+                    2040,
+                    884
+                ]
+            },
+            {
+                "answer_val": "val_663",
+                "answer_coords": [
+                    2040,
+                    919
+                ]
+            },
+            {
+                "answer_val": "val_664",
+                "answer_coords": [
+                    2040,
+                    989
+                ]
+            },
+            {
+                "answer_val": "val_665",
+                "answer_coords": [
+                    2040,
+                    1023
+                ]
+            },
+            {
+                "answer_val": "val_666",
+                "answer_coords": [
+                    2040,
+                    1196
+                ]
+            },
+            {
+                "answer_val": "val_667",
+                "answer_coords": [
+                    2040,
+                    1230
+                ]
+            },
+            {
+                "answer_val": "val_668",
+                "answer_coords": [
+                    2040,
+                    1264
+                ]
+            },
+            {
+                "answer_val": "val_669",
+                "answer_coords": [
+                    2040,
+                    1299
+                ]
+            },
+            {
+                "answer_val": "val_670",
+                "answer_coords": [
+                    2040,
+                    1334
+                ]
+            },
+            {
+                "answer_val": "val_671",
+                "answer_coords": [
+                    2040,
+                    1369
+                ]
+            },
+            {
+                "answer_val": "val_672",
+                "answer_coords": [
+                    2040,
+                    1440
+                ]
+            },
+            {
+                "answer_val": "val_673",
+                "answer_coords": [
+                    2040,
+                    1474
+                ]
+            },
+            {
+                "answer_val": "val_674",
+                "answer_coords": [
+                    2041,
+                    506
+                ]
+            },
+            {
+                "answer_val": "val_675",
+                "answer_coords": [
+                    2041,
+                    955
+                ]
+            },
+            {
+                "answer_val": "val_676",
+                "answer_coords": [
+                    2041,
+                    1405
+                ]
+            },
+            {
+                "answer_val": "val_677",
+                "answer_coords": [
+                    2082,
+                    259
+                ]
+            },
+            {
+                "answer_val": "val_678",
+                "answer_coords": [
+                    2082,
+                    708
+                ]
+            },
+            {
+                "answer_val": "val_679",
+                "answer_coords": [
+                    2082,
+                    1159
+                ]
+            },
+            {
+                "answer_val": "val_680",
+                "answer_coords": [
+                    2083,
+                    295
+                ]
+            },
+            {
+                "answer_val": "val_681",
+                "answer_coords": [
+                    2083,
+                    329
+                ]
+            },
+            {
+                "answer_val": "val_682",
+                "answer_coords": [
+                    2083,
+                    363
+                ]
+            },
+            {
+                "answer_val": "val_683",
+                "answer_coords": [
+                    2083,
+                    398
+                ]
+            },
+            {
+                "answer_val": "val_684",
+                "answer_coords": [
+                    2083,
+                    433
+                ]
+            },
+            {
+                "answer_val": "val_685",
+                "answer_coords": [
+                    2083,
+                    469
+                ]
+            },
+            {
+                "answer_val": "val_686",
+                "answer_coords": [
+                    2083,
+                    540
+                ]
+            },
+            {
+                "answer_val": "val_687",
+                "answer_coords": [
+                    2083,
+                    573
+                ]
+            },
+            {
+                "answer_val": "val_688",
+                "answer_coords": [
+                    2083,
+                    744
+                ]
+            },
+            {
+                "answer_val": "val_689",
+                "answer_coords": [
+                    2083,
+                    778
+                ]
+            },
+            {
+                "answer_val": "val_690",
+                "answer_coords": [
+                    2083,
+                    813
+                ]
+            },
+            {
+                "answer_val": "val_691",
+                "answer_coords": [
+                    2083,
+                    848
+                ]
+            },
+            {
+                "answer_val": "val_692",
+                "answer_coords": [
+                    2083,
+                    883
+                ]
+            },
+            {
+                "answer_val": "val_693",
+                "answer_coords": [
+                    2083,
+                    918
+                ]
+            },
+            {
+                "answer_val": "val_694",
+                "answer_coords": [
+                    2083,
+                    989
+                ]
+            },
+            {
+                "answer_val": "val_695",
+                "answer_coords": [
+                    2083,
+                    1022
+                ]
+            },
+            {
+                "answer_val": "val_696",
+                "answer_coords": [
+                    2083,
+                    1195
+                ]
+            },
+            {
+                "answer_val": "val_697",
+                "answer_coords": [
+                    2083,
+                    1229
+                ]
+            },
+            {
+                "answer_val": "val_698",
+                "answer_coords": [
+                    2083,
+                    1263
+                ]
+            },
+            {
+                "answer_val": "val_699",
+                "answer_coords": [
+                    2083,
+                    1298
+                ]
+            },
+            {
+                "answer_val": "val_700",
+                "answer_coords": [
+                    2083,
+                    1333
+                ]
+            },
+            {
+                "answer_val": "val_701",
+                "answer_coords": [
+                    2083,
+                    1368
+                ]
+            },
+            {
+                "answer_val": "val_702",
+                "answer_coords": [
+                    2083,
+                    1439
+                ]
+            },
+            {
+                "answer_val": "val_703",
+                "answer_coords": [
+                    2083,
+                    1473
+                ]
+            },
+            {
+                "answer_val": "val_704",
+                "answer_coords": [
+                    2084,
+                    505
+                ]
+            },
+            {
+                "answer_val": "val_705",
+                "answer_coords": [
+                    2084,
+                    954
+                ]
+            },
+            {
+                "answer_val": "val_706",
+                "answer_coords": [
+                    2084,
+                    1405
+                ]
+            }
+        ]
+    }
+}

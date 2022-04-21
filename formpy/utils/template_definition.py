@@ -41,8 +41,6 @@ def find_spots(
             spotCentres.append([xCentre, yCentre])
 
     # sort by x, then y
-    sortedSpots = sorted(
-        spotCentres, key=lambda x: (x[0], x[1]), reverse=False
-    )
+    sortedSpots = sorted(spotCentres, key=lambda x: (x[0], x[1]), reverse=False)
 
     return sortedSpots

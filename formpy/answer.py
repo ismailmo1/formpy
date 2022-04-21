@@ -10,7 +10,7 @@ class Answer:
         x: int,
         y: int,
         value: str,
-        circle_radius: int ,
+        circle_radius: int,
         filled_threshold: float = 0.8,
     ):
         """Individual spot corresponding to one possible answer.
@@ -51,4 +51,3 @@ class Answer:
         pctFilled = cv2.countNonZero(mask) / maskPixels
 
         return pctFilled
-

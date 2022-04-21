@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import json
@@ -15,8 +14,11 @@ from formpy.utils.template_definition import find_spots
 if TYPE_CHECKING:
     from formpy.form import Form
 
+
 class Template:
-    def __init__(self, img: np.ndarray, questions: list[Question], circle_radius:int):
+    def __init__(
+        self, img: np.ndarray, questions: list[Question], circle_radius: int
+    ):
         self.questions = questions
         self.img = ip.process_img(img)
         self.circle_radius = circle_radius
@@ -25,9 +27,9 @@ class Template:
     def from_img_template(
         cls,
         img_path: str,
-        circle_radius: int, 
-        question_assigment: dict = None,
-        question_config: dict = None
+        circle_radius: int,
+        question_assignment: dict = None,
+        question_config: dict = None,
     ) -> Template:
         """Init template of form from img - ask for user input to assign question to
         answers-question config and to assign multi answer true/false"""
@@ -69,7 +71,7 @@ class Template:
                     1,
                 )
 
-            if question_assigment == None:
+            if question_assignment == None:
                 assigned_answers_idx = input(
                     f"enter answer id (shown in red) to add to question{question_id}"
                 )
@@ -77,14 +79,17 @@ class Template:
                     int(i.strip()) for i in assigned_answers_idx.split(",")
                 ]
             else:
-                assigned_answers_idx = question_assigment[question_id]
+                assigned_answers_idx = question_assignment[question_id]
 
             # print(f"{question_id}:{assigned_answers_idx}")
             for idx in assigned_answers_idx:
                 answer_coords = all_spots[idx]
                 unassigned_answers.remove(answer_coords)
                 answer = Answer(
-                    answer_coords[0], answer_coords[1], f"val_{idx}"
+                    x=answer_coords[0],
+                    y=answer_coords[1],
+                    value=f"val_{idx}",
+                    circle_radius=circle_radius,
                 )
                 assigned_answers.append(answer)
 
@@ -111,85 +116,93 @@ class Template:
 
         Args:
             json_path (str): Path to JSON containing configuration for form template.
+            see from_dict() for format of JSON.
             img_path (str): Path to image of template.
 
         Returns:
             Form: Return form instantiated from JSON config and image.
         """
-        #TODO add circle radius metadata
-        img = cv2.imread(img_path)
 
         with open(json_path, "r") as fp:
             template = json.load(fp)
 
-        questions = []
+        return cls.from_dict(template, img_path)
 
-        for question_id in template.keys():
+    @classmethod
+    def from_dict(cls, template: dict, img_path: str):
+        """Create template from dictionary of template config.
+
+        Args:
+            template (dict): template config in form:
+            {config:
+                {radius:<CIRCLE_RADIUS>},
+            questions:
+                {question_id:
+                    [
+                        {answer_val:<ANSWER_VAL>,
+                        answer_coords: [<X_COORD>, <Y_COORD>]}
+                    ]
+                }
+            }
+            img_path (str): path to image of form
+
+        Returns:
+            _type_: _description_
+        """
+        img = cv2.imread(img_path)
+
+        question_objs = []
+        questions = template["questions"]
+        question_ids = questions.keys()
+        circle_radius = template["config"]["radius"]
+        for question_id in question_ids:
             answers = []
 
-            for answer in template[question_id]:
+            for answer in questions[question_id]:
                 x, y = answer["answer_coords"]
                 answer_val = answer["answer_val"]
-                answers.append(Answer(x, y, answer_val))
+                answers.append(Answer(x, y, answer_val, circle_radius))
 
             question = Question(
                 question_id=int(question_id), answers=answers, multiple=None
             )
-            questions.append(question)
+            question_objs.append(question)
 
-        return Template(img, questions)
+        return Template(img, question_objs, circle_radius)
 
-    @classmethod
-    def from_dict(
-        cls, img: str | np.ndarray, question_config: dict
-    ) -> Template:
-        """question_config in form {question_id:{multiple:bool, answers:list[answer]}, question_id2}
-        if img is str, assume path and img into array, else assume image is already np array
-        """
-        #TODO add circle radius metadata
-
-        img = cv2.imread(img) if type(img) == str else img
-
-        questions = []
-
-        for question_id in question_config.keys():
-            answers = []
-            multiple = question_config[question_id].get("multiple", False)
-            for answer in question_config[question_id]["answers"].values():
-                x, y = [
-                    int(coord) for coord in answer["answer_coords"].split(",")
-                ]
-                answer_val = answer["answer_val"]
-                answers.append(Answer(x, y, answer_val))
-
-            question = Question(
-                question_id=question_id, answers=answers, multiple=multiple
-            )
-            questions.append(question)
-
-        return Template(img, questions)
-
-    def to_dict(self) -> str:
+    def to_dict(self) -> dict:
         """Convert template obj to dict in form of
-        {question_id:[
-            {answer_val:'val', answer_coords:(x,y)},
-            {answer_val:'val', answer_coords:(x,y)}
-            ]}"""
-        #TODO add circle radius metadata
+        {config:
+                {radius:<CIRCLE_RADIUS>},
+            questions:
+                {question_id:
+                    [
+                        {answer_val:<ANSWER_VAL>,
+                        answer_coords: [<X_COORD>, <Y_COORD>]}
+                    ]
+                }
+            }"""
+        # TODO add circle radius metadata
 
-        template_dict = {}
+        question_dict = {}
 
         for question in self.questions:
-            template_dict[question.question_id] = []
+            question_dict[question.question_id] = []
 
             for answer in question.answers:
-                template_dict[question.question_id].append(
+                question_dict[question.question_id].append(
                     {
                         "answer_val": answer.value,
                         "answer_coords": (answer.x, answer.y),
                     }
                 )
+        template_dict = {}
+        template_dict["config"]["radius"] = self.circle_radius
+        template_dict["questions"] = question_dict
         return template_dict
+
+    def to_json(self) -> str:
+        return json.dumps(self.to_dict())
 
     @property
     def perspective_matrix(self):

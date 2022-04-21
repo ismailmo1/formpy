@@ -48,7 +48,9 @@ def test_template_from_img():
         0: [i for i in range(0, 400)],
         1: [i for i in range(400, 707)],
     }
-    template = Template.from_img_template(OEE_TEMPLATE_JPG, question_ans)
+    template = Template.from_img_template(
+        OEE_TEMPLATE_JPG, circle_radius=15, question_assignment=question_ans
+    )
 
     # uncomment below to show answers on img
     img = cv2.cvtColor(template.img, cv2.COLOR_GRAY2BGR)
@@ -56,8 +58,6 @@ def test_template_from_img():
         for ans in question.answers:
             ans.mark_answer(img, -1)
 
-    cv2.imwrite("test.jpeg",img)
-    # template.to_json(OEE_TEMPLATE_JSON)
     assert template.questions[0].answers[22].x == 123
 
 
@@ -73,7 +73,9 @@ def test_simple_template_from_img():
         7: [i for i in range(56, 64)],
     }
     template = Template.from_img_template(
-        OEE_TEMPLATE_SIMPLE_JPG, question_ans
+        OEE_TEMPLATE_SIMPLE_JPG,
+        circle_radius=15,
+        question_assignment=question_ans,
     )
 
     assert template.questions[5].answers[4].x == 1619

@@ -69,5 +69,3 @@ class Question:
                 else:
                     return [ans]
         return answers
-
-

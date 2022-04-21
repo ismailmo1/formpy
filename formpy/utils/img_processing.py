@@ -80,9 +80,7 @@ def get_outer_box(img: np.ndarray) -> np.ndarray:
 
     ##find outer rectangle
 
-    conts, _ = cv2.findContours(
-        img_edge, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE
-    )
+    conts, _ = cv2.findContours(img_edge, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
     # find top 10 biggest contours by area
     areas = []
     for c in conts:
@@ -105,17 +103,13 @@ def get_outer_box(img: np.ndarray) -> np.ndarray:
             # outer contour found with area method
             top_contours = area_sort[:5]
         else:
-            raise ImageAlignmentError(
-                "Image Alignment Failed: outer box not detected"
-            )
+            raise ImageAlignmentError("Image Alignment Failed: outer box not detected")
     elif area_cont_max_x < length_cont_max_x:
         if area_cont_max_y < length_cont_max_y:
             # outer contour found with length method
             top_contours = length_sort[:5]
         else:
-            raise ImageAlignmentError(
-                "Image Alignment Failed: outer box not detected"
-            )
+            raise ImageAlignmentError("Image Alignment Failed: outer box not detected")
 
     # find outer rectangle
     for c in top_contours:

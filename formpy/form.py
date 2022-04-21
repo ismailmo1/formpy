@@ -53,4 +53,3 @@ class Form:
                 ans.mark_answer(color_img, color=color, circle_thickness=-1)
 
         return color_img
-

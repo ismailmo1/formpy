@@ -23,4 +23,3 @@ def form(template_from_json):
     form_img_path = OEE_FILLED_FORM
     form = Form(cv2.imread(form_img_path), template)
     return form
-
