@@ -1,5 +1,5 @@
 import cv2
-from formpy.questions import Template
+from formpy.template import Template
 
 from .paths import OEE_TEMPLATE_JPG, OEE_TEMPLATE_SIMPLE_JPG
 

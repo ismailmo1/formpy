@@ -1,6 +1,7 @@
 import cv2
 import pytest
-from formpy.questions import Form, Template
+from formpy.form import Form
+from formpy.template import Template
 
 from .paths import OEE_FILLED_FORM, OEE_TEMPLATE_JPG, OEE_TEMPLATE_JSON
 
