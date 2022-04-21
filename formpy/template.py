@@ -16,6 +16,24 @@ if TYPE_CHECKING:
 
 
 class Template:
+    """A class to represent a template that a form is built from.
+
+    Class Methods:
+        from_image_template:
+            initialise template from an image and configuration dictionaries
+        from_json:
+            initialise template from a json file
+        from_dict:
+            initialise template from a dictionary object
+
+    Methods:
+        to_dict:
+            convert template to a dictionary object representation
+        to_json:
+            convert template to a json string representation
+
+    """
+
     def __init__(
         self, img: np.ndarray, questions: list[Question], circle_radius: int
     ):
@@ -28,11 +46,20 @@ class Template:
         cls,
         img_path: str,
         circle_radius: int,
-        question_assignment: dict = None,
+        question_assignment: dict,
         question_config: dict = None,
     ) -> Template:
-        """Init template of form from img - ask for user input to assign question to
-        answers-question config and to assign multi answer true/false"""
+        """Initialise template from img
+
+        Args:
+            img_path (str): path to load image of template from
+            circle_radius (int): size of the answer circles
+            question_assignment (dict): map of question id to list of answer ids.
+            question_config (dict, optional): map of question id to true/false flag for multiple answers. Defaults to None.
+
+        Returns:
+            Template: _description_
+        """
 
         # load image and align
         raw_img = cv2.imread(img_path)
@@ -129,7 +156,7 @@ class Template:
         return cls.from_dict(template, img_path)
 
     @classmethod
-    def from_dict(cls, template: dict, img_path: str):
+    def from_dict(cls, template: dict, img_path: str) -> Template:
         """Create template from dictionary of template config.
 
         Args:
@@ -147,7 +174,7 @@ class Template:
             img_path (str): path to image of form
 
         Returns:
-            _type_: _description_
+            Template
         """
         img = cv2.imread(img_path)
 
@@ -171,7 +198,7 @@ class Template:
         return Template(img, question_objs, circle_radius)
 
     def to_dict(self) -> dict:
-        """Convert template obj to dict in form of
+        """Convert template obj to dictionary in form of
         {config:
                 {radius:<CIRCLE_RADIUS>},
             questions:
@@ -181,7 +208,10 @@ class Template:
                         answer_coords: [<X_COORD>, <Y_COORD>]}
                     ]
                 }
-            }"""
+            }
+        Return:
+            dict : python dictionary object with format described above
+        """
         # TODO add circle radius metadata
 
         question_dict = {}
@@ -205,7 +235,13 @@ class Template:
         return json.dumps(self.to_dict())
 
     @property
-    def perspective_matrix(self):
+    def perspective_matrix(self) -> np.ndarray:
+        """return perspective matrix from outer box detected in image
+        used for alignment of template
+
+        Returns:
+            np.ndarray: perspective matrix
+        """
         ordered_pts = ip.get_outer_box(self.img)
         matrix = ip.get_perspective_matrix(ordered_pts)
         return matrix
