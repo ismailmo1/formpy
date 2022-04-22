@@ -37,6 +37,13 @@ class Template:
     def __init__(
         self, img: np.ndarray, questions: list[Question], circle_radius: int
     ):
+        """initialise template
+
+        Args:
+            img (np.ndarray): image of template read in using e.g. cv2.imread()
+            questions (list[Question]): list of questions on template
+            circle_radius (int): size of answer circles
+        """
         self.questions = questions
         self.img = ip.process_img(img)
         self.circle_radius = circle_radius
@@ -58,7 +65,7 @@ class Template:
             question_config (dict, optional): map of question id to true/false flag for multiple answers. Defaults to None.
 
         Returns:
-            Template: _description_
+            Template
         """
 
         # load image and align
@@ -143,7 +150,7 @@ class Template:
 
         Args:
             json_path (str): Path to JSON containing configuration for form template.
-            see from_dict() for format of JSON.
+            see from_dict() docstring for format of JSON.
             img_path (str): Path to image of template.
 
         Returns:
@@ -212,7 +219,6 @@ class Template:
         Return:
             dict : python dictionary object with format described above
         """
-        # TODO add circle radius metadata
 
         question_dict = {}
 
