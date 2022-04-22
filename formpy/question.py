@@ -36,7 +36,7 @@ class Question:
         """return cropped form image of the question
 
         Args:
-            form_img (np.ndarray): form image read into an array e.g. through cv2.imread()
+            form_img (np.ndarray): form image read into array e.g. via cv2.imread()
 
         Returns:
             np.ndarray: cropped form image

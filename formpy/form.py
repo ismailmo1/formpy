@@ -21,7 +21,7 @@ class Form:
         """Initialise form with an associated template that it was built from
 
         Args:
-            img (np.ndarray): a form image read into array e.g. through cv2.imread()
+            img (np.ndarray): a form image read into array e.g. via cv2.imread()
             template (Template): template that the form was built from
 
         Returns:
@@ -38,7 +38,7 @@ class Form:
         """resize image to be of same size as template
 
         Args:
-            img (np.ndarray): form image read into array e.g. through cv2.imread()
+            img (np.ndarray): form image read into array e.g. via cv2.imread()
         """
         processed_img = ip.process_img(img)
         resized_img = cv2.resize(

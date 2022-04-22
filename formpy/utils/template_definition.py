@@ -12,7 +12,7 @@ def find_spots(
     the detected contour is an answer
 
     Args:
-        img (np.array): image of template read into an array e.g. via cv2.imread()
+        img (np.array): image of template read into array e.g. via cv2.imread()
         This should be a template page with all the answers filled in so the coordinates
         can be detected
         max_radius (int, optional): max threshold used to determine if the contour
