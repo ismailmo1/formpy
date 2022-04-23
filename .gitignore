@@ -4,3 +4,4 @@ venv
 .vscode
 test.jpeg
 docs/build/
+dist/
