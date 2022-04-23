@@ -5,12 +5,7 @@ import numpy as np
 
 
 class Answer:
-    """A class to represent a single answer circle
-    Methods:
-        calc_filled_perc: returns percentage of circle that has been filled in
-        is_filled: uses calc_filled_perc and a threshold parameter to determine if the answer is filled
-        mark_answer: utility to mark answer with coloured circle on image
-    """
+    """A class to represent a single answer circle"""
 
     def __init__(
         self,

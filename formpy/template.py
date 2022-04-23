@@ -16,23 +16,7 @@ if TYPE_CHECKING:
 
 
 class Template:
-    """A class to represent a template that a form is built from.
-
-    Class Methods:
-        from_image_template:
-            initialise template from an image and configuration dictionaries
-        from_json:
-            initialise template from a json file
-        from_dict:
-            initialise template from a dictionary object
-
-    Methods:
-        to_dict:
-            convert template to a dictionary object representation
-        to_json:
-            convert template to a json string representation
-
-    """
+    """A class to represent a template that a form is built from."""
 
     def __init__(
         self, img: np.ndarray, questions: list[Question], circle_radius: int
@@ -149,9 +133,22 @@ class Template:
         """Return Form instance from pre-configured JSON.
 
         Args:
-            json_path (str): Path to JSON containing configuration for form template.
-            see from_dict() docstring for format of JSON.
             img_path (str): Path to image of template.
+            json_path (str): Path to JSON containing configuration for form template, see format below.
+
+        .. code-block:: json
+
+            {"config":
+                    {"radius":"<CIRCLE_RADIUS>"},
+                "questions":
+                    {"question_id":
+                        [
+                            {"answer_val":"<ANSWER_VAL>",
+                            "answer_coords": ["<X_COORD>", "<Y_COORD>"]}
+                        ]
+                    }
+                }
+
 
         Returns:
             Form: Return form instantiated from JSON config and image.
@@ -167,18 +164,22 @@ class Template:
         """Create template from dictionary of template config.
 
         Args:
-            template (dict): template config in form:
-            {config:
-                {radius:<CIRCLE_RADIUS>},
-            questions:
-                {question_id:
-                    [
-                        {answer_val:<ANSWER_VAL>,
-                        answer_coords: [<X_COORD>, <Y_COORD>]}
-                    ]
+            template (dict): template config as shown below.
+
+        .. code-block:: python
+
+            {"config":
+                    {"radius":"<CIRCLE_RADIUS>"},
+                "questions":
+                    {"question_id":
+                        [
+                            {"answer_val":"<ANSWER_VAL>",
+                            "answer_coords": ["<X_COORD>", "<Y_COORD>"]}
+                        ]
+                    }
                 }
-            }
-            img_path (str): path to image of form
+
+        img_path (str): path to image of form
 
         Returns:
             Template
@@ -205,19 +206,24 @@ class Template:
         return Template(img, question_objs, circle_radius)
 
     def to_dict(self) -> dict:
-        """Convert template obj to dictionary in form of
-        {config:
-                {radius:<CIRCLE_RADIUS>},
-            questions:
-                {question_id:
-                    [
-                        {answer_val:<ANSWER_VAL>,
-                        answer_coords: [<X_COORD>, <Y_COORD>]}
-                    ]
-                }
-            }
+        """Convert template obj to dictionary. See docs for dictionary structure.
+
         Return:
-            dict : python dictionary object with format described above
+            dict : dictionary representation of template as below.
+
+        .. code-block:: python
+
+            {"config":
+                    {"radius":"<CIRCLE_RADIUS>"},
+                "questions":
+                    {"question_id":
+                        [
+                            {"answer_val":"<ANSWER_VAL>",
+                            "answer_coords": ["<X_COORD>", "<Y_COORD>"]}
+                        ]
+                    }
+                }
+
         """
 
         question_dict = {}
@@ -238,6 +244,25 @@ class Template:
         return template_dict
 
     def to_json(self) -> str:
+        """Convert template into json string representation.
+
+        Returns:
+            str: json string in format below.
+
+        .. code-block:: json
+
+            {"config":
+                    {"radius":"<CIRCLE_RADIUS>"},
+                "questions":
+                    {"question_id":
+                        [
+                            {"answer_val":"<ANSWER_VAL>",
+                            "answer_coords": ["<X_COORD>", "<Y_COORD>"]}
+                        ]
+                    }
+                }
+
+        """
         return json.dumps(self.to_dict())
 
     @property

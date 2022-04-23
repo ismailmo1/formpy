@@ -11,11 +11,7 @@ from .template import Template
 
 
 class Form:
-    """A class to represent a form.
-
-    Methods:
-        mark_all_answers: mark all the possible answers with their question ids on the form image
-    """
+    """A class to represent a form."""
 
     def __init__(self, img: np.ndarray, template: Template) -> Form:
         """Initialise form with an associated template that it was built from
