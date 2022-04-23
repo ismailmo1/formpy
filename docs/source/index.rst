@@ -10,6 +10,8 @@ Welcome to formpy's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   starter
+   modules
 
 
 Indices and tables

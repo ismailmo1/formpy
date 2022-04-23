@@ -1,0 +1,1 @@
+poetry run sphinx-apidoc -f -o source ../formpy && poetry run make html
