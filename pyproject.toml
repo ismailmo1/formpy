@@ -1,17 +1,20 @@
 [tool.poetry]
-name = "formpy"
+name = "formpy-omr"
 version = "0.1.0"
-description = "optical mark recognition (omr) library"
+description = ""
 authors = ["Ismail Mohammed <ismailmo4@gmail.com>"]
+packages = [
+    { include = "formpy" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-opencv-python = "^4.5.5"
+opencv-contrib-python = "^4.5.5"
 numpy = "^1.22.3"
 
 [tool.poetry.dev-dependencies]
 Sphinx = "^4.5.0"
-pytest = "^7.1.1"
+pytest = "^7.1.2"
 black = "^22.3.0"
 sphinx-rtd-theme = "^1.0.0"
 sphinxcontrib-fulltoc = "^1.2.0"

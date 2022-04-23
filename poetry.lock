@@ -186,7 +186,7 @@ optional = false
 python-versions = ">=3.8"
 
 [[package]]
-name = "opencv-python"
+name = "opencv-contrib-python"
 version = "4.5.5.64"
 description = "Wrapper package for OpenCV python bindings."
 category = "main"
@@ -273,7 +273,7 @@ diagrams = ["railroad-diagrams", "jinja2"]
 
 [[package]]
 name = "pytest"
-version = "7.1.1"
+version = "7.1.2"
 description = "pytest: simple powerful testing with Python"
 category = "dev"
 optional = false
@@ -496,7 +496,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "9673563899016b1a63b6c4e68c0e4dd0e8779a0a91d9e6b8c11ed257da2b5ea4"
+content-hash = "f5df5c1596352496a69af519e63a55039c082f2d3bb61133140ba0efd115221b"
 
 [metadata.files]
 alabaster = [
@@ -648,14 +648,14 @@ numpy = [
     {file = "numpy-1.22.3-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c34ea7e9d13a70bf2ab64a2532fe149a9aced424cd05a2c4ba662fd989e3e45f"},
     {file = "numpy-1.22.3.zip", hash = "sha256:dbc7601a3b7472d559dc7b933b18b4b66f9aa7452c120e87dfb33d02008c8a18"},
 ]
-opencv-python = [
-    {file = "opencv-python-4.5.5.64.tar.gz", hash = "sha256:f65de0446a330c3b773cd04ba10345d8ce1b15dcac3f49770204e37602d0b3f7"},
-    {file = "opencv_python-4.5.5.64-cp36-abi3-macosx_10_15_x86_64.whl", hash = "sha256:a512a0c59b6fec0fac3844b2f47d6ecb1a9d18d235e6c5491ce8dbbe0663eae8"},
-    {file = "opencv_python-4.5.5.64-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:ca6138b6903910e384067d001763d40f97656875487381aed32993b076f44375"},
-    {file = "opencv_python-4.5.5.64-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b293ced62f4360d9f11cf72ae7e9df95320ff7bf5b834d87546f844e838c0c35"},
-    {file = "opencv_python-4.5.5.64-cp36-abi3-win32.whl", hash = "sha256:6247e584813c00c3b9ed69a795da40d2c153dc923d0182e957e1c2f00a554ac2"},
-    {file = "opencv_python-4.5.5.64-cp36-abi3-win_amd64.whl", hash = "sha256:408d5332550287aa797fd06bef47b2dfed163c6787668cc82ef9123a9484b56a"},
-    {file = "opencv_python-4.5.5.64-cp37-abi3-macosx_11_0_arm64.whl", hash = "sha256:7787bb017ae93d5f9bb1b817ac8e13e45dd193743cb648498fcab21d00cf20a3"},
+opencv-contrib-python = [
+    {file = "opencv-contrib-python-4.5.5.64.tar.gz", hash = "sha256:c4ff7cb9c856af521982b54602707a61f8dae8cc28f5949bf1e3d0453d08a9f0"},
+    {file = "opencv_contrib_python-4.5.5.64-cp36-abi3-macosx_10_15_x86_64.whl", hash = "sha256:aff6bcc6d12e664af16be07a583f6a6a637d6e17784bd06abfb07573807a199e"},
+    {file = "opencv_contrib_python-4.5.5.64-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4179b78d8c1eb279fcb2cbb41e6cdb3a127ae5d96c39241ef88dab3382e56da1"},
+    {file = "opencv_contrib_python-4.5.5.64-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4544b8b03dc50fea42f67013cdff5b74a326f7631616055c2a2e998fef652e0f"},
+    {file = "opencv_contrib_python-4.5.5.64-cp36-abi3-win32.whl", hash = "sha256:8381ab5952724719c982e4b8061fbda9ceae5b01f3e2a32beec30b5dd9f74f3f"},
+    {file = "opencv_contrib_python-4.5.5.64-cp36-abi3-win_amd64.whl", hash = "sha256:fc2aa1f3abb564832c1bc289b1d83f491dd249e640b78a30e9cc1831ebbf4410"},
+    {file = "opencv_contrib_python-4.5.5.64-cp37-abi3-macosx_11_0_arm64.whl", hash = "sha256:b54c750ad88eba0e35b09c9286d6d2a1be8d8a6925b1d7e1e487df2396e74397"},
 ]
 packaging = [
     {file = "packaging-21.3-py3-none-any.whl", hash = "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"},
@@ -686,8 +686,8 @@ pyparsing = [
     {file = "pyparsing-3.0.8.tar.gz", hash = "sha256:7bf433498c016c4314268d95df76c81b842a4cb2b276fa3312cfb1e1d85f6954"},
 ]
 pytest = [
-    {file = "pytest-7.1.1-py3-none-any.whl", hash = "sha256:92f723789a8fdd7180b6b06483874feca4c48a5c76968e03bb3e7f806a1869ea"},
-    {file = "pytest-7.1.1.tar.gz", hash = "sha256:841132caef6b1ad17a9afde46dc4f6cfa59a05f9555aae5151f73bdf2820ca63"},
+    {file = "pytest-7.1.2-py3-none-any.whl", hash = "sha256:13d0e3ccfc2b6e26be000cb6568c832ba67ba32e719443bfe725814d3c42433c"},
+    {file = "pytest-7.1.2.tar.gz", hash = "sha256:a06a0425453864a270bc45e71f783330a7428defb4230fb5e6a731fde06ecd45"},
 ]
 pytz = [
     {file = "pytz-2022.1-py2.py3-none-any.whl", hash = "sha256:e68985985296d9a66a881eb3193b0906246245294a881e7c8afe623866ac6a5c"},
