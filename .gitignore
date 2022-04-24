@@ -5,3 +5,4 @@ venv
 test.jpeg
 docs/build/
 dist/
+*:Zone.Identifier

@@ -51,7 +51,7 @@ automatically instantiate a template. We can use ``find_spots`` to grab a list o
         colour_img=cv2.circle(colour_img, 
                                 (answer[0],answer[1]), 
                                 25, 
-                                (0,0,255),
+                                (255,0,0),
                                 3)
 
     #write the output to a file - you can also use cv2.imshow 
@@ -61,7 +61,8 @@ automatically instantiate a template. We can use ``find_spots`` to grab a list o
    :alt: form with marked answers from find_spots
    :align: center
 
-Once you have confirmed the answer circles are detected correctly, you 
+
+Once you have confirmed the answer circles are detected correctly (see blue circles aboe), you 
 can create a dictionary to map the answers to questions so a template can be instantiated.
 The keys must be integers and the values should be a list of answers indices returned from ``find_spots``.
 
@@ -140,6 +141,10 @@ that do this for free.
 
 From this point it is then trivial to export loop over all the forms using this pattern and 
 exporting to another format, e.g. a ``pandas.DataFrame`` for data processing/analysis.
+
+.. image:: _static/formpy-form-detected.jpg
+   :alt: completed form with answers detected
+   :align: center  
 
 An easier way
 --------------
