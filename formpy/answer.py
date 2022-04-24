@@ -55,7 +55,7 @@ class Answer:
         if len(form_img.shape) != 3:
             form_img = cv2.cvtColor(form_img, cv2.COLOR_GRAY2BGR)
 
-        cv2.circle(
+        form_img = cv2.circle(
             form_img,
             (self.x, self.y),
             self.circle_radius,
