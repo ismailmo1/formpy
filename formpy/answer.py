@@ -5,12 +5,7 @@ import numpy as np
 
 
 class Answer:
-    """A class to represent a single answer circle
-    Methods:
-        calc_filled_perc: returns percentage of circle that has been filled in
-        is_filled: uses calc_filled_perc and a threshold parameter to determine if the answer is filled
-        mark_answer: utility to mark answer with coloured circle on image
-    """
+    """A class to represent a single answer circle"""
 
     def __init__(
         self,
@@ -60,7 +55,7 @@ class Answer:
         if len(form_img.shape) != 3:
             form_img = cv2.cvtColor(form_img, cv2.COLOR_GRAY2BGR)
 
-        cv2.circle(
+        form_img = cv2.circle(
             form_img,
             (self.x, self.y),
             self.circle_radius,

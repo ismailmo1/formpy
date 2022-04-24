@@ -6,15 +6,7 @@ from .answer import Answer
 
 
 class Question:
-    """A class to represent a Question on a form or template.
-
-    Methods:
-        find_answers: find the marked answer(s) for the questions
-
-    Properties:
-        question_img: return a cropped image of the question
-
-    """
+    """A class to represent a Question on a form or template."""
 
     def __init__(
         self, question_id: int, answers: list[Answer], multiple: bool
