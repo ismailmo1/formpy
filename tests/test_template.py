@@ -32,7 +32,7 @@ def test_question_id(template_from_json):
 def test_answer_check_fill(template_from_json):
     template = template_from_json
     temp_img = template.img
-    assert template.questions[1].answers[42].is_filled(temp_img) == True
+    assert template.questions[1].answers[42].is_filled(temp_img)
 
 
 def test_answer_check_fill_perc(template_from_json):

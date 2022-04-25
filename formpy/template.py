@@ -18,9 +18,7 @@ if TYPE_CHECKING:
 class Template:
     """A class to represent a template that a form is built from."""
 
-    def __init__(
-        self, img: np.ndarray, questions: list[Question], circle_radius: int
-    ):
+    def __init__(self, img: np.ndarray, questions: list[Question], circle_radius: int):
         """initialise template
 
         Args:
@@ -45,8 +43,10 @@ class Template:
         Args:
             img_path (str): path to load image of template from
             circle_radius (int): size of the answer circles
-            question_assignment (dict): map of question id to list of answer ids.
-            question_config (dict, optional): map of question id to true/false flag for multiple answers. Defaults to None.
+            question_assignment (dict): map of question id to list of answer
+            id.
+            question_config (dict, optional): map of question id to true/false
+            flag for multiple answers. Defaults to None.
 
         Returns:
             Template
@@ -89,9 +89,10 @@ class Template:
                     1,
                 )
 
-            if question_assignment == None:
+            if question_assignment is None:
                 assigned_answers_idx = input(
-                    f"enter answer id (shown in red) to add to question{question_id}"
+                    f"enter answer id (shown in red) to add to question: \
+                        {question_id}"
                 )
                 assigned_answers_idx = [
                     int(i.strip()) for i in assigned_answers_idx.split(",")
@@ -134,7 +135,8 @@ class Template:
 
         Args:
             img_path (str): Path to image of template.
-            json_path (str): Path to JSON containing configuration for form template, see format below.
+            json_path (str): Path to JSON containing configuration for form
+            template, see format below.
 
         .. code-block:: json
 

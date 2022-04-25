@@ -17,7 +17,8 @@ class Form:
         """Initialise form with an associated template that it was built from
 
         Args:
-            img (np.ndarray): a form image read into array e.g. via cv2.imread()
+            img (np.ndarray): a form image read into array
+            e.g. via cv2.imread()
             template (Template): template that the form was built from
 
         Returns:
@@ -28,7 +29,10 @@ class Form:
         self.questions = template.questions
 
     def __repr__(self) -> str:
-        return f"Form with {len(self.questions)} questions and {sum([len(i.answers) for i in self.questions])}"
+        return (
+            f"Form with {len(self.questions)} questions and"
+            f"{sum([len(i.answers) for i in self.questions])}"
+        )
 
     def __resize_img(self, img: np.ndarray) -> np.ndarray:
         """resize image to be of same size as template
@@ -48,14 +52,14 @@ class Form:
         """mark all answers on the form image with the question id and answer value
 
         Args:
-            colour (Tuple[int], optional): color of text and circles to mark answers in BGR. Defaults to (0, 0, 255).
+            colour (Tuple[int], optional): color of text and circles to mark
+            answers in BGR. Defaults to (0, 0, 255).
 
         Returns:
-            np.ndarray: form image with marked answers, answer values and question ids
+            np.ndarray: form image with marked answers, answer values and
+            question ids
         """
-        colour_img = cv2.cvtColor(
-            cv2.bitwise_not(self.img), cv2.COLOR_GRAY2BGR
-        )
+        colour_img = cv2.cvtColor(cv2.bitwise_not(self.img), cv2.COLOR_GRAY2BGR)
 
         for qn in self.template.questions:
             answers = qn.answers

@@ -1,13 +1,13 @@
 Getting Started
 ===============
 
-Installation 
+Installation
 -------------
 
 Install the formpy library with pip or your favourite package manager:
 
 .. code-block:: python
-    
+
     pip install formpy-omr
 
 Creating a template
@@ -19,8 +19,8 @@ Otherwise the coordinates for the answers will be off and it will not detect the
 
 You can also download a template from the `formpy website <https://formpy.ismailmo.com/starter-doc/>`_
 
-If you'd like to use the ``Template.from_img_template`` class method to instantiate a template, 
-as opposed to manually writing the x,y coordinates of each spot, 
+If you'd like to use the ``Template.from_img_template`` class method to instantiate a template,
+as opposed to manually writing the x,y coordinates of each spot,
 then you should prepare a template with all the answers filled in as show below:
 
 .. image:: _static/starter-template.jpg
@@ -32,11 +32,11 @@ Since there are other circle-like shapes on the form, it's best to visualise whi
 automatically instantiate a template. We can use ``find_spots`` to grab a list of detected answer locations.
 
 .. code-block:: python
-    
+
     import cv2
     from formpy.utils.template_definition import find_spots
     from formpy.utils.img_processing import process_img
-    
+
     template_img = cv2.imread("path-to-template.jpg")
     aligned_img = process_img(template_img)
 
@@ -48,13 +48,13 @@ automatically instantiate a template. We can use ``find_spots`` to grab a list o
     colour_img = cv2.cvtColor(aligned_img, cv2.COLOR_GRAY2BGR)
 
     for answer in answer_locations:
-        colour_img=cv2.circle(colour_img, 
-                                (answer[0],answer[1]), 
-                                25, 
+        colour_img=cv2.circle(colour_img,
+                                (answer[0],answer[1]),
+                                25,
                                 (255,0,0),
                                 3)
 
-    #write the output to a file - you can also use cv2.imshow 
+    #write the output to a file - you can also use cv2.imshow
     cv2.imwrite("template_answers.jpeg", colour_img)
 
 .. image:: _static/find-spots.jpg
@@ -62,7 +62,7 @@ automatically instantiate a template. We can use ``find_spots`` to grab a list o
    :align: center
 
 
-Once you have confirmed the answer circles are detected correctly (see blue circles aboe), you 
+Once you have confirmed the answer circles are detected correctly (see blue circles aboe), you
 can create a dictionary to map the answers to questions so a template can be instantiated.
 The keys must be integers and the values should be a list of answers indices returned from ``find_spots``.
 
@@ -87,21 +87,21 @@ We can now instantiate the template from the image template.
         question_assignment=question_assignment,
     )
 
-The template can be serialised and saved into a json file so that we can 
+The template can be serialised and saved into a json file so that we can
 reuse it later when reading in forms.
 
 .. code-block:: python
-    
+
     json_string = template.to_json()
-    
+
     with open("json-path.json", "w+") as f:
         f.write(json_string)
 
 Loading a template
 ------------------
 
-The process for creating templates is quite tedious, so formpy provides 
-methods to read and write templates from json files. We saw how to write 
+The process for creating templates is quite tedious, so formpy provides
+methods to read and write templates from json files. We saw how to write
 to json above, loading is as simple as using ``Template.from_json``.
 
 .. code-block:: python
@@ -113,10 +113,10 @@ to json above, loading is as simple as using ``Template.from_json``.
 
 Reading forms
 -------------
-Once you have collected your completed forms you can started reaping 
+Once you have collected your completed forms you can started reaping
 the rewards from the efforts in defining the templates.
 
-Convert all your forms into images, there are plenty of 
+Convert all your forms into images, there are plenty of
 `tools out there <https://www.google.com/search?q=pdf+to+image/>`_
 that do this for free.
 
@@ -139,17 +139,16 @@ that do this for free.
         for (qn, answers) in qn_ans.items()
     }
 
-From this point it is then trivial to export loop over all the forms using this pattern and 
+From this point it is then trivial to export loop over all the forms using this pattern and
 exporting to another format, e.g. a ``pandas.DataFrame`` for data processing/analysis.
 
 .. image:: _static/formpy-form-detected.jpg
    :alt: completed form with answers detected
-   :align: center  
+   :align: center
 
 An easier way
 --------------
-If you do not require programmatic access to the formpy api and/or you'd like non-coders to 
-create templates and read forms, check out `our website <https://formpy.ismailmo.com>`_ 
-where you can replicate all this functionality via a web GUI interface and create your 
+If you do not require programmatic access to the formpy api and/or you'd like non-coders to
+create templates and read forms, check out `our website <https://formpy.ismailmo.com>`_
+where you can replicate all this functionality via a web GUI interface and create your
 own account to save templates.
-

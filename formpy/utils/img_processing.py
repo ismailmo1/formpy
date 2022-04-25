@@ -15,7 +15,8 @@ def show_img(img: np.ndarray | list[np.ndarray], time: int = 0) -> None:
     Args:
         img (np.ndarray | list[np.ndarray]): image to display as
         array read into array e.g. via cv2.imread()
-        time (int, optional): Delay time in millisec to display window. Defaults to 0.
+        time (int, optional): Delay time in millisec to display window.
+        Defaults to 0.
     """
 
     if type(img) != list:
@@ -34,9 +35,12 @@ def thresh_img(
     """Convert image to binary black and white image using thresholds
 
     Args:
-        img (np.ndarray): image to threshold read into array e.g. via cv2.imread()
-        min_thresh (int, optional): Pixels below this grayscale value will be converted to white pixels . Defaults to 100.
-        max_thresh (int, optional): Pixels above this grayscale value will be converted to black pixels. Defaults to 255.
+        img (np.ndarray): image to threshold read into array
+        e.g. via cv2.imread()
+        min_thresh (int, optional): Pixels below this grayscale value will be
+        converted to white pixels . Defaults to 100.
+        max_thresh (int, optional): Pixels above this grayscale value will be
+        converted to black pixels. Defaults to 255.
 
     Returns:
         np.ndarray: thresholded image with only black or white pixels
@@ -58,16 +62,19 @@ def get_perspective_matrix(ordered_corner_pts: np.ndarray) -> np.ndarray:
     """Calculates a matrix from the corners of the aligment feature
 
     Args:
-        ordered_corner_pts (np.ndarray): Corner points of rectangle alignment feature,
+        ordered_corner_pts (np.ndarray): Corner points of rectangle alignment
+        feature,
         ordered from top-left clockwise
 
     Returns:
-        np.ndarray: perspective matrix to use to align page using cv2.getPerspectiveTransform()
+        np.ndarray: perspective matrix to use to align page using
+        cv2.getPerspectiveTransform()
     """
     # unpack ordered pts to find widths and heights
     (tl, tr, br, bl) = ordered_corner_pts
 
-    # use euclidean distances (finally a use for pythagoras lol) - taken from pyimagesearch.com
+    # use euclidean distances (finally a use for pythagoras lol) -
+    # taken from pyimagesearch.com
     widthA = np.sqrt(((br[0] - bl[0]) ** 2) + ((br[1] - bl[1]) ** 2))
     widthB = np.sqrt(((tr[0] - tl[0]) ** 2) + ((tr[1] - tl[1]) ** 2))
     heightA = np.sqrt(((tr[0] - br[0]) ** 2) + ((tr[1] - br[1]) ** 2))
@@ -77,7 +84,8 @@ def get_perspective_matrix(ordered_corner_pts: np.ndarray) -> np.ndarray:
     maxWidth = max(int(widthA), int(widthB))
     maxHeight = max(int(heightA), int(heightB))
 
-    # initialise dst array for transformation - i.e. map corners of img onto this matrix
+    # initialise dst array for transformation -
+    # i.e. map corners of img onto this matrix
     dst = np.array(
         [
             [0, 0],
@@ -101,7 +109,8 @@ def get_outer_box(img: np.ndarray) -> np.ndarray:
         ImageAlignmentError: if outer box is not detected
 
     Returns:
-        np.ndarray: returns the 4 coordinates of the corners of the rectangle alignment feature,
+        np.ndarray: returns the 4 coordinates of the corners of the rectangle
+        alignment feature,
         ordered from top-left clockwise
     """
     # enhance image to improve contour detection
@@ -112,11 +121,9 @@ def get_outer_box(img: np.ndarray) -> np.ndarray:
     img_bilat = cv2.bilateralFilter(img_gray, 11, 500, 0)
     img_edge = cv2.Canny(img_bilat, 20, 100)
 
-    ##find outer rectangle
+    # find outer rectangle
 
-    conts, _ = cv2.findContours(
-        img_edge, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE
-    )
+    conts, _ = cv2.findContours(img_edge, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
     # find top 10 biggest contours by area
     areas = []
     for c in conts:
@@ -139,17 +146,13 @@ def get_outer_box(img: np.ndarray) -> np.ndarray:
             # outer contour found with area method
             top_contours = area_sort[:5]
         else:
-            raise ImageAlignmentError(
-                "Image Alignment Failed: outer box not detected"
-            )
+            raise ImageAlignmentError("Image Alignment Failed: outer box not detected")
     elif area_cont_max_x < length_cont_max_x:
         if area_cont_max_y < length_cont_max_y:
             # outer contour found with length method
             top_contours = length_sort[:5]
         else:
-            raise ImageAlignmentError(
-                "Image Alignment Failed: outer box not detected"
-            )
+            raise ImageAlignmentError("Image Alignment Failed: outer box not detected")
 
     # find outer rectangle
     for c in top_contours:
@@ -173,15 +176,17 @@ def get_outer_box(img: np.ndarray) -> np.ndarray:
     return pts
 
 
-def align_page(
-    img: np.ndarray, corner_pts: np.ndarray | None = None
-) -> np.ndarray:
-    """Applys perspective transform to align the image using a rectangle alignment feature on the image
+def align_page(img: np.ndarray, corner_pts: np.ndarray | None = None) -> np.ndarray:
+    """Applys perspective transform to align the image using a rectangle
+    alignment feature on the image
 
     Args:
-        img (np.ndarray): image of form or template read into array e.g. via cv2.imread()
-        corner_pts (np.ndarray | None, optional): 4 coordinates of the corners of the rectangle alignment feature,
-        ordered from top-left clockwise. Defaults to None, and the rectangle feature will be detected automatically.
+        img (np.ndarray): image of form or template read into array
+        e.g. via cv2.imread()
+        corner_pts (np.ndarray | None, optional): 4 coordinates of the corners
+        of the rectangle alignment feature,
+        ordered from top-left clockwise. Defaults to None, and the rectangle
+        feature will be detected automatically.
 
     Returns:
         np.ndarray: aligned image
@@ -200,11 +205,13 @@ def align_page(
     # transformation matrix
     matrix = cv2.getPerspectiveTransform(ordered_pts, dst)
 
-    # transform image and resize to original size (map spots to correct locations)
+    # transform image and resize to original size
+    # (map spots to correct locations)
     img_warp = cv2.warpPerspective(img, matrix, (width, height))
 
     # TODO add rotation feature (separate func probably) -
-    # TODO add detection mechanism for choosing rotation e.g. top left spot or something
+    # TODO add detection mechanism for choosing rotation
+    # e.g. top left spot or something
 
     # if img_warp.shape[0] > img_warp.shape[1]:
     #     img_warp = cv2.rotate(img_warp, cv2.ROTATE_90_CLOCKWISE)
@@ -213,7 +220,8 @@ def align_page(
 
 
 def process_img(img: np.ndarray) -> np.ndarray:
-    """Converts image to binary black & white and aligns the page using the rectangle alignment feature
+    """Converts image to binary black & white and aligns the page using the
+    rectangle alignment feature
 
     Args:
         img (np.ndarray): image read into array e.g. via cv2.imread()

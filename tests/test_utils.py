@@ -1,11 +1,6 @@
 import cv2
 import numpy as np
-from formpy.utils.img_processing import (
-    align_page,
-    get_outer_box,
-    process_img,
-    thresh_img,
-)
+from formpy.utils.img_processing import align_page, get_outer_box, process_img
 from formpy.utils.template_definition import find_spots
 
 from .paths import OEE_TEMPLATE_JPG, OEE_TEMPLATE_SIMPLE_JPG

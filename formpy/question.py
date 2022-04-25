@@ -8,16 +8,16 @@ from .answer import Answer
 class Question:
     """A class to represent a Question on a form or template."""
 
-    def __init__(
-        self, question_id: int, answers: list[Answer], multiple: bool
-    ):
-        """Return Question instance to represent group of answers belonging to a question.
+    def __init__(self, question_id: int, answers: list[Answer], multiple: bool):
+        """Return Question instance to represent group of answers belonging to
+        a question.
 
         Args:
             question_id (int): Unique ID to keep track of question number.
             form_img (np.ndarray): image of form.
             answers (list[Answer]): All spots that reference a possible answer.
-            multiple (bool): Set to true if question has multiple possible answers.
+            multiple (bool): Set to true if question has multiple possible
+            answers.
         """
         self.answers = answers
         self.multiple = multiple
@@ -28,7 +28,8 @@ class Question:
         """return cropped form image of the question
 
         Args:
-            form_img (np.ndarray): form image read into array e.g. via cv2.imread()
+            form_img (np.ndarray): form image read into array
+            e.g. via cv2.imread()
 
         Returns:
             np.ndarray: cropped form image
@@ -61,8 +62,10 @@ class Question:
             img (np.ndarray): image of the form
 
         Returns:
-            list[Answer]: answers that have been marked i.e. return true for answer.check_fill()
-            if question.multiple == False then the first marked answer will be returned and length
+            list[Answer]: answers that have been marked i.e. return true for
+            answer.check_fill()
+            if question.multiple == False then the first marked answer will be
+            returned and length
             of this list will be 1.
         """
 

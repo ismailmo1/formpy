@@ -1,6 +1,6 @@
 def test_answer_check_fill(form):
     ans = form.questions[0].answers[20]
-    assert ans.is_filled(form.img) == True
+    assert ans.is_filled(form.img)
 
 
 def test_answer_check_fill_perc(form):
