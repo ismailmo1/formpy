@@ -1,5 +1,3 @@
-# formpy
-
 <div align="center" style="margin-bottom:15px;">
   <img align="center" alt="ci/cd workflow status" src="https://github.com/ismailmo1/formpy/actions/workflows/.github/workflows/test_deploy.yml/badge.svg" />
 <a href="https://badge.fury.io/py/formpy-omr"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -7,11 +5,13 @@
   </a>
 </div>
 
+# formpy
+
 Formpy provides a API for creating optical mark recognition (OMR) based forms with an intuitive interface.
 
 Check out the full documentation on the [read the docs page](https://formpy.readthedocs.io).
 <div align="center" style="margin-bottom:15px;">
-<img align="center" src ="/home/ismail/formpy/lib/docs/source/_static/formpy-form-detected.jpg" width="400">
+<img align="center" src ="/docs/source/_static/formpy-form-detected.jpg" width="500">
 </div>
 
 
