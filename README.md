@@ -1,15 +1,30 @@
 # formpy
 
-This is a solution to automate data entry when collecting data by non-digital forms.
+<div align="center" style="margin-bottom:15px;">
+  <img align="center" alt="ci/cd workflow status" src="https://github.com/ismailmo1/formpy/actions/workflows/.github/workflows/test_deploy.yml/badge.svg" />
+<a href="https://badge.fury.io/py/formpy-omr"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <img align="center" alt="pypi package" src="https://badge.fury.io/py/formpy-omr.svg" />
+  </a>
+</div>
 
-Use formpy's API to rapidly create templates that act as a blueprint for your forms. Distribute the forms (i.e. empty templates that can be filled in by respondents), scan them in and use the predefined templates to analyse the images for answers. Easily read in answers to a pandas dataframe or save as csv to have your data available in a clean format for further analytics/processing.
+Formpy provides a API for creating optical mark recognition (OMR) based forms with an intuitive interface.
 
-1. Create a multiple choice form and define your template with formpy's Template class interface.
+Check out the full documentation on the [read the docs page](https://formpy.readthedocs.io).
+<div align="center" style="margin-bottom:15px;">
+<img align="center" src ="/home/ismail/formpy/lib/docs/source/_static/formpy-form-detected.jpg" width="400">
+</div>
 
-2. Save your templates as a json to maximise reusability for your next project/script.
 
-3. Print and distribute your forms and collect all the data.
+Install with
 
-4. Use formpy's Form interface to read in the forms and detect answers from the scanned images.
+```
+pip install formpy-omr
+```
 
-5. Export to your favourite format (csv, pandas.DataFrame, excel) and analyse to your hearts content!
+Use in your python files with:
+
+```
+import formpy
+```
+
+Check out the [getting started page](https://formpy.readthedocs.io/en/latest/starter.html) for a quickstart guide and some examples.
