@@ -1,10 +1,10 @@
 name: CI/CD # pipeline's name that will appear in Github Actions
 
 on:
-  push:
-    paths:
-    - '**.py'
-  workflow_dispatch:
+  - push:
+      paths:
+      - '**.py'
+  - workflow_dispatch:
 
 jobs:
   test:
