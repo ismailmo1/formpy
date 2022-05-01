@@ -144,10 +144,14 @@ class Template:
                     {"radius":"<CIRCLE_RADIUS>"},
                 "questions":
                     {"question_id":
-                        [
-                            {"answer_val":"<ANSWER_VAL>",
-                            "answer_coords": ["<X_COORD>", "<Y_COORD>"]}
-                        ]
+                        {
+                            "multiple":<BOOL>,
+                            "answers":
+                            [
+                                {"answer_val":"<ANSWER_VAL>",
+                                "answer_coords": ["<X_COORD>", "<Y_COORD>"]}
+                            ]
+                        }
                     }
                 }
 
@@ -174,10 +178,14 @@ class Template:
                     {"radius":"<CIRCLE_RADIUS>"},
                 "questions":
                     {"question_id":
-                        [
-                            {"answer_val":"<ANSWER_VAL>",
-                            "answer_coords": ["<X_COORD>", "<Y_COORD>"]}
-                        ]
+                        {
+                            "multiple":<BOOL>,
+                            "answers":
+                            [
+                                {"answer_val":"<ANSWER_VAL>",
+                                "answer_coords": ["<X_COORD>", "<Y_COORD>"]}
+                            ]
+                        }
                     }
                 }
 
@@ -194,14 +202,16 @@ class Template:
         circle_radius = template["config"]["radius"]
         for question_id in question_ids:
             answers = []
-
-            for answer in questions[question_id]:
+            multiple = questions[question_id]["multiple"]
+            for answer in questions[question_id]["answers"]:
                 x, y = answer["answer_coords"]
                 answer_val = answer["answer_val"]
                 answers.append(Answer(x, y, answer_val, circle_radius))
 
             question = Question(
-                question_id=int(question_id), answers=answers, multiple=None
+                question_id=int(question_id),
+                answers=answers,
+                multiple=multiple,
             )
             question_objs.append(question)
 
@@ -219,10 +229,14 @@ class Template:
                     {"radius":"<CIRCLE_RADIUS>"},
                 "questions":
                     {"question_id":
-                        [
-                            {"answer_val":"<ANSWER_VAL>",
-                            "answer_coords": ["<X_COORD>", "<Y_COORD>"]}
-                        ]
+                        {
+                            "multiple":<BOOL>,
+                            "answers":
+                            [
+                                {"answer_val":"<ANSWER_VAL>",
+                                "answer_coords": ["<X_COORD>", "<Y_COORD>"]}
+                            ]
+                        }
                     }
                 }
 
@@ -232,9 +246,11 @@ class Template:
 
         for question in self.questions:
             question_dict[question.question_id] = []
+            question_dict[question.question_id]["multiple"] = question.multiple
+            question_dict[question.question_id]["answers"] = []
 
             for answer in question.answers:
-                question_dict[question.question_id].append(
+                question_dict[question.question_id]["answers"].append(
                     {
                         "answer_val": answer.value,
                         "answer_coords": (answer.x, answer.y),
@@ -257,10 +273,14 @@ class Template:
                     {"radius":"<CIRCLE_RADIUS>"},
                 "questions":
                     {"question_id":
-                        [
-                            {"answer_val":"<ANSWER_VAL>",
-                            "answer_coords": ["<X_COORD>", "<Y_COORD>"]}
-                        ]
+                        {
+                            "multiple":<BOOL>,
+                            "answers":
+                            [
+                                {"answer_val":"<ANSWER_VAL>",
+                                "answer_coords": ["<X_COORD>", "<Y_COORD>"]}
+                            ]
+                        }
                     }
                 }
 

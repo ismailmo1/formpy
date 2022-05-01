@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "formpy-omr"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["Ismail Mohammed <ismailmo4@gmail.com>"]
 packages = [
