@@ -49,7 +49,8 @@ class Form:
         return resized_img
 
     def mark_all_answers(self, colour: Tuple[int] = (0, 0, 255)) -> np.ndarray:
-        """mark all answers on the form image with the question id and answer value
+        """mark all filled in answers on the form image with the question id and
+        answer value
 
         Args:
             colour (Tuple[int], optional): color of text and circles to mark
@@ -64,16 +65,16 @@ class Form:
         for qn in self.template.questions:
             answers = qn.answers
             for ans in answers:
+                if ans.is_filled(self.img):
+                    colour_img = cv2.putText(
+                        colour_img,
+                        str(qn.question_id) + ans.value,
+                        (ans.x, ans.y),
+                        cv2.FONT_HERSHEY_COMPLEX,
+                        0.4,
+                        colour,
+                    )
 
-                cv2.putText(
-                    colour_img,
-                    str(qn.question_id) + ans.value,
-                    (ans.x, ans.y),
-                    cv2.FONT_HERSHEY_COMPLEX,
-                    0.4,
-                    colour,
-                )
-
-                ans.mark_answer(colour_img, colour=colour, circle_thickness=-1)
+                    ans.mark_answer(colour_img, colour=colour, circle_thickness=-1)
 
         return colour_img
